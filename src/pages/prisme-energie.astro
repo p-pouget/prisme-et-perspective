@@ -1,0 +1,649 @@
+---
+import MainLayout from "../layouts/navprojectlayout.astro";
+// 1. Importe l'image
+import monWorkflow from "../assets/workflow-prisme-energie.jpg";
+import { Image } from "astro:assets";
+
+const modules = import.meta.glob("../data/prisme-energie/*.json", {
+  eager: true,
+});
+const allData = Object.values(modules);
+---
+
+<MainLayout title="Projet-Energie">
+  <div slot="resultats-content" class="grid grid-cols-1 gap-6">
+    {
+      allData.map((item: any) => (
+        <div class="group border border-white/10 bg-zinc-900/50 rounded-xl overflow-hidden transition-all hover:border-orange-500/30">
+          <button class="w-full p-6 md:p-10 flex justify-between items-center text-left accordion-trigger group relative overflow-hidden transition-all duration-500 hover:bg-white/[0.02]">
+            <div class="absolute inset-0 bg-gradient-to-r from-orange-500/0 via-orange-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+
+            <div class="flex-1 relative z-10">
+              <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
+                <div class="flex items-center gap-3">
+                  <span class="h-px w-8 bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]" />
+                  <span class="text-orange-500 text-sm font-black uppercase tracking-[0.3em]">
+                    {item.editorial.indice_de_tension || "Analyse Flux"}
+                  </span>
+                </div>
+
+                <div class="flex flex-col md:items-end border-l md:border-l-0 md:border-r border-white/10 md:pr-6 pl-4 md:pl-0">
+                  <span class="text-white text-sm font-bold uppercase tracking-[0.2em]">
+                    Édition du {item.metadata.generation_date || "N/A"}
+                  </span>
+                  <span class="text-zinc-500 text-sm uppercase tracking-widest font-medium">
+                    Fenêtre d'analyse : 15 Jours
+                  </span>
+                </div>
+              </div>
+
+              <h4 class="text-white text-3xl md:text-5xl tracking-tighter mb-4">
+                {item.editorial.header_blog.titre_editorial}
+              </h4>
+
+              <div class="max-w-4xl relative">
+                <p class="text-zinc-400 text-lg leading-relaxed font-light italic">
+                  <span class="text-orange-500/50 text-2xl font-serif mr-1">
+                    “
+                  </span>
+                  {item.editorial.header_blog.accroche}
+                  <span class="text-orange-500/50 text-2xl font-serif ml-1">
+                    ”
+                  </span>
+                </p>
+                <p class="text-zinc-400 text-sm uppercase tracking-widest font-medium mt-6">
+                  <span class="text-orange-500 text-lg">&rarr;</span>
+                  {item.metadata.nombre_articles_uniques} Articles indexés et
+                  analysés
+                </p>
+              </div>
+            </div>
+
+            <div class="ml-8 flex-shrink-0 relative">
+              <div class="p-3 rounded-full border border-white/10 group-hover:border-orange-500/50 transition-all duration-500 bg-zinc-900 shadow-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-zinc-500 group-hover:text-orange-500 arrow transition-transform duration-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </div>
+          </button>
+
+          <div class="max-h-0 overflow-hidden transition-all duration-700 ease-in-out accordion-content bg-gradient-to-b from-black/40 to-transparent">
+            <div class="p-6 md:p-8 pt-0 border-t border-white/5 space-y-12">
+              <section class="relative space-y-6">
+                <div class="flex items-center gap-4">
+                  <h5 class="text-orange-500 text-[10px] font-black uppercase tracking-[0.3em] whitespace-nowrap">
+                    Analyse Executive
+                  </h5>
+                  <div class="h-px w-full bg-gradient-to-r from-orange-500/50 to-transparent" />
+                </div>
+
+                <div class="relative p-8 rounded-2xl bg-white/[0.02] border border-white/10 shadow-2xl">
+                  <p class="text-zinc-200 text-xl md:text-2xl leading-relaxed font-light tracking-tight">
+                    {item.editorial.analyse_executive}
+                  </p>
+
+                  <div class="absolute top-0 right-0 p-4 opacity-10">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      class="text-orange-500"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </section>
+
+              <section class="space-y-4">
+                <div class="flex items-center gap-4 mb-6">
+                  <h5 class="text-orange-500 text-[10px] font-black uppercase tracking-[0.3em] whitespace-nowrap">
+                    Points de Bascule
+                  </h5>
+                  <div class="h-px w-full bg-gradient-to-r from-orange-500/50 to-transparent" />
+                </div>
+
+                <div class="flex flex-col gap-4">
+                  {item.editorial.les_3_points_de_bascule.map(
+                    (point: string, idx: number) => (
+                      <div class="flex flex-col md:flex-row items-start md:items-center gap-6 p-6 rounded-xl bg-zinc-950 border border-white/5 hover:border-orange-500/30 transition-all shadow-lg">
+                        <div class="flex-shrink-0">
+                          <span class="text-4xl md:text-5xl font-black text-white/5 tabular-nums leading-none border-r border-white/10 pr-6 block">
+                            0{idx + 1}
+                          </span>
+                        </div>
+
+                        <div class="flex-1">
+                          <p class="text-zinc-300 text-base md:text-lg leading-relaxed font-medium">
+                            {point}
+                          </p>
+                        </div>
+
+                        <div class="hidden md:block flex-shrink-0 ml-4">
+                          <div class="h-2 w-2 rounded-full bg-orange-500 shadow-[0_0_10px_rgba(249,115,22,0.6)]" />
+                        </div>
+                      </div>
+                    ),
+                  )}
+                </div>
+              </section>
+
+              <section class="border-t border-white/5 pt-12 space-y-20">
+                <div class="space-y-8">
+                  <div class="flex flex-col gap-3">
+                    <h6 class="text-white font-black uppercase text-xs tracking-[0.3em] flex items-center gap-3">
+                      <span class="flex h-2 w-2 rounded-full bg-red-500 shadow-[0_0_8px_rgba(239,68,68,0.5)]" />
+                      Intelligence Stratégique : OilPrice
+                    </h6>
+                    <h3 class="text-white text-2xl md:text-3xl font-bold tracking-tighter leading-none">
+                      {item.syntheses_intermediaires.oilprice.titre_periode}
+                    </h3>
+                    <p class="text-zinc-300 text-lg leading-relaxed border-l-2 border-orange-500 pl-4 italic py-2">
+                      "{item.syntheses_intermediaires.oilprice.climat_actuel}"
+                    </p>
+                  </div>
+
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-1 bg-white/10 border border-white/10 rounded-2xl overflow-hidden shadow-xl">
+                    {item.syntheses_intermediaires.oilprice.sections_clefs.map(
+                      (section: any) => (
+                        <div class="bg-zinc-950 p-6 md:p-8 flex flex-col justify-between border-b md:border-b-0 border-white/5">
+                          <div>
+                            <h7 class="text-orange-500 font-bold text-sm uppercase tracking-widest mb-4 block">
+                              {section.titre}
+                            </h7>
+                            <p class="text-zinc-200 text-sm leading-relaxed font-light">
+                              {section.analyse}
+                            </p>
+                          </div>
+                        </div>
+                      ),
+                    )}
+                  </div>
+
+                  <p class="text-zinc-300 text-lg leading-relaxed border-l-2 border-orange-500 pl-4 italic py-2">
+                    "{item.syntheses_intermediaires.oilprice.perspective}"
+                  </p>
+
+                  <p class="text-white font-black uppercase leading-relaxed pl-4 italic py-2">
+                    Les 3 Articles clefs :
+                  </p>
+
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {item.syntheses_intermediaires.oilprice.articles_majeurs.map(
+                      (article: any) => (
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10 shadow-sm">
+                          <p class="text-zinc-400 text-xs leading-snug font-medium uppercase tracking-tight">
+                            {article.valeur}
+                          </p>
+                        </div>
+                      ),
+                    )}
+                  </div>
+                </div>
+
+                <div class="space-y-8 pt-12 border-t border-white/10">
+                  <div class="flex flex-col gap-3">
+                    <h6 class="text-white font-black uppercase text-[10px] tracking-[0.3em] flex items-center gap-3">
+                      <span class="flex h-2 w-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.5)]" />
+                      Intelligence Collective : Multi-Sources
+                    </h6>
+                    <h3 class="text-white text-2xl md:text-3xl font-bold tracking-tighter leading-none">
+                      {
+                        item.syntheses_intermediaires.multi_sources
+                          .titre_periode
+                      }
+                    </h3>
+                    <p class="text-zinc-300 text-lg leading-relaxed border-l-2 border-orange-500 pl-4 italic py-2">
+                      "
+                      {
+                        item.syntheses_intermediaires.multi_sources
+                          .climat_actuel
+                      }
+                      "
+                    </p>
+                  </div>
+
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-1 bg-white/10 border border-white/10 rounded-2xl overflow-hidden shadow-xl">
+                    {item.syntheses_intermediaires.multi_sources.sections_clefs?.map(
+                      (section: any) => (
+                        <div class="bg-zinc-950 p-6 md:p-8 flex flex-col justify-between border-b md:border-b-0 border-white/5">
+                          <div>
+                            <h7 class="text-orange-500 font-bold text-sm uppercase tracking-widest mb-4 block">
+                              {section.titre}
+                            </h7>
+                            <p class="text-zinc-200 text-sm leading-relaxed font-light">
+                              {section.analyse}
+                            </p>
+                          </div>
+                        </div>
+                      ),
+                    )}
+                  </div>
+
+                  <p class="text-zinc-300 text-lg leading-relaxed border-l-2 border-orange-500 pl-4 italic py-2">
+                    "{item.syntheses_intermediaires.multi_sources.perspective}"
+                  </p>
+
+                  <p class="text-white font-black uppercase leading-relaxed pl-4 italic py-2">
+                    Les sections clefs :
+                  </p>
+
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {item.syntheses_intermediaires.multi_sources.articles_majeurs?.map(
+                      (article: any) => (
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10 shadow-sm">
+                          <p class="text-zinc-400 text-xs leading-snug font-medium uppercase tracking-tight">
+                            {article.valeur}
+                          </p>
+                        </div>
+                      ),
+                    )}
+                  </div>
+                </div>
+              </section>
+
+              <div class="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 border-t border-white/5">
+                <p class="text-zinc-30 text-lg italic max-w-xl">
+                  {item.editorial.le_mot_de_la_fin}
+                </p>
+
+                <div class="w-full md:w-auto mt-10 flex justify-center md:justify-start">
+                  <a
+                    href={`/prisme-energie-articles/${item.metadata.generation_date.replace(/[^\w]/g, "")}`}
+                    target="_blank"
+                    class="w-full md:w-auto group inline-flex items-center justify-center gap-4 px-10 py-5 rounded-xl bg-orange-600/10 border border-orange-500/20 text-orange-500 hover:bg-orange-600 hover:text-white transition-all duration-300 shadow-lg active:scale-95 no-underline"
+                  >
+                    <span class="text-[12px] md:text-xs font-black uppercase tracking-[0.25em] whitespace-nowrap">
+                      Consulter les articles en détail
+                    </span>
+
+                    <div class="w-5 h-5 flex items-center justify-center rounded-full bg-orange-500/10 group-hover:bg-white/10 transition-colors">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 stroke-[3] group-hover:translate-x-1 transition-transform"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+
+  <div slot="architecture-content" class="space-y-12">
+    <div class="max-w-3xl">
+      <h3
+        class="text-white font-semibold text-xl md:text-3xl uppercase tracking-tighter mb-4"
+      >
+        Logique de Flux
+      </h3>
+      <p class="text-zinc-400 text-lg leading-relaxed">
+        L'objectif de <strong>Prisme Énergie</strong> est de démontrer une capacité
+        à automatiser une veille stratégique complexe en combinant des outils de <strong
+          >Scraping</strong
+        >, d'<strong>IA Hybride (Cloud & Local)</strong> et de <strong
+          >CMS Headless</strong
+        >.
+      </p>
+    </div>
+
+    <div
+      class="relative space-y-8 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-orange-500 before:via-zinc-800 before:to-transparent"
+    >
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold shadow-[0_0_15px_rgba(249,115,22,0.3)] z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          01
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Le Noyau d'Orchestration (n8n & Docker)
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Au centre du projet, un serveur <strong>Docker</strong> auto-hébergé fait
+            tourner <strong>n8n</strong>. Ce pipeline ETL automatisé gère la
+            récupération cyclique des données, leur nettoyage et leur
+            distribution via une architecture modulaire garantissant une
+            maintenance isolée de chaque étape.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          02
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Stratégie d'Extraction (Intelligence Physique)
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Le système utilise des techniques de <strong>Web Scraping</strong> pour
+            extraire le contenu brut des sources majeures (OilPrice, Nikkei Asia,
+            Offshore Energy). Le HTML brut est normalisé en données <strong
+              >JSON structurées</strong
+            > prêtes pour le traitement IA.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          03
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-orange-500/[0.03] border border-orange-500/20 transition-all"
+        >
+          <h4
+            class="text-orange-500 font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Traitement Cognitif Hybride (Multi-LLM)
+          </h4>
+          <div class="space-y-3">
+            <p class="text-zinc-400 text-lg leading-relaxed">
+              <strong class="text-zinc-200"
+                >Niveau 1 : IA Locale (Ollama)</strong
+              ><br />
+              Filtrage et classification initiale garantissant une confidentialité
+              totale et un coût d'opération nul.
+            </p>
+            <p class="text-zinc-400 text-lg leading-relaxed">
+              <strong class="text-zinc-200"
+                >Niveau 2 : IA Cloud (Gemini Flash)</strong
+              ><br />
+              Synthèse complexe, analyse de sentiment croisée et génération éditoriale
+              finale via API.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          04
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Stockage & Distribution (Strapi & Astro)
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Les analyses sont injectées dans <strong
+              >Strapi (CMS Headless)</strong
+            >. Le blog, développé avec <strong>Astro</strong>, consomme ces
+            données en <strong>Génération Statique (SSG)</strong> pour offrir une
+            interface ultra-rapide et sécurisée.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mb-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl"
+    >
+      <Image
+        src={monWorkflow}
+        alt="Mon workflow n8n"
+        class="w-full h-auto rounded-xl"
+      />
+      <div
+        class="bg-zinc-900/80 p-3 text-sm text-zinc-500 italic text-center border-t border-white/5"
+      >
+        Aperçu de l'orchestrateur n8n : Ingestion multi-sources en parallèle,
+        traitement asynchrone via LLM (Ollama/Gemini) et injection structurée
+        vers le CMS Strapi.
+      </div>
+    </div>
+
+    <ul class="space-y-8 relative z-10"></ul>
+
+    <div class="pt-12">
+      <div class="flex items-center gap-3 mb-6">
+        <h4 class="text-white font-black uppercase text-lg tracking-[0.3em]">
+          🛠️ Stack Technique
+        </h4>
+        <div class="h-px flex-1 bg-white/5"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {
+          [
+            {
+              label: "Orchestration",
+              tech: "n8n",
+              role: "Automatisation et logique métier",
+            },
+            {
+              label: "Infrastructure",
+              tech: "Docker",
+              role: "Conteneurisation et déploiement",
+            },
+            {
+              label: "IA Locale",
+              tech: "Ollama",
+              role: "LLM local pour prétraitement",
+            },
+            {
+              label: "IA Cloud",
+              tech: "Gemini Flash",
+              role: "Synthèse éditoriale haute fidélité",
+            },
+            {
+              label: "Backend",
+              tech: "Strapi",
+              role: "Gestion du stockage structuré",
+            },
+            {
+              label: "Frontend",
+              tech: "Astro / Tailwind",
+              role: "Interface haute performance",
+            },
+          ].map((item) => (
+            <div class="p-4 rounded-xl bg-zinc-900/50 border border-white/5 flex flex-col gap-1">
+              <span class="text-orange-500 text-lg font-black uppercase tracking-widest">
+                {item.label}
+              </span>
+              <span class="text-white font-bold text-lg">{item.tech}</span>
+              <span class="text-zinc-500 text-lg leading-tight mt-1">
+                {item.role}
+              </span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="pt-12 border-t border-white/5">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </div>
+    <li class="mt-12 pt-8 border-t border-white/5">
+      <div class="flex items-center gap-3 mb-8">
+        <span
+          class="text-white font-semibold text-xl md:text-3xl uppercase tracking-tighter mb-4"
+          >Axes d'amélioration & Scalabilité</span
+        >
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-4">
+          <h5 class="text-white text-lg font-bold uppercase tracking-wider">
+            Optimisation du Pipeline
+          </h5>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Automatisation Trigger :</strong> Transition du mode manuel
+                vers un déclenchement via Webhook Strapi ou planification CRON (nécessitant
+                une haute disponibilité serveur).</span
+              >
+            </li>
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>CI/CD Data :</strong> Possibilité d'écriture directe du JSON
+                dans le répertoire Astro avec déploiement automatisé via l'API GitHub,
+                tout en conservant une étape de validation humaine intermédiaire.</span
+              >
+            </li>
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Solidité :</strong> Renforcement de la gestion des erreurs
+                (Error Handling) et monitoring des nœuds pour garantir la stabilité
+                sur des exécutions massives.</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-4">
+          <h5 class="text-white text-lg font-bold uppercase tracking-wider">
+            Évolution de la Veille
+          </h5>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Expansion des Sources :</strong> Intégration de nouveaux
+                flux pour couvrir des zones géographiques plus larges et diversifier
+                les points de vue stratégiques.</span
+              >
+            </li>
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Affinement de la Méthodologie :</strong> Optimisation de
+                la logique métier pour une détection plus fine des signaux faibles
+                et des corrélations inter-marchés.</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+
+    <div class="mt-16 pt-8 border-t border-white/5">
+      <div class="p-6 rounded-2xl bg-zinc-900/30 border border-white/5">
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start gap-6"
+        >
+          <div
+            class="flex-shrink-0 w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 text-orange-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-white font-bold text-sm uppercase tracking-[0.2em]">
+              Note de conception & Collaboration
+            </h4>
+            <p class="text-zinc-400 text-sm leading-relaxed italic">
+              Si l'architecture globale, la logique des flux (n8n) et la
+              stratégie de veille sont de ma conception, j'ai utilisé
+              l'assistance de modèles de langage (IA) pour optimiser le
+              développement, raffiner le code et accélérer la mise en
+              production. Une approche "Human-in-the-loop" garantissant que
+              l'outil reste au service d'une vision métier précise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<script>
+  function initAccordion() {
+    const triggers = document.querySelectorAll(".accordion-trigger");
+
+    triggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        const content = trigger.nextElementSibling as HTMLElement | null;
+        const arrow = trigger.querySelector(".arrow") as HTMLElement | null;
+
+        if (!content || !arrow) return;
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = "";
+          arrow.style.transform = "rotate(0deg)";
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  }
+
+  initAccordion();
+  document.addEventListener("astro:after-swap", initAccordion);
+</script>

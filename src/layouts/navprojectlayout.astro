@@ -1,0 +1,195 @@
+---
+const { title } = Astro.props;
+const pathname = new URL(Astro.url).pathname;
+const currentPath = pathname.slice(1);
+import "../styles/global.css";
+---
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title} | Prisme & Perspective</title>
+  </head>
+  <body class="bg-black text-white antialiased">
+    <nav
+      class="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur-md"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 md:px-6 h-16 flex justify-between items-center gap-4"
+      >
+        <a href="/" class="flex items-center gap-2 md:gap-2 shrink-0">
+          <div
+            class="relative w-6 h-6 md:w-8 md:h-8 flex items-center justify-center"
+          >
+            <div
+              class="absolute w-4 h-4 md:w-5 md:h-5 border border-orange-500/40 rotate-12 rounded-sm"
+            >
+            </div>
+            <div
+              class="absolute w-3 h-3 md:w-4 md:h-4 bg-orange-500 rotate-45 rounded-sm shadow-[0_0_15px_rgba(249,115,22,0.5)]"
+            >
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row md:items-center leading-[0.9] md:leading-normal"
+          >
+            <span class="text-sm md:text-xl font-bold uppercase text-white"
+              >Prisme</span
+            >
+            <span
+              class="text-sm md:text-xl font-bold uppercase text-white md:ml-1"
+              >& Perspective</span
+            >
+          </div>
+        </a>
+
+        <div
+          class="flex items-center gap-0.5 p-0.5 bg-white/5 rounded-full border border-white/10 shrink-0"
+        >
+          <a
+            href="/"
+            class={`px-2.5 md:px-4 py-1 md:py-1.5 rounded-full text-[9px] md:text-xs font-bold uppercase tracking-widest transition-all ${pathname === "/" ? "bg-orange-500 text-white shadow-[0_0_10px_rgba(249,115,22,0.4)]" : "text-zinc-500 hover:text-white"}`}
+          >
+            Home
+          </a>
+          <div class="w-px h-3 bg-white/10 mx-0.5"></div>
+          <a
+            href="/projets"
+            class={`px-2.5 md:px-4 py-1 md:py-1.5 rounded-full text-[9px] md:text-xs font-bold uppercase tracking-widest transition-all bg-orange-500 text-white shadow-[0_0_10px_rgba(249,115,22,0.4)]" : "text-zinc-500 hover:text-white"}`}
+          >
+            Projets
+          </a>
+          <div class="w-px h-3 bg-white/10 mx-0.5"></div>
+          <a
+            href="/contact"
+            class={`px-2.5 md:px-4 py-1 md:py-1.5 rounded-full text-[9px] md:text-xs font-bold uppercase tracking-widest transition-all ${currentPath === "contact" ? "bg-orange-500 text-white shadow-[0_0_10px_rgba(249,115,22,0.4)]" : "text-zinc-500 hover:text-white"}`}
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="sticky top-16 z-40 border-b border-white/5 bg-zinc-950/60 backdrop-blur-md"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 md:px-6 h-14 md:h-12 flex items-center justify-center md:justify-start"
+      >
+        <div
+          class="flex items-center gap-1 md:gap-8 p-1 md:p-0 bg-white/5 md:bg-transparent rounded-full border border-white/10 md:border-none"
+        >
+          <a
+            href="#resultats"
+            class="nav-link px-4 py-1.5 md:px-0 md:py-0 rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-[0.2em] text-zinc-400 active:text-orange-500 md:hover:text-orange-500 transition-all flex items-center gap-2 group"
+          >
+            <span
+              class="hidden md:block w-1 h-1 rounded-full bg-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"
+            ></span>
+            Résultats
+          </a>
+          <div class="w-px h-3 bg-white/10 md:hidden"></div>
+          <a
+            href="#architecture"
+            class="nav-link px-4 py-1.5 md:px-0 md:py-0 rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-[0.2em] text-zinc-400 active:text-orange-500 md:hover:text-orange-500 transition-all flex items-center gap-2 group"
+          >
+            <span
+              class="hidden md:block w-1 h-1 rounded-full bg-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"
+            ></span>
+            Architecture
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section
+        id="resultats"
+        class="relative max-w-7xl mx-auto px-6 py-12 border-b border-white/5"
+      >
+        <div
+          class="absolute -left-20 top-20 h-96 w-96 rounded-full bg-orange-500/5 blur-[120px] -z-10"
+        >
+        </div>
+        <div class="mb-8">
+          <div class="mb-4 flex items-center gap-2">
+            <span class="h-px w-8 bg-orange-500"></span>
+            <span
+              class="text-[10px] font-black uppercase tracking-[0.3em] text-orange-500"
+              >Output & Data</span
+            >
+          </div>
+          <h2
+            class="text-5xl md:text-7xl font-bold tracking-tighter text-white"
+          >
+            Résultats de <br /><span class="text-zinc-500">l'analyse.</span>
+          </h2>
+        </div>
+        <slot name="resultats-content" />
+      </section>
+
+      <section
+        id="architecture"
+        class="relative max-w-7xl mx-auto px-6 py-12 border-b border-white/5"
+      >
+        <div class="mb-8">
+          <div class="mb-4 flex items-center gap-2">
+            <span class="h-px w-8 bg-orange-500"></span>
+            <span
+              class="text-[10px] font-black uppercase tracking-[0.3em] text-orange-500"
+              >Structure & Method</span
+            >
+          </div>
+          <h2
+            class="text-5xl md:text-7xl font-bold tracking-tighter text-white"
+          >
+            Architecture du <br /><span class="text-zinc-500">programme.</span>
+          </h2>
+        </div>
+        <slot name="architecture-content" />
+      </section>
+
+      <slot />
+    </main>
+
+    <footer
+      class="max-w-7xl mx-auto px-6 py-12 border-t border-white/10 mt-20 text-zinc-500 text-xs flex justify-between uppercase tracking-widest"
+    >
+      <span>Prisme & Perspective © 2026</span>
+      <a
+        class="text-zinc-700"
+        href="https://github.com/p-pouget"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        github - p-pouget
+      </a>
+    </footer>
+
+    <script>
+      document.querySelectorAll(".nav-link").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = anchor.getAttribute("href");
+          if (!targetId) return;
+
+          const targetElement = document.querySelector(targetId);
+
+          if (targetElement) {
+            const navOffset = 120;
+            const elementPosition = targetElement.getBoundingClientRect().top;
+
+            const offsetPosition = elementPosition + window.scrollY - navOffset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,17 +1,85 @@
 ---
-
+import MainLayout from "../layouts/mainlayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout title="Accueil">
+  <section class="max-w-7xl mx-auto px-6 pt-32 pb-24">
+    <h1
+      class="text-6xl md:text-8xl font-bold tracking-tighter leading-[0.9] mb-8"
+    >
+      Exploration. <br />
+      <span class="text-zinc-500">Architecture.</span>
+      <br />
+      Restitution<span class="text-orange-500">.</span>
+    </h1>
+    <p class="max-w-xl text-zinc-400 text-lg leading-relaxed mb-12">
+      Plateforme d'exposition et de documentation des projets techniques. Cet
+      espace archive une démarche autodidacte d'exploration de divers outils et
+      environnements technologiques. Chaque réalisation propose un prisme
+      d'analyse brut, complété par une perspective technique sur l'architecture
+      et la structure des flux.
+    </p>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 pb-32">
+    <a href="/projets" class="group relative block w-full">
+      <div
+        class="relative overflow-hidden rounded-2xl border border-orange-500 md:border-white/5 bg-zinc-900/20 p-8 md:p-16 transition-all duration-500 group-hover:border-orange-500/30 group-hover:bg-zinc-900/40"
+      >
+        <div
+          class="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-orange-500/5 blur-[100px] transition-opacity opacity-0 group-hover:opacity-100"
+        >
+        </div>
+
+        <div
+          class="relative flex flex-col md:flex-row md:items-end justify-between gap-8"
+        >
+          <div class="max-w-2xl">
+            <div class="mb-4 flex items-center gap-2">
+              <span class="h-px w-8 bg-orange-500"></span>
+              <span
+                class="text-[10px] font-black uppercase tracking-[0.3em] text-orange-500"
+                >Accéder aux archives</span
+              >
+            </div>
+            <h2
+              class="text-4xl md:text-6xl font-bold tracking-tighter text-white mb-6"
+            >
+              Découvrir l'ensemble <br /> des <span
+                class="text-zinc-500 group-hover:text-white transition-colors"
+                >réalisations.</span
+              >
+            </h2>
+            <p class="text-zinc-500 text-lg md:text-xl leading-relaxed">
+              Consulter le catalogue détaillé des projets, les documentations
+              techniques et les analyses de flux.
+            </p>
+          </div>
+
+          <div
+            class="flex h-16 w-16 items-center justify-center rounded-full border border-orange-500 md:border-white/10 bg-black transition-all duration-500 group-hover:border-orange-500 group-hover:translate-x-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-white group-hover:text-orange-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div
+          class="absolute bottom-0 left-0 h-1 w-0 bg-orange-500 transition-all duration-700 group-hover:w-full"
+        >
+        </div>
+      </div>
+    </a>
+  </section>
+</MainLayout>

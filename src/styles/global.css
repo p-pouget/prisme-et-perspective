@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+:root {
+  --accent: #f97316; /* Ton orange de contraste */
+}
+
+body {
+  background-color: #000000;
+  color: #f5f5f5;
+  font-family: 'Inter', system-ui, sans-serif;
+}

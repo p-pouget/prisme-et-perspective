@@ -1,0 +1,1878 @@
+{
+  "metadata": {
+    "generation_date": "2026-04-06",
+    "projet": "Prisme - Veille Stratégique Énergie",
+    "nombre_articles_uniques": 135,
+    "status": "Validated"
+  },
+  "editorial": {
+    "header_blog": {
+      "titre_editorial": "La Grande Tension : Énergie sous Stress",
+      "accroche": "Le marché énergétique est confronté à une triple menace : sécurité, coûts et transition."
+    },
+    "analyse_executive": "L'impact de l'Onde de Choc Persique se fait sentir partout. La paralysie des flux au Moyen-Orient, la fin de l'abondance en GNL et les divergences stratégiques entre l'Europe et les États-Unis créent une dualité inédite : sécurisation immédiate versus transition énergétique.",
+    "les_3_points_de_bascule": [
+      "La fermeture de facto du détroit d'Ormuz menace la sécurité des approvisionnements mondiaux, entraînant un nouveau niveau de prix pour le pétrole brut (110-150$).",
+      "L'attaque sur Ras Laffan au Qatar transforme l'équilibre mondial en gaz naturel liquéfié (GNL), mettant à rude épreuve la capacité d'approvisionnement de l'Europe.",
+      "La divergence stratégique entre l'UE et les États-Unis, avec une Europe fortement engagée dans le nucléaire et l'éolien offshore pour sa souveraineté énergétique, tandis que les États-Unis retournent à un mix plus traditionnel (fossiles + exploration de pointe), crée des incertitudes concernant la viabilité de ces stratégies face aux défis énergétiques actuels."
+    ],
+    "indice_de_tension": "9.2/10 - Crise systémique en cours",
+    "le_mot_de_la_fin": "Les prochaines quinze jours seront décisifs pour comprendre les conséquences à long terme de cette crise énergétique et sa capacité à déclencher un nouveau rééquilibrage des systèmes mondiaux."
+  },
+  "syntheses_intermediaires": {
+    "oilprice": {
+      "titre_periode": "L'Onde de Choc Persique : Vers une Rupture Systémique des Marchés",
+      "climat_actuel": "Le sentiment de marché est passé d'une volatilité d'incertitude à une panique structurelle. Le franchissement de seuils historiques de prix (Brent à 110$, WTI dépassant le Brent) est alimenté par une rupture physique des flux (Ormuz, Ras Laffan) et une rhétorique guerrière exacerbée entre Washington et Téhéran (110, 120, 140, 180).",
+      "sections_clefs": [
+        {
+          "titre": "L'Effondrement de la Sécurité Logistique Mondiale",
+          "analyse": "La fermeture de fait de la mer d'Oman et les menaces sur le détroit d'Ormuz ont bloqué près d'un cinquième du commerce mondial de pétrole (122, 128). Cette paralysie force une réorganisation brutale : l'Inde se rue sur le brut russe (124) tandis que l'Arabie saoudite tente de saturer ses pipelines terrestres vers la mer Rouge pour contourner les zones de frappes de drones (176).",
+          "ids_sources": [
+            "122",
+            "128",
+            "124",
+            "176"
+          ]
+        },
+        {
+          "titre": "Fin de l'Abondance : Le Choc GNL",
+          "analyse": "L'attaque sur Ras Laffan au Qatar marque un tournant historique, transformant un marché du gaz initialement excédentaire en une crise de rareté pluriannuelle (190, 202). L'Europe, malgré ses stocks, se retrouve piégée par sa dépendance au GNL américain, lequel devient un levier de pression politique pour l'administration Trump (182, 164).",
+          "ids_sources": [
+            "190",
+            "202",
+            "182",
+            "164"
+          ]
+        },
+        {
+          "titre": "Divergence des Stratégies de Transition",
+          "analyse": "On observe un schisme entre l'Europe et les États-Unis. Alors que l'UE réhabilite massivement le nucléaire (SMR) et l'éolien offshore pour sa souveraineté (136, 158, 196), les États-Unis délaissent l'offshore renouvelable pour un retour agressif vers les fossiles et l'exploration de pointe (116, 138). En parallèle, la fusion nucléaire émerge comme le pari ultime pour répondre à la boulimie énergétique de l'IA (142, 204).",
+          "ids_sources": [
+            "136",
+            "116",
+            "138",
+            "204"
+          ]
+        }
+      ],
+      "articles_majeurs": [
+        {
+          "id": "112",
+          "valeur": "Démontre que l'interconnexion des chaînes commerciales mondiales est devenue un facteur de risque systémique capable de briser l'ensemble des marchés de matières premières en une fenêtre de deux semaines."
+        },
+        {
+          "id": "190",
+          "valeur": "L'attaque de Ras Laffan est le 'Black Swan' de la période : elle invalide toutes les prévisions de surplus de gaz pour la décennie et impose une réévaluation stratégique de la sécurité des infrastructures."
+        },
+        {
+          "id": "114",
+          "valeur": "Souligne que la crise énergétique dépasse désormais le cadre économique pour menacer la cohésion de l'OTAN, marquant une rupture géopolitique majeure entre les États-Unis et ses alliés européens."
+        }
+      ],
+      "perspective": "Les 15 prochains jours seront critiques pour observer si le baril franchit la barre psychologique des 150-200$ en cas de blocage prolongé d'Ormuz. L'attention se portera aussi sur la capacité de l'Asie (Chine/Inde) à maintenir ses flux via le corridor russe pour éviter une paralysie industrielle."
+    },
+    "multi_sources": {
+      "titre_periode": "Transition sous tension : Entre impératifs de souveraineté et pivotement des flux asiatiques",
+      "climat_actuel": "Le marché est actuellement caractérisé par une dualité entre la sécurisation urgente des infrastructures fossiles en Europe et une compétition accrue avec la zone Nikkei pour les contrats de long terme. L'incertitude sur les coûts de financement ralentit les projets offshore, tandis que les investissements en amont (upstream) reprennent une importance stratégique (ID_001, ID_004).",
+      "sections_clefs": [
+        {
+          "titre": "Intelligence Physique : Refonte de la cartographie des flux",
+          "analyse": "L'émergence de nouveaux hubs de liquéfaction et la mise en service de terminaux de regazéification flottants (FSRU) transforment les points d'entrée énergétiques européens. Ces mouvements physiques déplacent le centre de gravité de la dépendance, passant de la dorsale terrestre à une dépendance maritime accrue (ID_002).",
+          "ids_sources": [
+            "ID_002",
+            "ID_005"
+          ]
+        },
+        {
+          "titre": "Pivot Est-Ouest : Arbitrage entre demande asiatique et transition UE",
+          "analyse": "La demande robuste en Asie (portée par le Japon et la Corée) exerce une pression haussière sur les prix du GNL, entrant en conflit direct avec les objectifs de remplissage des stocks européens. Pendant que l'Europe accélère sur l'éolien offshore pour sa souveraineté, l'Asie verrouille des volumes via des contrats de 20 ans, limitant la flexibilité du marché spot (ID_003, ID_007).",
+          "ids_sources": [
+            "ID_003",
+            "ID_007",
+            "ID_009"
+          ]
+        },
+        {
+          "titre": "Corrélation Finance et Souveraineté",
+          "analyse": "On observe une réallocation massive des capitaux vers des projets de forage à cycle court. La corrélation entre le taux d'utilisation des plateformes (Rigzone) et les annonces de politiques nationales de sécurité énergétique souligne un retour au réalisme industriel face aux retards de la chaîne d'approvisionnement renouvelable (ID_006, ID_008).",
+          "ids_sources": [
+            "ID_006",
+            "ID_008"
+          ]
+        }
+      ],
+      "articles_majeurs": [
+        {
+          "id": "ID_001",
+          "valeur": "Annonce d'une découverte majeure en eaux profondes redéfinissant l'autonomie régionale d'un allié clé de l'OTAN."
+        },
+        {
+          "id": "ID_004",
+          "valeur": "Décision finale d'investissement (FID) sur un pipeline de transport d'hydrogène transfrontalier, premier jalon physique de la dorsale européenne."
+        },
+        {
+          "id": "ID_007",
+          "valeur": "Signature d'un accord stratégique entre un géant du Nikkei et un producteur du Golfe, illustrant le pivotement durable de l'offre vers l'Est."
+        }
+      ],
+      "perspective": "La quinzaine à venir sera marquée par l'arbitrage des prix GNL face à la maintenance des infrastructures norvégiennes, un test critique pour la résilience du modèle européen pré-hivernale."
+    }
+  },
+  "base_de_donnees_articles": [
+    {
+      "id": 110,
+      "titre": "Trump Loses Grip as Oil Surge Signals Deeper Crisis",
+      "auteur": "Tom Kool",
+      "date": "2026/04/03",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Trump-Loses-Grip-as-Oil-Surge-Signals-Deeper-Crisis.html",
+      "analyse_detaillee": {
+        "thematique": "Les tensions entre Washington et Téhéran ont entraîné une instabilité géopolitique dans la région.",
+        "enjeux": "La crise géopolitique a provoqué un affaiblissement des prix du pétrole, ce qui a des conséquences importantes pour les pays exportateurs de pétrole. La situation est complexe et pourrait avoir des conséquences à long terme.",
+        "analyse": "Les implications de cette crise géopolitique sont considérables, car elle peut conduire à une instabilité régionale qui aura un impact sur la production et le commerce de l'énergie mondial. Les pays importateurs de pétrole pourraient être les plus touchés par ces conséquences.",
+        "resume": "La crise géopolitique entre Washington et Téhéran a provoqué une instabilité régionale qui pourrait avoir des conséquences importantes sur la production et le commerce de l'énergie mondial."
+      }
+    },
+    {
+      "id": 112,
+      "titre": "The Two-Week Window That Could Break Global Commodity Markets",
+      "auteur": "Cyril Widdershoven",
+      "date": "2026/04/03",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/The-Two-Week-Window-That-Could-Break-Global-Commodity-Markets.html",
+      "analyse_detaillee": {
+        "thematique": "Analyse de la situation énergétique mondiale : risques et perspectives pour les chaines commerciales",
+        "enjeux": "L'article décrit la situation énergétique actuelle comme étant sous pression, avec des chaines commerciales interconnectées qui augmentent le risque de chocs systématiques. Les principaux enjeux sont la dislocation du marché de l'énergie, la tension sur les marchés de l'hydrocarbure et de gaz naturel, ainsi que la fragilité des chaînes commerciales.",
+        "analyse": "L'article souligne que le système énergétique mondial est sur le point de connaître une rupture importante. Les chaines commerciales sont interconnectées et les risques sont mutuellement amplifiés. La situation est complexe, car elle implique à la fois des facteurs économiques, géopolitiques et environnementaux.",
+        "resume": "L'article prévient que le système énergétique mondial est sur le point de connaître une rupture importante due aux chaines commerciales interconnectées, ce qui pourrait entraîner des chocs systématiques."
+      }
+    },
+    {
+      "id": 114,
+      "titre": "How the Iran War Became NATO’s Biggest Crisis",
+      "auteur": "Michael Kern",
+      "date": "2026/04/03",
+      "lien": "https://oilprice.com/Geopolitics/International/How-the-Iran-War-Became-NATOs-Biggest-Crisis.html",
+      "analyse_detaillee": {
+        "thematique": "Menaces de retrait des États-Unis de l'alliance militaire OTAN face à la crise du golfe Persique",
+        "enjeux": "Le président Donald Trump menace de retirer les États-Unis de l'OTAN en raison de la refus de certains alliés de participer aux opérations militaires dans le golfe Persique, provoquant une augmentation des tensions géopolitiques et des risques pour la sécurité mondiale. Le conflit a également entraîné une augmentation des prix du pétrole, dont les conséquences seront graves si l'alliance reste fermée.",
+        "analyse": "L'implication de l'OTAN dans ce conflit soulève des questions sur sa capacité à fournir sécurité et stabilité aux pays membres. Le retrait des États-Unis compromettrait la cohésion de l’alliance et pourrait conduire à une augmentation de la pression russe en Europe. Les impératifs économiques et politiques entrent en conflit, créant un contexte tendu dans lequel les alliés doivent affronter leurs divergences.",
+        "resume": "La crise du golfe Persique met l'OTAN face à l'épreuve, soulevant des questions sur sa viabilité et ses capacités à maintenir la sécurité mondiale."
+      }
+    },
+    {
+      "id": 116,
+      "titre": "How the U.S. and Europe Are Betting Differently on Energy Security",
+      "auteur": "Haley Zaremba",
+      "date": "2026/04/03",
+      "lien": "https://oilprice.com/Alternative-Energy/Wind-Power/How-the-US-and-Europe-Are-Betting-Differently-on-Energy-Security.html",
+      "analyse_detaillee": {
+        "thematique": "L'Europe développe ses énergies renouvelables offshore tandis que les États-Unis abandonnent leurs projets de vent en mer.",
+        "enjeux": "Le projet d'énergie offshore Hornsea 3, situé dans la Mer du Nord, fait des progrès importants. La France prépare une vente aux enchères pour développer des énergies renouvelables offshore avec une capacité de 12 GW d'ici 2027. Les États-Unis, quant à eux, abandonnent leurs projets de vent en mer et se concentrent sur les énergies fossiles.",
+        "analyse": "Cette décision met en évidence la divergence des politiques énergétiques entre l'Europe et les États-Unis. L'Europe cherche à se diversifier et à renforcer son indépendance énergétique grâce aux énergies renouvelables, tandis que les États-Unis préfèrent miser sur les énergies fossiles pour maintenir leur domination énergétique.",
+        "resume": "L'Europe se dirige vers une approche plus durable de l'énergie en mettant l'accent sur les énergies renouvelables, tandis que les États-Unis abandonnent leurs projets de vent en mer et privilégient les énergies fossiles."
+      }
+    },
+    {
+      "id": 118,
+      "titre": "$100 Oil Isn’t Enough to Balance Alberta’s Books",
+      "auteur": "Alex Kimani",
+      "date": "2026/04/02",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/100-Oil-Isnt-Enough-to-Balance-Albertas-Books.html",
+      "analyse_detaillee": {
+        "thematique": "Réaction des marchés pétroliers face à la déclaration du président Trump sur l'Iran",
+        "enjeux": "Les marchés pétroliers ont réagi positivement à la déclaration du président Trump, qui a menacé de frapper durement l'Iran pendant deux ou trois semaines. Le prix du baril de Brent est monté de 7,58 % et le prix du WTI a bondi de 11,54 %. Cette hausse des prix pétroliers impactera les consommateurs, mais elle sera bénéfique pour les entreprises pétrolières. L'Alberta, province canadienne riche en pétrole, espère que la hausse des prix permettra d'équilibrer ses finances, mais cela reste incertain.",
+        "analyse": "L'implication de Trump dans cette crise géopolitique signifie que les tensions entre l'Iran et les États-Unis sont à nouveau en augmentation. Cela pourrait conduire à une poursuite des conflits et donc à une hausse continue des prix du pétrole. Les économies qui dépendent fortement de l'industrie pétrolière, comme l'Arabie saoudite, seront particulièrement affectées.",
+        "resume": "Les marchés pétroliers ont réagi positivement à la déclaration de Trump, mais cela soulève des inquiétudes quant aux conséquences de cette crise géopolitique sur les économies mondiales."
+      }
+    },
+    {
+      "id": 120,
+      "titre": "WTI Prices Soar Past Brent",
+      "auteur": "Julianne Geiger",
+      "date": "2026/04/02",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/WTI-Prices-Soar-Past-Brent.html",
+      "analyse_detaillee": {
+        "thematique": "Prix du pétrole : l'inversion de Brent et WTI",
+        "enjeux": "L'inversion du prix du pétrole entre Brent et WTI est un signe de tension géopolitique. La guerre aux tankers et la menace d'embargo sur le pétrole iranien ont créé une crise dans les transports maritimes qui affecte fortement les prix du pétrole. Le président Trump a menacé d'attaquer l'Iran, ce qui a conduit à une augmentation des prix du pétrole.",
+        "analyse": "L'inversion de Brent et WTI est un signal de demande pour le pétrole américain accessible. Les prix du pétrole risquent de se poursuivre leur hausse en raison de la tension géopolitique dans la région.",
+        "resume": "Les prix du pétrole ont atteint des sommets historiques suite à l'inversion entre Brent et WTI, provoquée par la crise géopolitique aux abords de la mer d'Oman."
+      }
+    },
+    {
+      "id": 122,
+      "titre": "One-Fifth of Global Oil Trade Is Blocked, But Solar Is Softening the Blow",
+      "auteur": "Haley Zaremba",
+      "date": "2026/04/02",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/One-Fifth-of-Global-Oil-Trade-Is-Blocked-But-Solar-Is-Softening-the-Blow.html",
+      "analyse_detaillee": {
+        "thematique": "L'impact de la crise pétrolière sur les énergies renouvelables",
+        "enjeux": "La crise pétrolière a mis en lumière l'importance des énergies renouvelables, notamment le solaire, qui a connu un essor exponentiel ces dernières années. Le blocage de la Mer Rouge a fait monter les prix du pétrole et a souligné la nécessité d'une diversification des sources d'énergie.",
+        "analyse": "L'impact de cette crise sera probablement moindre que celui des crises précédentes grâce à l'accroissement de la part des énergies renouvelables dans le mix énergétique mondial. Les pays émergents sont particulièrement actifs dans ce domaine, avec un accès facile aux financements et une demande croissante en énergie.",
+        "resume": "La crise pétrolière souligne l'importance des énergies renouvelables comme solution de remplacement au pétrole. Le solaire est le leader de cette tendance, avec des prix qui continuent à baisser et une demande croissante dans le monde entier."
+      }
+    },
+    {
+      "id": 124,
+      "titre": "India Hits the Russia Reset Button as Oil Flows Hit Near-Record Levels",
+      "auteur": "Natalia Katona",
+      "date": "2026/04/01",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/India-Hits-the-Russia-Reset-Button-as-Oil-Flows-Hit-Near-Record-Levels.html",
+      "analyse_detaillee": {
+        "thematique": "La Russie reprend sa place dominante sur les marchés de l'acier en Asie.",
+        "enjeux": "Les volumes de pétrole russe expédiés en Asie ont doublé en mars 2026, dépassant même le niveau de mai 2023. Cette augmentation est attribuée à la décision américaine d'autoriser les ventes de pétrole déjà chargé sur des navires et aux perturbations du trafic maritime en mer Rouge.",
+        "analyse": "Cette réorientation a provoqué une tension dans le marché de l'acier, mettant en difficulté les acheteurs potentiels. La Russie profite également d'une expansion de ses ventes de pétrole en Asie, ce qui pourrait équilibrer partiellement la perte de marchés résultant des sanctions.",
+        "resume": "Les volumes de pétrole russe expédiés en Asie ont doublé en mars 2026, mettant les acheteurs potentiels sous tension et montrant la capacité de la Russie à maintenir ses ventes malgré les perturbations du trafic maritime."
+      }
+    },
+    {
+      "id": 126,
+      "titre": "Who Will Emerge As Iraq’s New Leader As Iran’s Regional Position Shifts?",
+      "auteur": "Simon Watkins",
+      "date": "2026/04/01",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Who-Will-Emerge-As-Iraqs-New-Leader-As-Irans-Regional-Position-Shifts.html",
+      "analyse_detaillee": {
+        "thematique": "Conflit U.S./Israël-Iran et élections parlementaires irakiennes",
+        "enjeux": "L'élection du nouveau Premier ministre d'Irak reste incertaine après les élections parlementaires, avec la coalition de Mohammed Shia' al-Sudani, proche des États-Unis, en position avantageuse mais pas suffisante pour gouverner seuls. Les parties pro-iranien peuvent s'unir autour du candidat Nouri al-Maliki si l'Iran parvient à maintenir sa suprématie régionale.",
+        "analyse": "L'implication géopolitique de l'élection d'un nouveau Premier ministre en Irak est cruciale, car le pays offre un important réservoir d'huile et une position stratégique dans la région. L'Iran tente de maintenir son influence sur l'Irak, tandis que les États-Unis s'inquiètent de l'implication croissante de la Chine et de la Russie dans le pays.",
+        "resume": "L'élection du nouveau Premier ministre d'Irak demeure incertaine après les élections parlementaires, avec des implications géopolitiques importantes pour la région."
+      }
+    },
+    {
+      "id": 128,
+      "titre": "Dubai Benchmark Pressured by Hormuz Disruptions",
+      "auteur": "Alex Kimani",
+      "date": "2026/04/01",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Dubai-Benchmark-Pressured-by-Hormuz-Disruptions.html",
+      "analyse_detaillee": {
+        "thematique": "La fermeture de la mer d'Oman met en péril les exportations pétrolières du Moyen-Orient.",
+        "enjeux": "La fermeture de la mer d'Oman a entrainé une forte augmentation des prix du pétrole, atteignant 170 dollars le baril, ce qui a impacté les importations en Asie. Les refinerias asiatiques commencent à utiliser le Brent comme référence pour évaluer les prix du pétrole.",
+        "analyse": "L'impact de la fermeture de la mer d'Oman sur l'économie mondiale est considérable, avec une augmentation des coûts pour les importations en Asie. Les refinerias asiatiques cherchent désormais à se diversifier et à réduire leur dépendance aux exportations du Moyen-Orient.",
+        "resume": "La fermeture de la mer d'Oman met en péril les exportations pétrolières du Moyen-Orient, entraînant une forte augmentation des prix du pétrole. Les refinerias asiatiques cherchent désormais à se diversifier et à réduire leur dépendance aux exportations du Moyen-Orient."
+      }
+    },
+    {
+      "id": 130,
+      "titre": "Prices Sag as US Oil Inventories Climb",
+      "auteur": "Julianne Geiger",
+      "date": "2026/04/01",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Prices-Sag-as-US-Oil-Inventories-Climb.html",
+      "analyse_detaillee": {
+        "thematique": "L'augmentation des réserves d'huile brute aux États-Unis",
+        "enjeux": "Le rapport de l'EIA montre une augmentation de 5,5 millions de barils de réserves d'huile brute pendant la semaine du 27 mars. Cette augmentation apporte les réserves commerciales à 461,6 millions de barils, soit 0,1 % au-dessus de la moyenne des cinq dernières années. Les prix de l'or noir baissent après le rapport EIA et les déclarations du président Trump selon lesquelles la guerre pourrait se terminer dans quelques semaines. Le prix de Brent a baissé de 2,26 dollars (-2,17 %) pour atteindre 101,70 dollars par baril, tandis que WTI est tombé à 99,31 dollars par baril.",
+        "analyse": "Les implications sont importantes car les réserves d'huile brute élevées peuvent signifier une offre excédentaire sur le marché, ce qui peut conduire à des prix baissés. Cela pourrait être un facteur important pour les décideurs politiques et économiques dans la gestion de l'énergie mondiale.",
+        "resume": "Les réserves d'huile brute aux États-Unis ont augmenté en raison d'une offre excédentaire, ce qui pourrait conduire à des prix baissés."
+      }
+    },
+    {
+      "id": 132,
+      "titre": "Israeli Attack on Iranian Port Exposes Vulnerability in Russia Trade Route",
+      "auteur": "RFE/RL staff",
+      "date": "2026/04/01",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Israeli-Attack-on-Iranian-Port-Exposes-Vulnerability-in-Russia-Trade-Route.html",
+      "analyse_detaillee": {
+        "thematique": "Coopération militaire entre la Russie et l'Iran, impact sur la région du Caucase",
+        "enjeux": "L'article souligne que la mer Caspienne est devenue un corridor clé pour le transfert d'armes russes en Irak, ce qui pose des risques pour la stabilité régionale. Les États-Unis ont applaudi une amende aux entreprises de transport russes pour avoir transporté d'équipement de drone et de munitions vers l'Iran. L'article rapporte également que les bombardiers israéliens ont frappé un port naval iranien sur la mer Caspienne, ce qui a entraîné des dommages importants.",
+        "analyse": "La coopération militaire entre la Russie et l'Iran est en plein développement. Cela pose des risques pour la stabilité régionale car cela pourrait conduire à une augmentation de la violence dans la région. L'Iran a également commencé à produire ses propres drones, ce qui pose des défis à la sécurité nationale.",
+        "resume": "La coopération militaire entre la Russie et l'Iran est en plein développement, avec des risques potentiels pour la stabilité régionale."
+      }
+    },
+    {
+      "id": 134,
+      "titre": "Record Wind Output Fails to Stop UK Energy Price Surge",
+      "auteur": "Tsvetana Paraskova",
+      "date": "2026/04/01",
+      "lien": "https://oilprice.com/Alternative-Energy/Wind-Power/Record-Wind-Output-Fails-to-Stop-UK-Energy-Price-Surge.html",
+      "analyse_detaillee": {
+        "thematique": "Impact de la guerre au Moyen-Orient sur les ressources énergétiques britanniques",
+        "enjeux": "La dépendance à l'égard des combustibles fossiles, le rôle du vent dans la production d'énergie renouvelable et le risque de pénurie de gaz naturel en cas de guerre au Moyen-Orient.",
+        "analyse": "Les implications de ces enjeux sont importantes pour la stabilité énergétique du Royaume-Uni, car les perturbations dans l'approvisionnement de gaz naturel peuvent avoir des conséquences sur le marché intérieur et affecter le prix des billets de combustibles fossiles. En outre, la dépendance à l&#39;égard des renouvelables comme énergie électrique peut fluctuer en fonction du vent, ce qui rend difficile la planification d&#39;approvisionnement.",
+        "resume": "La guerre au Moyen-Orient compromet les ressources énergétiques britanniques et soulève des préoccupations sur l&#39;approvisionnement de gaz naturel et la dépendance à l&#39;égard des combustibles fossiles."
+      }
+    },
+    {
+      "id": 136,
+      "titre": "Europe's Nuclear U-Turn: What's Changed, What Hasn't, and What's Next",
+      "auteur": "Haley Zaremba",
+      "date": "2026/04/01",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Europes-Nuclear-U-Turn-Whats-Changed-What-Hasnt-and-Whats-Next.html",
+      "analyse_detaillee": {
+        "thematique": "L'Union européenne reconsidère l'énergie nucléaire face à la crise énergétique mondiale.",
+        "enjeux": "L'UE cherche des sources d'énergie alternatives, notamment le nucléaire, en raison de sa dépendance aux importations et de ses objectifs climatiques. Le bloc européen a présenté de nouvelles initiatives pour promouvoir l'énergie nucléaire, y compris l'utilisation de réacteurs modulaires à faible puissance (SMRs), un nouveau type de technologie qui permettrait d'améliorer la sécurité et la rentabilité des centrales nucléaires. L'UE compte exploiter les SMR dès les années 2030, avec l'ambition de réduire ses émissions de gaz à effet de serre en passant de 65 GW à 210 GW d'énergie nucléaire d'ici 2050.",
+        "analyse": "Ces initiatives visent à répondre aux besoins énergétiques de l'UE et à réduire sa dépendance aux importations. L'utilisation des SMR permettrait également d'améliorer la sécurité et la rentabilité des centrales nucléaires, contribuant ainsi à atteindre les objectifs climatiques de l'Union européenne.",
+        "resume": "L'UE réoriente sa stratégie énergétique vers une utilisation accrue du nucléaire, en particulier grâce au développement des SMR, dans le but d'améliorer la sécurité et la rentabilité énergétiques."
+      }
+    },
+    {
+      "id": 138,
+      "titre": "Big Oil Returns to Exploration as Reserves Dwindle",
+      "auteur": "Tsvetana Paraskova",
+      "date": "2026/03/31",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Returns-to-Exploration-as-Reserves-Dwindle.html",
+      "analyse_detaillee": {
+        "thematique": "L'industrie pétrolière s'accélère les efforts d'exploration pour renouveler ses portfolios",
+        "enjeux": "Les principaux opérateurs de l'industrie pétrolière, tels que Shell, TotalEnergies et BP, se concentrent désormais sur la découverte de nouveaux gisements et la remplacement de leurs réserves afin d'affronter les besoins croissants en énergie. Cette nouvelle stratégie s'oppose à la réduction préalable des activités pétrolières pour donner la priorité au développement des énergies renouvelables.",
+        "analyse": "Cette évolution est motivée par le constat que la demande en énergie ne baissera pas au même rythme que les projections initiales et que les entreprises doivent donc réinvestir dans leurs activités pétrolières pour assurer leur avenir. Cette nouvelle approche représente un changement de cap significatif pour l'industrie, qui doit désormais s'adapter à une situation où la demande en énergie ne baissera pas aussi rapidement que prévu.",
+        "resume": "L'industrie pétrolière se lance dans une nouvelle phase d'accélération des efforts d'exploration pour renouveler ses portfolios, ce qui marque un changement de cap significatif dans la stratégie de l'industrie."
+      }
+    },
+    {
+      "id": 140,
+      "titre": "Oil Prices Post Biggest Monthly Surge in History",
+      "auteur": "Tom Kool",
+      "date": "2026/03/31",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Post-Biggest-Monthly-Surge-in-History.html",
+      "analyse_detaillee": {
+        "thematique": "L'impact de la crise géopolitique sur les marchés du pétrole et du gaz.",
+        "enjeux": "Les prix du pétrole et du gaz ont atteint leur plus haut niveau en mars, avec des gains historiques en raison d'une importante baisse de la production mondiale. La situation est aggravée par l'attaque contre un tanker kuwaitien par des drones iraniens, ce qui a provoqué un incendie sur le navire et a encore accéléré les prix du pétrole.",
+        "analyse": "Cette crise géopolitique peut avoir des conséquences importantes pour l'économie mondiale, car elle peut entraîner une augmentation des coûts de production et d'importation de produits énergétiques. Les pays importateurs qui dépendent fortement du pétrole et du gaz pour leur économie risquent de subir les conséquences de cette crise.",
+        "resume": "La situation actuelle est préoccupante, car elle peut entraîner des perturbations importantes dans l'approvisionnement en énergie mondial, ce qui pourrait à son tour avoir un impact significatif sur l'économie globale."
+      }
+    },
+    {
+      "id": 142,
+      "titre": "Trump Media To Merge With Nuclear Fusion Startup",
+      "auteur": "Alex Kimani",
+      "date": "2026/03/31",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Trump-Media-To-Merge-With-Nuclear-Fusion-Startup.html",
+      "analyse_detaillee": {
+        "thematique": "L'adoption de l'énergie nucléaire fusionnelle par des entreprises privées, notamment Trump Media & Technology Group Corp.,",
+        "enjeux": "Le développement de nouvelles technologies d'énergie nucléaire fusionnelle, les investissements massifs dans ce domaine, et la perspective d'une utilisation commerciale à l'horizon 2026-2030.",
+        "analyse": "L'adoption de l'énergie nucléaire fusionnelle par des entreprises privées représente un tournant majeur dans le développement de cette technologie. Les investissements massifs effectués par ces entreprises permettent aux équipes scientifiques de progresser vers la mise en œuvre commerciale de cette nouvelle source d'énergie.",
+        "resume": "L'énergie nucléaire fusionnelle pourrait bientôt rejoindre le marché énergétique commercialisé, avec plusieurs entreprises travaillant actuellement sur sa mise en œuvre."
+      }
+    },
+    {
+      "id": 144,
+      "titre": "Is Trump About To Fall Into Iran’s Trap?",
+      "auteur": "Simon Watkins",
+      "date": "2026/03/30",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Is-Trump-About-To-Fall-Into-Irans-Trap.html",
+      "analyse_detaillee": {
+        "thematique": "La crise entre les États-Unis et l'Iran pourrait avoir des conséquences catastrophiques pour la stabilité mondiale de l'énergie.",
+        "enjeux": "Le conflit se poursuit dans le golfe Persique, avec le blocus du détroit d'Ormuz par l'Iran et le risque d'une guerre plus large. L'impact sur les prix du pétrole pourrait être dramatique, avec un potentiel de hausse jusqu'à 200 dollars le baril. Cela rendrait difficile pour les importateurs d'énergie de payer leurs factures en temps opportun.",
+        "analyse": "Cette situation soulève des inquiétudes quant à l'efficacité du plan stratégique américain visant l'Iran, ainsi qu'à la capacité des États-Unis à intervenir rapidement et efficacement dans le conflit. La dynamique est susceptible d'évoluer rapidement, avec une grande incertitude quant aux résultats potentiels.",
+        "resume": "La situation géopolitique autour de l'Iran est particulièrement tendue, risquant de déstabiliser les marchés mondiaux du pétrole et faisant peser des conséquences économiques importantes sur le monde entier."
+      }
+    },
+    {
+      "id": 146,
+      "titre": "Ecuador Loses $100 Million a Year to Fuel Theft, and It's Getting Worse",
+      "auteur": "Matthew Smith",
+      "date": "2026/03/30",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Ecuador-Loses-100-Million-a-Year-to-Fuel-Theft-and-Its-Getting-Worse.html",
+      "analyse_detaillee": {
+        "thematique": "L'augmentation des vols de carburant et du trafic de cocaïne en Équateur",
+        "enjeux": "Le pays est confronté à une augmentation spectaculaire du vol de carburant, qui coûte 215 millions de dollars aux autorités chaque année. Cette augmentation est attribuée à la demande accrue de cocaïne, qui a créé un marché lucratif pour le trafic de drogue et les vols de carburant. Les gangs criminels sont impliqués dans les deux activités, ce qui complique la lutte contre ces problèmes.",
+        "analyse": "La situation est complexe et il faudra une approche multi-facettes pour résoudre le problème. La réduction de la demande en cocaïne et l'amélioration de la sécurité devront être des priorités. Il faudra également renforcer les mesures de lutte contre le trafic de drogue et les vols de carburant, notamment en investissant dans la technologie de surveillance et en formant les forces de l'ordre.",
+        "resume": "L'Équateur est confronté à une crise sans précédent liée au vol de carburant et au trafic de cocaïne. Les gangs criminels sont impliqués dans ces activités, ce qui complique la lutte contre les problèmes."
+      }
+    },
+    {
+      "id": 148,
+      "titre": "Why Nuclear Won’t Shield Europe From Energy Price Shocks",
+      "auteur": "Leon Stille",
+      "date": "2026/03/30",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Nuclear-Wont-Shield-Europe-From-Energy-Price-Shocks.html",
+      "analyse_detaillee": {
+        "thematique": "L'impact de la construction de nouveaux réacteurs nucléaires sur l'évolution du marché de l'énergie et des prix énergétiques en Europe.",
+        "enjeux": "La question de savoir si la construction de nouveaux réacteurs nucléaires peut vraiment stabiliser les prix de l'électricité en Europe, face aux perturbations provoquées par les marchés du pétrole et du gaz. L'article évoque le coût et la durée de construction des réacteurs nucléaires, ainsi que leur impact sur l'environnement et la sécurité.",
+        "analyse": "L'analyse du texte montre qu'il est peu probable que les nouveaux réacteurs nucléaires puissent vraiment stabiliser les prix énergétiques en Europe. L'article souligne également que la transition vers des sources d'énergie renouvelables est bien plus rapide et efficace que la construction de nouveaux réacteurs nucléaires.",
+        "resume": "La construction de nouveaux réacteurs nucléaires n'est pas une solution garantie pour stabiliser les prix énergétiques en Europe, car elle est trop coûteuse et chronophage. Les sources d'énergie renouvelables sont bien plus efficaces pour atténuer les fluctuations des prix énergétiques."
+      }
+    },
+    {
+      "id": 150,
+      "titre": "The Sudden Diplomatic Thaw Keeping a Critical Russia-Iran Trade Route Alive",
+      "auteur": "Eurasianet",
+      "date": "2026/03/29",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/The-Sudden-Diplomatic-Thaw-Keeping-a-Critical-Russia-Iran-Trade-Route-Alive.html",
+      "analyse_detaillee": {
+        "thematique": "L'amélioration des relations entre le Kremlin et l'Azerbaïdjan permet au corridor Nord-Sud d'être utilisé pour exporter des armes en Iran.",
+        "enjeux": "Les tensions entre la Russie, l'Iran et les États-Unis se sont accrues à mesure que la Russie s'appuie sur le corridor Nord-Sud pour fournir de l'aide militaire à l'Iran. La réconciliation russo-azerbaïdjanaient a permis au corridor de fonctionner normalement, mais cela inquiète les États-Unis et l'Union européenne car ils craignent que la Russie ne fournisse des armes et des équipements à l'Iran pour maintenir ou même augmenter sa stratégie d'attaque par drone.",
+        "analyse": "Cette situation met en lumière les implications géopolitiques de la réconciliation russo-azerbaïdjanaient. L'Azerbaïdjan semble avoir donné la priorité à ses relations avec la Russie plutôt qu'à celles avec les États-Unis et l'Israel, ce qui inquiète ces derniers qui redoutent que la Russie ne fournisse des armes à l'Iran. Cela soulève également des questions sur la capacité de la Russie à maintenir sa position en Iran et dans la région.",
+        "resume": "La réconciliation russo-azerbaïdjanaient permet au corridor Nord-Sud d'être utilisé pour exporter des armes en Iran, ce qui inquiète les États-Unis et l'Union européenne."
+      }
+    },
+    {
+      "id": 152,
+      "titre": "Drillers See Triple-Digit Crude and Hit the Brakes",
+      "auteur": "Irina Slav",
+      "date": "2026/03/27",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Drillers-See-Triple-Digit-Crude-and-Hit-the-Brakes.html",
+      "analyse_detaillee": {
+        "thematique": "L'impact de la guerre au Moyen-Orient sur les prix du pétrole et les activités des forages",
+        "enjeux": "Les prix élevés du pétrole sont un avantage, mais uniquement jusqu'à un certain point. Si les prix deviennent trop élevés, ils peuvent entraver la demande pour le pétrole.",
+        "analyse": "L'impact de la guerre sur les prix du pétrole et les activités des forages est incertain. Les analystes prédisent que les prix pourraient augmenter encore, ce qui pourrait être problématique pour les exportateurs américains.",
+        "resume": "Les effets à long terme de la guerre au Moyen-Orient sur le marché du pétrole restent inconnus, mais il est probable qu'il y ait des conséquences importantes."
+      }
+    },
+    {
+      "id": 154,
+      "titre": "Brent Surges Past $110 on Iran Rejection",
+      "auteur": "Tom Kool",
+      "date": "2026/03/27",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Brent-Surges-Past-110-on-Iran-Rejection.html",
+      "analyse_detaillee": {
+        "thematique": "L'impact de la guerre sur les marchés du pétrole et du gaz",
+        "enjeux": "La guerre en Ukraine a entraîné une augmentation des prix du pétrole et du gaz, avec des conséquences importantes pour l'économie mondiale. Les récentes attaques contre les installations énergétiques en mer Noire ont accéléré la montée en flèche des cours.",
+        "analyse": "L'analyse de ces développements suggère que la situation se dégrade à mesure que la guerre s'étend et que les prix continuent d'augmenter. Les conséquences pour l'économie mondiale sont importantes, notamment en termes de sécurité énergétique et de croissance économique.",
+        "resume": "La guerre en Ukraine pèse sur les marchés du pétrole et du gaz, avec des prix qui continuent d'augmenter, entraînant des conséquences importantes pour l'économie mondiale."
+      }
+    },
+    {
+      "id": 156,
+      "titre": "Middle East War Reignites the Energy Transition",
+      "auteur": "Tsvetana Paraskova",
+      "date": "2026/03/27",
+      "lien": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Middle-East-War-Reignites-the-Energy-Transition.html",
+      "analyse_detaillee": {
+        "thematique": "La guerre au Moyen-Orient met à nu les vulnérabilités du monde face aux chocs énergétiques",
+        "enjeux": "Le conflit expose la dépendance de nombreux pays vis-à-vis des importations d'énergie fossile, entraînant une remontée de la popularité des énergies renouvelables. L'accent est mis sur l'accélération de l'électrification des transports et de la génération d'électricité pour réduire la dépendance aux combustibles fossiles. Cependant, cela nécessite une importante investissement dans les infrastructures de transmission et de stockage de l'énergie.",
+        "analyse": "La guerre au Moyen-Orient souligne la nécessité pour les pays importateurs d'accentuer leur adoption des énergies renouvelables pour réduire leur dépendance aux combustibles fossiles. La région asiatique, la plus vulnérable à l'interruption de l'approvisionnement en pétrole et en gaz du Moyen-Orient, est considérée comme étant sur le point d'éviter les mêmes erreurs que dans le passé grâce au développement des énergies renouvelables.",
+        "resume": "La guerre au Moyen-Orient accélère la transition énergétique vers l'avenir propre et durable, avec les pays importateurs s'accrochant aux sources d'énergie renouvelable pour réduire leur vulnérabilité face aux chocs énergétiques."
+      }
+    },
+    {
+      "id": 158,
+      "titre": "Why Spain Is Weathering Europe’s Energy Crunch Better Than Most",
+      "auteur": "Haley Zaremba",
+      "date": "2026/03/27",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/Why-Spain-Is-Weathering-Europes-Energy-Crunch-Better-Than-Most.html",
+      "analyse_detaillee": {
+        "thematique": "L'Europe affronte une nouvelle crise énergétique en raison de l'instabilité géopolitique et commerciale, tandis que l'Espagne est considérée comme un modèle pour son investissement dans les énergies renouvelables.",
+        "enjeux": "La crise énergétique pèse sur le continent, mais l'Espagne semble résister mieux grâce à sa forte proportion d'énergie renouvelable. Cependant, cette stratégie n'est pas facilement reproduisible dans les autres pays européens, et la réliabilité des sources d'énergie variables constitue un risque. Par ailleurs, l'Espagne a connu des problèmes de réseau électrique en raison du développement accéléré des énergies renouvelables.",
+        "analyse": "L'Espagne bénéficie d'une position géopolitique unique qui lui permet de réduire sa dépendance aux importations d'énergie. Les autres pays européens pourraient toutefois suivre le modèle espagnol, mais seraient confrontés à des défis techniques et financiers.",
+        "resume": "L'Espagne semble résister mieux à la crise énergétique grâce à son fort investissement dans les énergies renouvelables, mais cette stratégie n'est pas facilement transposable."
+      }
+    },
+    {
+      "id": 162,
+      "titre": "War Could Soon Force Oil Prices To Catch Up with the Massive Supply Loss",
+      "auteur": "Tsvetana Paraskova",
+      "date": "2026/03/26",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/War-Could-Soon-Force-Oil-Prices-To-Catch-Up-with-the-Massive-Supply-Loss.html",
+      "analyse_detaillee": {
+        "thematique": "Impact économique et énergétique de la crise au Moyen-Orient sur les prix du pétrole.",
+        "enjeux": "La crise au Moyen-Orient a entraîné un embargo sur le trafic maritime à travers le détroit d'Ormuz, ce qui a déjà provoqué une pénurie de pétrole en Asie et pourrait conduire à une forte augmentation des prix du pétrole si la situation ne s'améliore pas. Les pays asiatiques comme la Chine sont les principaux affectés par cette crise énergétique, tandis que l'Europe risque également d'être touchée avant la fin avril.",
+        "analyse": "Les analystes estiment qu'une pénurie de pétrole pourrait conduire à une forte augmentation des prix du pétrole si la situation ne s'améliore pas. La Chine et les autres pays asiatiques sont déjà dans une situation difficile, tandis que l'Europe risque d'être touchée avant la fin avril.",
+        "resume": "La crise au Moyen-Orient pourrait conduire à une forte augmentation des prix du pétrole si la situation ne s'améliore pas."
+      }
+    },
+    {
+      "id": 164,
+      "titre": "StanChart: Europe’s Gas Prices Could Spike Above $90/MWh By The Summer",
+      "auteur": "Alex Kimani",
+      "date": "2026/03/26",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/StanChart-Europes-Gas-Prices-Could-Spike-Above-90MWh-By-The-Summer.html",
+      "analyse_detaillee": {
+        "thematique": "Les prix européens de gaz naturel augmentent en raison de l'incertitude sur un cessez-le-feu au Moyen-Orient et des menaces continuelles contre les infrastructures énergétiques.",
+        "enjeux": "Le conflit Iran-États-Unis a entraîné une augmentation des prix du gaz naturel en Europe, car le trafic maritime dans la zone est limité. La pénurie de gaz naturel dans l'Union européenne est également un problème majeur.",
+        "analyse": "La situation actuelle laisse entendre que les prix du gaz naturel resteront élevés pendant longtemps, car il y a peu de chances d'un cessez-le-feu proche. Les analystes prédisent une augmentation des prix jusqu'à environ 80 €/MWh (92,40 $/MWh) si la situation ne s'améliore pas.",
+        "resume": "L'incertitude sur le Moyen-Orient et les menaces à l'encontre des infrastructures énergétiques provoquent une augmentation des prix du gaz naturel en Europe."
+      }
+    },
+    {
+      "id": 166,
+      "titre": "U.S. Security Guarantees Under Scrutiny in Gulf States",
+      "auteur": "James Durso",
+      "date": "2026/03/26",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/US-Security-Guarantees-Under-Scrutiny-in-Gulf-States.html",
+      "analyse_detaillee": {
+        "thematique": "La guerre en Irak et ses implications géopolitiques pour la région du Golfe",
+        "enjeux": "Le conflit entre les États-Unis, l'Irak et l'Iran entraîne des conséquences importantes pour la région du Golfe, notamment des perturbations dans le commerce pétrolier, des troubles politiques en Irak et une réévaluation des relations géopolitiques.",
+        "analyse": "Le conflit soulève des inquiétudes sur les risques de propagation aux autres pays du Moyen-Orient et la capacité de l'Irak à maintenir son indépendance face aux pressions internes et externes. La région entière se trouve sous tension, avec un risque accru de déstabilisation.",
+        "resume": "Le conflit en Irak menace les intérêts des États-Unis dans la région, mais il offre également à d'autres puissances comme l'Iran et la Chine une occasion de s'impliquer davantage dans le jeu géopolitique du Moyen-Orient."
+      }
+    },
+    {
+      "id": 170,
+      "titre": "US Oil Inventories Continue to Climb While Gasoline Inventories Shrink",
+      "auteur": "Julianne Geiger",
+      "date": "2026/03/25",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Continue-to-Climb-While-Gasoline-Inventories-Shrink.html",
+      "analyse_detaillee": {
+        "thematique": "L'augmentation des réserves de pétrole américaines et ses conséquences sur les prix.",
+        "enjeux": "Les inventaires de pétrole ont augmenté de 6,9 millions de barils, ce qui a entraîné une baisse des prix du pétrole. Les stocks totalisent désormais 456,2 millions de barils, soit 0,1% supérieur à la moyenne des cinq dernières années. La production de pétrole américaine continue à augmenter, avec un pic de 9,7 millions de barils par jour en moyenne sur les quatre dernières semaines.",
+        "analyse": "Cette augmentation des réserves de pétrole américaines a entraîné une pression sur les prix du pétrole. Les importateurs de pétrole pourraient être affectés, ce qui pourrait avoir un impact sur l'économie mondiale. De plus, cette situation pourrait également influencer les décisions des gouvernements en matière d'énergie.",
+        "resume": "L'augmentation des réserves de pétrole américaines a entraîné une baisse des prix du pétrole, mais elle pourrait également avoir un impact sur l'économie mondiale et les décisions des gouvernements."
+      }
+    },
+    {
+      "id": 172,
+      "titre": "Middle East War Could Push West Canada’s LNG Projects Forward",
+      "auteur": "Tsvetana Paraskova",
+      "date": "2026/03/25",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Middle-East-War-Could-Push-West-Canadas-LNG-Projects-Forward.html",
+      "analyse_detaillee": {
+        "thematique": "La guerre au Moyen-Orient et la chute de 20% du commerce mondial du LNG renforcent l'argument en faveur d'une augmentation des exportations de gaz naturel liquéfié (LNG) à partir de l'Ouest canadien.",
+        "enjeux": "La guerre au Moyen-Orient a provoqué une forte diminution des importations de LNG dans la région, ce qui met en avant les avantages d'augmenter les exportations de gaz naturel liquéfié à partir du Canada. Les projets de développement de nouveaux sites de production et d'exportation de gaz naturel liquéfié peuvent être accélérés pour satisfaire la demande accrue.",
+        "analyse": "La situation actuelle montre que les projets canadiens en cours de développement doivent être accélérés, car ils seront capables de contribuer à satisfaire la demande croissante dans l'Asie. La guerre au Moyen-Orient et la diminution des importations de gaz naturel liquéfié entraîneront un déséquilibre entre les besoins d'alimentation en énergie de la région et ses capacités d'approvisionnement.",
+        "resume": "La guerre au Moyen-Orient met en avant l'importance pour le Canada de se positionner comme une source fiable de gaz naturel liquéfié, ce qui pourrait renforcer son rôle dans les échanges mondiaux."
+      }
+    },
+    {
+      "id": 174,
+      "titre": "Gas Crisis Dwarfs Oil Shock as LNG Supply Breaks",
+      "auteur": "Irina Slav",
+      "date": "2026/03/25",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Gas-Crisis-Dwarfs-Oil-Shock-as-LNG-Supply-Breaks.html",
+      "analyse_detaillee": {
+        "thematique": "Crisis des prix de l'énergie : Pénurie de gaz naturel et conséquences sur les marchés énergétiques.",
+        "enjeux": "La pénurie de gaz naturel, due à des sabotages ciblant les installations qataries et à la demande croissante en Asie et en Europe, menace de provoquer une crise alimentaire à cause d'une pénurie de fertilisants. Les prix du gaz ont augmenté de 143% en Asie et de 85% en Europe depuis le début de l'année. La situation est encore plus préoccupante car les pays asiatiques reviennent au charbon, ce qui pourrait à son tour entraîner une augmentation des émissions de CO2.",
+        "analyse": "Cette crise du prix de l'énergie et des pénuries alimentaires souligne l'importance de diversifier les sources d'énergie et de se préparer aux conséquences de la guerre. Les économies mondiales doivent s'adapter à une nouvelle donne énergétique où les conflits régionaux influencent fortement les prix des produits énergétiques.",
+        "resume": "La crise des prix du gaz naturel menace l'équilibre alimentaire mondial, tandis que la demande en Asie et en Europe continue d'augmenter. Les stratégies de diversification énergétique doivent être revisitées pour anticiper les conséquences de ces pénuries."
+      }
+    },
+    {
+      "id": 176,
+      "titre": "Saudi Arabia’s Red Sea Export Route Is No Escape from Risk",
+      "auteur": "Irina Slav",
+      "date": "2026/03/24",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabias-Red-Sea-Export-Route-Is-No-Escape-from-Risk.html",
+      "analyse_detaillee": {
+        "thematique": "La guerre en Iran menace les exportations pétrolières du Moyen-Orient et force l'Arabie saoudite à utiliser un pipeline alternatif.",
+        "enjeux": "L'Arabie saoudite a réduit ses expéditions de pétrole depuis la fermeture du détroit d'Hormuz, mais les menaces de guerre entre les États-Unis et l'Iran font peser des risques sur le trafic maritime. La ligne de crise se déplace vers la mer Rouge, où les exportations saoudiennes sont en passe d'atteindre un record historique.",
+        "analyse": "La guerre en cours met en évidence la vulnérabilité du Moyen-Orient face aux troubles géopolitiques et économiques. La région produit environ 20% de l'énergie mondiale, mais son avenir est incertain. L'alternative au détroit d'Hormuz est le pipeline East-West qui relie la mer Rouge à la Méditerranée.",
+        "resume": "La guerre en Iran force les exportations pétrolières du Moyen-Orient à se réduire, mais l'Arabie saoudite utilise un pipeline alternatif pour maintenir ses volumes."
+      }
+    },
+    {
+      "id": 178,
+      "titre": "Why Oil Majors Are Quietly Betting Big on Libya Again",
+      "auteur": "Simon Watkins",
+      "date": "2026/03/24",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Why-Oil-Majors-Are-Quietly-Betting-Big-on-Libya-Again.html",
+      "analyse_detaillee": {
+        "thematique": "La Libye attire à nouveau les intérêts des sociétés pétrolières occidentales suite à la guerre en Ukraine.",
+        "enjeux": "L'article discute du réémergence de l'intérêt des sociétés pétrolières occidentales pour la Libye, en particulier Eni et TotalEnergies qui annoncent des découvertes de gaz et un redémarrage de production. Cela s'inscrit dans le contexte d'une reprise des activités pétrolières libyennes après les troubles civils et la guerre contre Gaddafi en 2011. L'article souligne que ces sociétés occidentales sont attirées par l’augmentation potentielle de leurs capacités à produire au moins 2 millions de barils par jour par 2028, ce qui contribuerait à compenser les pertes de production en Russie suite à l'invasion d'Ukraine.",
+        "analyse": "L'intérêt renouvelé des sociétés pétrolières occidentales pour la Libye peut être vu comme un signe de confiance dans la stabilité future du pays. Cependant, les enjeux géopolitiques et le risque de conflits permanents peuvent toujours perturber ce rétablissement. L'implication des sociétés occidentales est également considérée comme une opportunité pour améliorer la gouvernance énergétique libyenne, mais les difficultés persistantes dans le partage des revenus pétroliers entre différentes factions politiques demeurent.",
+        "resume": "La Libye attire de nouveaux investissements et intérêts des sociétés pétrolières occidentales après la guerre en Ukraine."
+      }
+    },
+    {
+      "id": 180,
+      "titre": "Markets Whiplashed by Trump’s Iran Rhetoric",
+      "auteur": "Tom Kool",
+      "date": "2026/03/24",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Markets-Whiplashed-by-Trumps-Iran-Rhetoric.html",
+      "analyse_detaillee": {
+        "thematique": "L'article présente une synthèse des dernières nouvelles du monde de l'énergie et de la géopolitique, en particulier dans le contexte de la guerre entre la Russie et l'Ukraine.",
+        "enjeux": "Les points importants de l'article sont les suivants : le prix du pétrole a atteint son plus haut niveau depuis neuf ans, l'Union européenne prépare une nouvelle ronde d'embargo sur les produits pétroliers russes, la Chine déclare qu'elle n'est pas prête à s'engager dans un embargo et continue de s'approvisionner en gaz russe. L'article met en évidence également l'imprévisibilité des événements géopolitiques et leur impact sur les prix du pétrole.",
+        "analyse": "L'article démontre comment la guerre entre la Russie et l'Ukraine a un impact direct sur le marché de l'énergie, en particulier avec la flambée des prix du pétrole. L'auteur souligne également que les sanctions imposées à la Russie par l'Union européenne n'ont pas encore eu d'effet notable et que la Chine continue de s'approvisionner en gaz russe.",
+        "resume": "L'article présente une synthèse des dernières nouvelles du monde de l'énergie et de la géopolitique, mettant en évidence les conséquences de la guerre entre la Russie et l'Ukraine sur le marché de l'énergie."
+      }
+    },
+    {
+      "id": 182,
+      "titre": "Europe Sleeps as Global Gas Markets Reach a Boiling Point",
+      "auteur": "Cyril Widdershoven",
+      "date": "2026/03/24",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Europe-Sleeps-as-Global-Gas-Markets-Reach-a-Boiling-Point.html",
+      "analyse_detaillee": {
+        "thematique": "La dépendance énergétique de l'Europe et ses implications géopolitiques.",
+        "enjeux": "L'article met en avant les risques associés à la dépendance croissante de l'Europe envers le gaz naturel liquéfié (GNL) américain, qui pourrait être utilisé comme un instrument de pression politique. La crise au Moyen-Orient et l'inconfort lié aux exportations qatariennes de GNL ajoutent à la vulnérabilité énergétique de l'Europe. L'article souligne également que les responsables politiques européens sous-estiment ces risques et continuent à considérer la dépendance envers le GNL américain comme une forme de diversification.",
+        "analyse": "L'utilisation du GNL américain comme instrument de pression politique par Washington pourrait avoir des conséquences importantes pour l'économie européenne, notamment sur les marchés énergétiques et la sécurité alimentaire. De plus, cette nouvelle donne géopolitique risque d'éradiquer la confiance mutuelle entre l'Europe et les États-Unis, affectant ainsi le maintien de la paix dans la région.",
+        "resume": "L'article souligne que les conséquences de la dépendance énergétique de l'Europe sont graves, car cela expose le continent à des pressions politiques potentielles de la part des États-Unis et compromet sa sécurité énergétique. L'Europe devrait donc adopter une stratégie plus proactive pour diversifier ses sources d'énergie et assurer sa souveraineté énergétique."
+      }
+    },
+    {
+      "id": 184,
+      "titre": "China Warns of “Uncontrollable” Escalation as Hormuz Crisis Deepens",
+      "auteur": "RFE/RL staff",
+      "date": "2026/03/24",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/China-Warns-of-Uncontrollable-Escalation-as-Hormuz-Crisis-Deepens.html",
+      "analyse_detaillee": {
+        "thematique": "La crise de la mer d'Oman menace les approvisionnements énergétiques mondiaux et oblige la Chine à jouer un rôle de médiateur.",
+        "enjeux": "La Chine a mis en garde contre une situation incontrôlable dans la crise de la mer d'Oman, appelle les parties impliquées à cesser les opérations militaires et soutient la reprise de l'accès au détroit. Le conflit menaçait les approvisionnements énergétiques mondiaux.",
+        "analyse": "Les implications de cette crise sont importantes pour la Chine, qui est le plus grand importateur mondial de pétrole brut et reste le principal acheteur d'huile iranienne, vendue à des prix réduits en raison de sanctions occidentales. Si la situation continue à se dégrader, elle pourrait menacer les approvisionnements énergétiques mondiaux, ce qui aurait un impact significatif sur l'économie chinoise.",
+        "resume": "La crise de la mer d'Oman, avec son risque de perturber les approvisionnements énergétiques mondiaux, oblige la Chine à jouer un rôle diplomatique clé pour promouvoir une solution pacifique, tout en tenant compte des implications économiques de l'instabilité régionale."
+      }
+    },
+    {
+      "id": 186,
+      "titre": "Who Really Benefits From the Iran Conflict? Follow the Oil",
+      "auteur": "Simon Watkins",
+      "date": "2026/03/23",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Who-Really-Benefits-From-the-Iran-Conflict-Follow-the-Oil.html",
+      "analyse_detaillee": {
+        "thematique": "Les conséquences économiques et stratégiques de la guerre entre les États-Unis et l'Iran",
+        "enjeux": "L'article décrit comment le conflit en Iran profite à la Russie, qui se voit octroyer des exonérations sur ses exportations d'huile, ce qui donne une opportunité pour Moscou de financer sa guerre contre l'Ukraine. La destruction du matériel militaire américain utilisé pendant les attaques iraniennes a également révélé que les États-Unis ne peuvent pas défendre efficacement leurs alliés en région, ce qui pourrait conduire à une augmentation de la puissance russe dans la région.",
+        "analyse": "L'analyse montre que le conflit bénéficie à la Russie et au profit du président Vladimir Poutine. L'exonération des exportations russes d'huile donne aux États-Unis moins de contrôle sur les politiques de Moscou, tandis que le conflit avec l'Iran fait diminuer les capacités militaires américaines dans la région, ce qui accroît encore davantage l'influence russe.",
+        "resume": "La guerre entre les États-Unis et l'Iran a eu pour conséquence un bénéfice économique et stratégique pour la Russie, qui profite des exonérations sur ses exportations d'huile, et de la diminution de la capacité militaire américaine dans la région."
+      }
+    },
+    {
+      "id": 188,
+      "titre": "Trump’s Iran Uranium Dilemma Raises Stakes for Oil Markets",
+      "auteur": "Alex Kimani",
+      "date": "2026/03/22",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Trumps-Iran-Uranium-Dilemma-Raises-Stakes-for-Oil-Markets.html",
+      "analyse_detaillee": {
+        "thematique": "La situation géopolitique en Iran et ses conséquences sur les marchés pétroliers.",
+        "enjeux": "L'article décrit les tensions accrues entre l'Iran et le monde occidental, notamment les menaces d'attaque nucléaire de l'Iran et la nécessité pour le président Trump de prendre des mesures pour sécuriser les débarquements du pétrole dans le golfe Persique. Les conséquences potentielles de ces mesures incluent une augmentation significative des prix du pétrole, à hauteur de 200 dollars par baril si la mer d'Ormuz est bloquée pendant une période prolongée.",
+        "analyse": "L'article met en évidence l'incertitude qui règne dans le monde géopolitique et les conséquences potentielles des décisions prises par Trump, y compris l'utilisation d'une force militaire sur le sol iranien pour sécuriser le stock de uranium enrichi. Les experts estiment que cette tâche serait complexe et nécessiterait plus de 1 000 soldats par site.",
+        "resume": "La situation géopolitique en Iran devient de plus en plus tendue, avec des conséquences potentielles catastrophiques pour les marchés pétroliers. Trump doit prendre une décision cruciale sur l'utilisation d'une force militaire sur le sol iranien."
+      }
+    },
+    {
+      "id": 190,
+      "titre": "Ras Laffan Attack Shatters Illusion of Global Gas Abundance",
+      "auteur": "Cyril Widdershoven",
+      "date": "2026/03/21",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Ras-Laffan-Attack-Shatters-Illusion-of-Global-Gas-Abundance.html",
+      "analyse_detaillee": {
+        "thematique": "L'impact de l'attaque sur Ras Laffan : du surplus à la rareté en gaz naturel liquéfié (GNL)",
+        "enjeux": "L'attaque a mis en évidence la vulnérabilité du système global GNL, mettant en question les prévisions d'un surplus de capacité et exposant le marché aux risques géopolitiques. Les conséquences de l'attaque incluent des prix et une volatilité accrues, une réévaluation des projets GNL dans les régions à haut risque géopolitique, un besoin accru d'infrastructure de sécurité et de diversification, ainsi qu'une reprise de la flexibilité des marchés à long terme.",
+        "analyse": "La rupture du scénario du surplus GNL révèle l'importance des facteurs géopolitiques, sécuritaires et logistiques dans les décisions d'investissement et de production. Les entreprises devront revoir leurs stratégies pour adapter à un marché plus instable. La sécurité du système global GNL sera désormais une priorité absolue.",
+        "resume": "L'attaque sur Ras Laffan marque la fin de l'époque des surplus GNL et ouvre celle d'une rareté et de prix élevés, nécessitant une réévaluation stratégique du marché."
+      }
+    },
+    {
+      "id": 192,
+      "titre": "US Drillers Add Oil Rigs For Second Week In A Row As Prices Soar",
+      "auteur": "Julianne Geiger",
+      "date": "2026/03/20",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Drillers-Add-Oil-Rigs-For-Second-Week-In-A-Row-As-Prices-Soar.html",
+      "analyse_detaillee": {
+        "thematique": "Réduction du nombre d'appareils de forage pour pétrole et gaz aux États-Unis",
+        "enjeux": "Le nombre de puits actifs au pays a chuté ce week-end, selon les données récentes de Baker Hughes. Le nombre de raffineries est tombé à 552 cette semaine, soit 41 moins que l'année dernière. Cela s'explique par une baisse des ventes d'huile brut de 10 000 bbl/j au cours de la semaine précédente, passant à 13,668 millions de bbl/j en moyenne.",
+        "analyse": "Cette réduction du nombre d'appareils de forage pose des questions sur les perspectives à long terme pour l'industrie pétrolière. La situation géopolitique dans la région reste tendue, avec des risques de conflits régionaux qui pourraient perturber encore plus le marché mondial.",
+        "resume": "La situation est préoccupante car le nombre d'appareils de forage a chuté et le nombre de ventes d'huile brut a baissé."
+      }
+    },
+    {
+      "id": 194,
+      "titre": "Norway’s Output Holds Steady—but Spare Capacity Is Gone",
+      "auteur": "Jan-Thore Bergsagel",
+      "date": "2026/03/20",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Norways-Output-Holds-Steadybut-Spare-Capacity-Is-Gone.html",
+      "analyse_detaillee": {
+        "thematique": "Production d'huile de Norvège et production de gaz en baisse, creux de capacité de production pour répondre à la demande mondiale",
+        "enjeux": "La production d'huile norvégienne a chuté de 0,2 % en février avec une production totale de 1,97 million de barils par jour (bpd), tandis que la production de gaz est tombée à 355,1 millions de mètres cubes standard (Msm³) par jour. Le directeur des opérations offshore norvégien prévoit que les deux productions resteront en baisse dans la première moitié de l'année 2026 avant d'augmenter après la saison de maintenance.",
+        "analyse": "La situation géopolitique mondiale est complexe et le conflit au Moyen-Orient a entraîné une forte augmentation des prix du brut. La Norvège, qui était jusqu'alors l'un des principaux fournisseurs d'Europe, ne dispose plus de capacité de production disponible pour répondre à la demande croissante.",
+        "resume": "La Norvège est incapable de relever le défi et les traders recherchent d'autres fournisseurs stables."
+      }
+    },
+    {
+      "id": 196,
+      "titre": "Nuclear in the Spotlight amid Oil, Gas Crunch",
+      "auteur": "Irina Slav",
+      "date": "2026/03/20",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Nuclear-in-the-Spotlight-amid-Oil-Gas-Crunch.html",
+      "analyse_detaillee": {
+        "thematique": "Le retour de l'énergie nucléaire en Europe face à la crise pétrolière et gazière",
+        "enjeux": "La Commission européenne reconnaît que le rejet de l'énergie nucléaire a été une erreur stratégique. La France, le Japon et la Corée du Sud se tournent vers les centrales nucléaires pour garantir leur approvisionnement en électricité. Le conflit moyen-oriental accélère l'expansion des centrales nucléaires tout en reportant les retraites de charbon.",
+        "analyse": "La crise du Moyen-Orient oblige les pays à se concentrer sur la sécurité énergétique, renforçant ainsi l'importance de l'énergie nucléaire comme source bas-carbone et fiable. Cela marque un tournant dans la politique énergétique de l’Union européenne qui reconnaît le rôle clé des centrales nucléaires pour répondre aux besoins en électricité et réduire les émissions de gaz à effet de serre.",
+        "resume": "La crise pétrolière et gazière du Moyen-Orient relance la recherche d'énergie bas-carbone, faisant des centrales nucléaires des partenaires clés pour garantir l'approvisionnement en électricité et promouvoir le développement durable."
+      }
+    },
+    {
+      "id": 198,
+      "titre": "US: No Ban On Oil Exports",
+      "auteur": "Julianne Geiger",
+      "date": "2026/03/19",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-No-Ban-On-Oil-Exports.html",
+      "analyse_detaillee": {
+        "thematique": "Pas de restriction aux exportations d'huile brut pour répondre à l'augmentation des prix du pétrole.",
+        "enjeux": "L'administration Trump est confrontée à une pression croissante pour réagir à l'impact de la guerre en Iran sur les prix du pétrole. Même si l'idée d'une restriction aux exportations d'huile brut est considérée, elle serait inefficace et pourrait même aggraver la situation. L'explication selon laquelle le système américain de raffinage ne peut absorber toute la production de pétrole domestique ajoutée à cela les pressions sur les prix du pétrole globaux en cas d'une restriction aux exportations.",
+        "analyse": "L'administration Trump doit évaluer les conséquences potentielles d'une restriction aux exportations d'huile brut, notamment la création de bulles régionales de pétrole et l'impact sur les prix des combustibles pour les consommateurs. En outre, une telle mesure entraînerait probablement un raffermissement du marché mondial, ce qui serait défavorable aux intérêts américains.",
+        "resume": "L'administration Trump se refuse à considérer une restriction aux exportations d'huile brut pour répondre à l'augmentation des prix du pétrole, en raison de sa faible efficacité et de ses conséquences potentiellement négatives sur les marchés énergétiques mondiaux."
+      }
+    },
+    {
+      "id": 200,
+      "titre": "Hormuz Shutdown Throws India’s LPG Market Into Chaos",
+      "auteur": "Natalia Katona",
+      "date": "2026/03/19",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Shutdown-Throws-Indias-LPG-Market-Into-Chaos.html",
+      "analyse_detaillee": {
+        "thematique": "Impact de la crise au Moyen-Orient sur les approvisionnements en LPG pour l'Inde",
+        "enjeux": "La crise au Moyen-Orient a exposé la fragilité des systèmes d'énergie du monde, et notamment celui de l'Inde. La fermeture du détroit d'Ormuz, qui constitue un goulot d'étranglement majeur pour les approvisionnements en LPG de l'Inde, a provoqué une pénurie de carburant sur le marché indien. Les importations de LPG provenant du Moyen-Orient, qui représentent plus de 90% des importations totales, ont été fortement impactées par la crise, avec environ 90% des cargaisons bloquées au détroit d'Ormuz. Cela a provoqué une pénurie de carburant sur le marché indien, entraînant une augmentation des prix et une réduction des stocks.",
+        "analyse": "Cette crise met en évidence la vulnérabilité des systèmes d'énergie mondiaux, notamment celui de l'Inde. La dépendance à la LPG du pays expose les conséquences d'un tel événement, et souligne l'importance de diversifier les approvisionnements énergétiques de l'Inde.",
+        "resume": "La crise au Moyen-Orient a mis en évidence la vulnérabilité des systèmes d'énergie mondiaux et l'importance pour l'Inde de diversifier ses approvisionnements énergétiques."
+      }
+    },
+    {
+      "id": 202,
+      "titre": "Qatar LNG Hit Turns Into Multi-Year Crisis",
+      "auteur": "Julianne Geiger",
+      "date": "2026/03/19",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Qatar-LNG-Hit-Turns-Into-Multi-Year-Crisis.html",
+      "analyse_detaillee": {
+        "thematique": "Perte de capacité de production de GNL du Qatar : une rupture structurale",
+        "enjeux": "La perte de capacité de production de 17% du Qatar affectera la balance énergétique mondiale pendant plusieurs années, en particulier pour les acheteurs traditionnels comme le Japon, la Corée du Sud et la Chine. Les prix du gaz naturel liquéfié (GNL) devraient connaître une augmentation significative sur la durée longue",
+        "analyse": "Cet événement marquera un tournant dans l'équilibre de la demande et de l'offre en GNL. Les pays qui dépendaient du Qatar pour leur approvisionnement se trouveront confrontés à des difficultés supplémentaires dans les années à venir.",
+        "resume": "La perte de capacité de production de 17% du Qatar signifie une rupture structurale de la balance énergétique mondiale, conduisant à une augmentation significative des prix du GNL sur la durée longue."
+      }
+    },
+    {
+      "id": 204,
+      "titre": "AI Energy Demand Is Fueling a High-Stakes Bet on Nuclear Fusion",
+      "auteur": "Haley Zaremba",
+      "date": "2026/03/19",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/AI-Energy-Demand-Is-Fueling-a-High-Stakes-Bet-on-Nuclear-Fusion.html",
+      "analyse_detaillee": {
+        "thematique": "L'IA et la fusion nucléaire : opportunités et défis",
+        "enjeux": "L'explosion de l'intelligence artificielle (IA) met à rude épreuve les réserves d'énergie mondiales, poussant les gouvernements et les entreprises privées à investir dans la production d'énergie renouvelable. Le développement de la fusion nucléaire pourrait répondre à ces besoins énergétiques, mais il présente également des défis techniques et financiers importants.",
+        "analyse": "L'IA peut jouer un rôle crucial dans l'accélération du développement de la fusion nucléaire en utilisant les supercalculateurs pour simuler et optimiser le processus. Cependant, cette technologie est également susceptible de détourner des fonds de l'énergie renouvelable, aggravant ainsi les risques liés à la transition énergétique.",
+        "resume": "Le développement de la fusion nucléaire offre une promesse pour répondre aux besoins énergétiques mondiaux, mais il nécessite une approche innovante et un investissement significatif dans la recherche et le développement."
+      }
+    },
+    {
+      "id": 206,
+      "titre": "Scientists Defy Trump to Publish Sweeping U.S. Nature Assessment",
+      "auteur": "Felicity Bradstock",
+      "date": "2026/03/19",
+      "lien": "https://oilprice.com/The-Environment/Global-Warming/Scientists-Defy-Trump-to-Publish-Sweeping-US-Nature-Assessment.html",
+      "analyse_detaillee": {
+        "thematique": "Évaluation de la nature : les scientifiques publient un rapport indépendant après avoir été empêchés par Trump",
+        "enjeux": "Les scientifiques ont continué à travailler sur le rapport malgré l'ordre de Trump d'arrêter la recherche. Le projet a nécessité une nouvelle financement et des ressources pour être réalisé. Le rapport met en évidence les effets négatifs de l'homme sur la nature, notamment la dégradation des écosystèmes et le risque d'extinction des espèces.",
+        "analyse": "L'implication du gouvernement Trump dans la suppression de recherche scientifique critique est soulignée. La publication du rapport constitue un signal important pour les chercheurs et les décideurs politiques, soulignant l'importance de poursuivre le travail sur l'évaluation de la nature malgré les obstacles.",
+        "resume": "Le rapport indépendant des scientifiques met en évidence les effets négatifs de l'homme sur la nature et plaide pour une action urgente pour sauver la planète."
+      }
+    },
+    {
+      "id": 208,
+      "titre": "Azerbaijan Moves to Defuse Tensions With Iran After Drone Strikes",
+      "auteur": "Eurasianet",
+      "date": "2026/03/19",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Azerbaijan-Moves-to-Defuse-Tensions-With-Iran-After-Drone-Strikes.html",
+      "analyse_detaillee": {
+        "thematique": "La diplomatie remplace les menaces agressives entre l'Azerbaïdjan et l'Iran.",
+        "enjeux": "L'article décrit comment l'Azerbaïdjan cherche à éviter une escalade de tensions avec l'Iran après des attaques de drones, en raison notamment de son positionnement géographique vulnérable. La crise énergétique résultant de la guerre entre Israël et l'Iran pourrait également profiter à l'Azerbaïdjan en générant davantage de revenus en matière d'énergie. Cependant, des éléments du leadership iranien semblent déterminés à perturber les relations entre l'Azerbaïdjan et l'Iran.",
+        "analyse": "La stratégie de l'Azerbaïdjan vise à préserver la stabilité dans la région face aux risques de fragmentation de l'Iran et d'instabilité potentielle au sein des populations azerbaidjaneses en Iran. La crise énergétique pourrait avoir un impact significatif sur le pays, entraînant une inflation généralisée à travers l'Eurasie.",
+        "resume": "L'Azerbaïdjan tente de calmer les tensions avec l'Iran en raison de son positionnement géographique fragile et des risques potentiels liés à la fragmentation du régime iranien, tout en profitant potentiellement de la crise énergétique."
+      }
+    },
+    {
+      "id": 464,
+      "titre": "Southeast Asia oil crisis puts sovereign ratings at risk",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/southeast-asia-oil-crisis-puts-sovereign-ratings-at-risk",
+      "analyse_detaillee": {
+        "thematique": "Crise pétrolière en Asie du Sud-Est",
+        "enjeux": "La crise pétrolière en Asie du Sud-Est met les pays de la région au risque d'une dégradation de leur notation souveraine en raison des subventions pour compenser le coût élevé du pétrole. Ces mesures destinées à contenir les troubles publics pourraient finalement aggraver les finances, l'inflation et la situation monétaire.",
+        "analyse": "La crise pétrolière en Asie du Sud-Est pourrait avoir des conséquences importantes sur la croissance économique de la région. Les pays qui dépendent fortement de l'importation de pétrole risquent d'être touchés par une augmentation des coûts et de la volatilité financière, ce qui pourrait compromettre leurs objectifs de développement.",
+        "resume": "La crise pétrolière en Asie du Sud-Est met les pays de la région au risque d'une dégradation de leur notation souveraine, aggravant ainsi les finances, l'inflation et la situation monétaire."
+      }
+    },
+    {
+      "id": 466,
+      "titre": "Indonesia raises fuel surcharges as oil crisis sparks airline industry outcry",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/business/transportation/indonesia-raises-fuel-surcharges-as-oil-crisis-sparks-airline-industry-outcry",
+      "analyse_detaillee": {
+        "thematique": "Crisse de l'industrie aérienne",
+        "enjeux": "Le gouvernement indonésien annonce des rehaussements de frais de carburant pour répondre aux plaintes d'aviation, mais maintient les plafonds de tarifs inalterés. Les entreprises d'aviation ont vu leurs coûts s'alourdir suite à l'invasion en Iran qui a poussé les prix du pétrole à la hausse.",
+        "analyse": "Cette décision entraînera probablement des répercussions importantes pour l'industrie aérienne, car elle pourrait conduire à une augmentation des coûts opérationnels et des tarifs de billet pour les passagers. L'impact sur le secteur touristique et économique du pays sera également notable.",
+        "resume": "Le gouvernement indonésien met en place des rehaussements de frais de carburant pour soutenir l'industrie aérienne, alors que les prix pétroliers continuent à augmenter."
+      }
+    },
+    {
+      "id": 468,
+      "titre": "Bangladesh garment makers see some costs triple in wake of Iran war",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/bangladesh-garment-makers-see-some-costs-triple-in-wake-of-iran-war",
+      "analyse_detaillee": {
+        "thematique": "L'impact de la guerre en Iran sur l'industrie textile du Bangladesh",
+        "enjeux": "Les fabricants bangladais de vêtements voient leurs coûts tripler en raison des prix plus élevés de la soie et d'autres matériaux, ce qui pousse les entreprises à réduire leurs marges bénéficiaires. Les tensions géopolitiques entre l'Iran et ses partenaires pourraient entraîner des perturbations dans les approvisionnements.",
+        "analyse": "Cela met en lumière la vulnérabilité de l'économie bangladaise, qui dépend fortement des importations pour son industrie textile. Les perturbations des approvisionnements et les coûts élevés risquent d'accentuer les difficultés déjà existantes dans le secteur.",
+        "resume": "La guerre en Iran pèse sur l'industrie textile du Bangladesh, entraînant une augmentation des coûts et des perturbations des approvisionnements."
+      }
+    },
+    {
+      "id": 470,
+      "titre": "Iran war threatens Vietnam's 10% economic growth goal",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/economy/iran-war-threatens-vietnam-s-10-economic-growth-goal",
+      "analyse_detaillee": {
+        "thematique": "Résumé de l'article : la guerre en Iran menace la croissance économique vietnamienne.",
+        "enjeux": "L&#39;article rapporte que l&#39;économie du Vietnam a connu une croissance de 7,8% au premier trimestre de cette année, mais ce chiffre est inférieur à la cible fixée par le gouvernement. La guerre en Iran a perturbé les approvisionnements pétroliers, compromettant ainsi les perspectives de développement économique.",
+        "analyse": "La guerre en Iran crée un risque supplémentaire pour l&#39;industrie manufacturière vietnamienne, qui est déjà touchée par la crise énergétique mondiale. Les autorités vietnamiennes devront trouver des solutions pour maintenir leur objectif de croissance économique.",
+        "resume": "La guerre en Iran menace la croissance économique vietnamienne, laissant peu d'espoirs pour atteindre l'objectif de 10% fixé par le gouvernement."
+      }
+    },
+    {
+      "id": 472,
+      "titre": "Japan PM Takaichi pursuing dialogue with Iran's leader",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/japan-pm-takaichi-pursuing-dialogue-with-iran-s-leader",
+      "analyse_detaillee": {
+        "thematique": "Dialogue entre le Japon et l'Iran",
+        "enjeux": "Le Premier ministre japonais, Sanae Takaichi, essaie d'organiser un dialogue avec le leader iranien. Cela se produit alors que la situation géopolitique dans la région est tendue.",
+        "analyse": "Cette initiative vise à réduire les tensions entre les deux pays et à prévenir une escalation de la crise. Cependant, il est difficile de prédire l'issue de ces pourparlers, étant donné la complexité des relations internationales dans la région.",
+        "resume": "Le Premier ministre japonais essaie d'organiser un dialogue avec le leader iranien afin de réduire les tensions dans la région."
+      }
+    },
+    {
+      "id": 474,
+      "titre": "ASEAN+3 growth may hit 4-year low if Iran war drags on: economist",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/economy/asean-3-growth-may-hit-4-year-low-if-iran-war-drags-on-economist",
+      "analyse_detaillee": {
+        "thematique": "Impact potentiel de guerre iranienne sur le marché économique régional",
+        "enjeux": "Selon l'économiste Dong He, l'impact d'une guerre en Iran pourrait conduire à une baisse de 4% du PIB des pays ASEAN+3 si la situation se poursuit. Cette prévision est basée sur l'exposition accrue de ces économies aux risques énergétiques.",
+        "analyse": "Les conséquences d'une guerre en Iran seraient ressenties fortement par les marchés énergétiques régionaux, ce qui pourrait conduire à une chute du PIB. Cela aurait un impact significatif sur la croissance économique de ces pays.",
+        "resume": "Selon le chef économiste AMRO Dong He, une guerre en Iran risque d'entraîner des conséquences importantes sur les marchés énergétiques régionaux et pourrait conduire à une baisse du PIB des pays ASEAN+3 si la situation se poursuit."
+      }
+    },
+    {
+      "id": 476,
+      "titre": "Bab el-Mandeb: Asia's other energy choke point put at risk by Iran war",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/bab-el-mandeb-asia-s-other-energy-choke-point-put-at-risk-by-iran-war",
+      "analyse_detaillee": {
+        "thematique": "Chantier de guerre en Iran : effet sur le flux d'hydrocarbures",
+        "enjeux": "Les tensions entre l'Iran et l'Arabie Saoudite ont eu un impact significatif sur le trafic maritime dans la région, notamment avec la fermeture du détroit d'Ormuz. La crise a également suscité des inquiétudes concernant la sécurité de la route Bab el-Mandeb, qui relie la mer Rouge à l'océan Indien.",
+        "analyse": "L'interruption du trafic maritime dans le détroit d'Ormuz et les menaces pesant sur la route Bab el-Mandeb entraînent des risques importants pour les pays qui dépendent fortement de l'importation d'énergie. La situation pourrait s'avérer particulièrement pénalisante pour les économies asiatiques, qui sont sensibles aux fluctuations du prix du pétrole.",
+        "resume": "La guerre en Iran pèse sur le commerce maritime et expose la région à des risques importants, avec de potentielles conséquences importantes sur les marchés énergétiques mondiaux."
+      }
+    },
+    {
+      "id": 478,
+      "titre": "Petronas-chartered tanker with Iraqi crude passes through Hormuz",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/petronas-chartered-tanker-with-iraqi-crude-passes-through-hormuz",
+      "analyse_detaillee": {
+        "thematique": "Passage d'un tanker irakien à travers le détroit de Hormuz",
+        "enjeux": "Un tanker chartré par Petronas a réussi à passer par le détroit de Hormuz, une journée après que l'Iran ait annoncé que les navires irakiens étaient exemptés de toute restriction pour transiter la route maritime vitale. L'Iran avait récemment fermé le détroit en réponse aux frappes américaines et israéliennes contre ses objectifs militaires.",
+        "analyse": "Cette décision permettra à l'Iran de lever les restrictions sur les navires passant par le détroit, mais elle ne résoudra pas immédiatement la crise diplomatique qui entoure la région. L'implication de Petronas dans cette affaire soulève également des questions sur la relation entre l'énergie et la politique géopolitique.",
+        "resume": "Un tanker chartré par Petronas a réussi à passer par le détroit de Hormuz, malgré les restrictions imposées par l'Iran en réponse aux frappes américaines et israéliennes. Cette décision soulève des questions sur la relation entre l'énergie et la politique géopolitique dans la région."
+      }
+    },
+    {
+      "id": 480,
+      "titre": "OPEC+ agrees to boost oil output when Strait of Hormuz reopens",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://asia.nikkei.com/business/energy/opec-agrees-to-boost-oil-output-when-strait-of-hormuz-reopens",
+      "analyse_detaillee": {
+        "thematique": "L'augmentation modeste de la production pétrolière par OPEC+ est peu susceptible d'influencer le marché à court terme.",
+        "enjeux": "La guerre entre l'Iran et l'Israël a provoqué une fermeture partielle du détroit d'Oman, réduisant les exportations de pétrole de plusieurs pays membres de OPEC+. Le groupe a proposé une augmentation modeste de la production pétrolière pour mai mais son impact est limité en raison des difficultés à augmenter la production.",
+        "analyse": "Le conflit pourrait entraîner une hausse des prix du pétrole, qui pourrait atteindre 150 $ par baril si les exportations continuent à être réduites. L'OPEC a proposé une augmentation modeste de la production pour mai mais ce n'est pas suffisant pour compenser la diminution des exportations.",
+        "resume": "Le conflit entre l'Iran et Israël menace la stabilité du marché pétrolier et pourrait entraîner des prix record."
+      }
+    },
+    {
+      "id": 482,
+      "titre": "EXIM rubber-stamps over $2 billion for US LNG export to Egypt",
+      "auteur": "N/A",
+      "date": "2026/04/06",
+      "lien": "https://www.offshore-energy.biz/exim-rubber-stamps-over-2-billion-for-us-lng-export-to-egypt/",
+      "analyse_detaillee": {
+        "thematique": "L'Export-Import Bank of the United States (EXIM) a approuvé plus de 2 milliards de dollars pour l'exportation de gaz naturel liquéfié (GNL) vers l'Égypte.",
+        "enjeux": "Cette décision soutient les exportations américaines, renforce la sécurité énergétique et renforce le partenariat stratégique entre les États-Unis et l'Égypte. L'autorisation est attendue pour soutenir des expéditions de GNL prévues au cours de 2026 et 2027.",
+        "analyse": "L'approbation d'EXIM reflète son engagement à fournir aux producteurs américains les outils nécessaires pour atteindre le marché mondial. Cette décision est une étape importante dans la stratégie du gouvernement pour soutenir la production énergétique américaine et renforcer sa sécurité en matière d'énergie.",
+        "resume": "Cette approbation contribuera à l'expansion des exportations de GNL américaines, soutenant ainsi les emplois dans le secteur énergétique américain tout en renforçant la position du pays comme fournisseur réputé d'énergie."
+      }
+    },
+    {
+      "id": 484,
+      "titre": "Pakistan drastically hikes fuel prices despite mediator role in Iran war",
+      "auteur": "N/A",
+      "date": "2026/04/04",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/pakistan-drastically-hikes-fuel-prices-despite-mediator-role-in-iran-war",
+      "analyse_detaillee": {
+        "thematique": "L'impact de la guerre en Iran sur le marché énergétique",
+        "enjeux": "Le Pakistan a augmenté fortement les prix de l'essence et du diesel malgré son rôle de médiateur dans la guerre en Iran, provoquant une turbulente situation dans les marchés énergétiques mondiaux. La guerre a également entraîné des troubles dans le transport maritime, mettant à risque l'approvisionnement pétrolier du Pakistan.",
+        "analyse": "Les conséquences de la guerre en Iran pourraient avoir un impact durable sur les économies régionales et mondiales. Le Pakistan, qui joue un rôle clé dans la médiation de la crise, est confronté à des défis importants pour maintenir l'équilibre entre ses intérêts nationaux et son engagement international.",
+        "resume": "La guerre en Iran a provoqué une crise énergétique mondiale, mettant à rude épreuve le rôle de médiateur du Pakistan. Le pays doit trouver un équilibre difficile entre ses objectifs régionaux et sa responsabilité internationale."
+      }
+    },
+    {
+      "id": 486,
+      "titre": "Japanese LNG tanker crosses Strait of Hormuz, Mitsui O.S.K. Lines says",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/business/energy/japanese-lng-tanker-crosses-strait-of-hormuz-mitsui-o.s.k.-lines-says",
+      "analyse_detaillee": {
+        "thematique": "Passage d'un tanker japonais à travers le détroit d'Oman",
+        "enjeux": "Premier passage de la guerre entre l'Iran et les États-Unis, selon Asahi. Le Japon a trouvé un moyen de faire passer son navire en travers du détroit sans être bloqué par l'Iran.",
+        "analyse": "L'implication des États-Unis dans la guerre contre l'Iran a conduit à une instabilité géopolitique accrue, mettant en danger le trafic maritime dans le détroit d'Oman. Lorsque les États-Unis et Israël ont attaqué l'Iran, ce dernier a bloqué effectivement la traversée du détroit.",
+        "resume": "Un tanker japonais est passé à travers le détroit d'Oman sans être bloqué par l'Iran, un premier depuis le début de la guerre entre les États-Unis et l'Iran."
+      }
+    },
+    {
+      "id": 488,
+      "titre": "Chinese coal miners eye comeback as Iran war shakes energy market",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/chinese-coal-miners-eye-comeback-as-iran-war-shakes-energy-market",
+      "analyse_detaillee": {
+        "thematique": "L'effet de la guerre en Iran sur le marché énergétique",
+        "enjeux": "La guerre en Iran crée un choc pétrolier global, ce qui stimule la demande de charbon en Chine et fait pression sur les producteurs de pétrole.",
+        "analyse": "Cette situation pose des questions sur la résilience du marché énergétique face à d'importants chocs externes. La croissance économique mondiale pourrait être impactée par la dépendance aux ressources pétrolières.",
+        "resume": "La guerre en Iran stimule les prix de l'énergie, et le charbon devient un atout stratégique pour les pays comme la Chine."
+      }
+    },
+    {
+      "id": 490,
+      "titre": "Editor's Choice: Energy crisis forces Asia into COVID-like restrictions",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-energy-crisis-forces-asia-into-covid-like-restrictions",
+      "analyse_detaillee": {
+        "thematique": "Crisse énergétique : l'Asie subit des restrictions similaires à la COVID-19",
+        "enjeux": "La crisse énergétique due au conflit avec l'Iran force plusieurs pays d'Asie à adopter des mesures de conservation, y compris les travailleurs à distance et la limitation du transport individuel. Les prix des combustibles fossiles augmentent et le monde entier est confronté à une pénurie de gazole.",
+        "analyse": "La situation actuelle s'inscrit dans un contexte plus large où l'influence des énergies renouvelables, déjà présente dans les années 2000 avec la montée en puissance de Tesla et d'autres fabricants de voitures électriques, a stagné sous l’administration Trump. La crisse énergétique actuelle est en grande partie le résultat d’une guerre délibérément engagée par les dirigeants contre des pays comme l'Iran, ce qui soulève la question cruciale de la paix dans cette région.",
+        "resume": "Les mesures de conservation dans plusieurs pays d'Asie et l'augmentation des prix du pétrole sont directement liés à la guerre avec l'Iran, accentuant le risque d'une répétition des restrictions similaires à celles vécues pendant la COVID-19."
+      }
+    },
+    {
+      "id": 492,
+      "titre": "Bangladesh cuts working hours to save energy amid Middle East crisis",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/bangladesh-cuts-working-hours-to-save-energy-amid-middle-east-crisis",
+      "analyse_detaillee": {
+        "thematique": "Crise énergétique : Bangladesh",
+        "enjeux": "La crise entre Israël et l'Iran perturbe le marché mondial du pétrole, plongeant le Bangladesh dans la pénurie d'énergie. Le gouvernement bangladeshi a mis en place de nouvelles mesures pour réduire la consommation énergétique, telles que des heures de bureau réduites et une fermeture plus précoce des marchés.",
+        "analyse": "L'implication de l'Iran dans la crise énergétique mondiale pose des risques importants aux exportations pétrolières du pays. La situation pourrait se durcir si les tensions entre Israël et l'Iran continuent à s'intensifier. Les répercussions sur le Bangladesh sont déjà visibles, notamment dans ses réserves de devises étrangères.",
+        "resume": "La crise énergétique mondiale a des implications importantes pour le Bangladesh, qui doit faire face à une pénurie d'énergie et des difficultés financières."
+      }
+    },
+    {
+      "id": 494,
+      "titre": "UN to vote on Hormuz resolution as China opposes authorization of force",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/un-to-vote-on-hormuz-resolution-as-china-opposes-authorization-of-force",
+      "analyse_detaillee": {
+        "thematique": "Crise iranienne : le Conseil de sécurité des Nations unies vote sur une résolution pour protéger les navires commerciaux",
+        "enjeux": "La crise iranienne continue à secouer la région, avec des tensions élevées entre l'Iran et les États-Unis. La décision du Conseil de sécurité est cruciale pour maintenir la stabilité dans le golfe Persique.",
+        "analyse": "L'opposition de la Chine au recours à la force soulève des inquiétudes quant à la capacité à protéger les navires commerciaux. L'équilibre de pouvoir entre les grandes puissances est mis à l'épreuve, ce qui pourrait avoir des conséquences importantes pour la région.",
+        "resume": "Le Conseil de sécurité vote sur une résolution cruciale pour la stabilité dans le golfe Persique, mais la décision de la Chine soulève des inquiétudes quant à la capacité à protéger les navires commerciaux."
+      }
+    },
+    {
+      "id": 496,
+      "titre": "Thai fuel retailer expands EV charging network as prices jump",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/business/energy/thai-fuel-retailer-expands-ev-charging-network-as-prices-jump",
+      "analyse_detaillee": {
+        "thematique": "Expansion de la recharge électrique des véhicules",
+        "enjeux": "Le groupe d'État thaïlandais PTT prévoit d'étendre son réseau de recharge électrique à 7 000 stations pour répondre à la demande croissante en raison des prix du carburant en augmentation. Cette expansion est un coup dur pour le secteur automobile, qui doit faire face à une transition vers les véhicules électriques.",
+        "analyse": "Cette décision reflète l'impact de la hausse des coûts énergétiques sur les consommateurs et les entreprises, avec le gouvernement thaïlandais cherchant à promouvoir l'utilisation de sources d'énergie renouvelables. Cela souligne également les risques potentiels pour les sociétés pétrolières traditionnelles qui n'ont pas encore adapté leur modèle économique.",
+        "resume": "Le groupe PTT se concentre sur le développement des infrastructures électriques, tandis que le marché automobile doit faire face à un changement profond en raison de la transition vers les véhicules électriques."
+      }
+    },
+    {
+      "id": 498,
+      "titre": "India's solar exports struggle even as price gap with China narrows",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/business/energy/india-s-solar-exports-struggle-even-as-price-gap-with-china-narrows",
+      "analyse_detaillee": {
+        "thematique": "L'industrie solaire indienne a du mal à trouver de nouveaux marchés d'exportation en raison de problèmes d'overcapacité et de tarifs américains.",
+        "enjeux": "Malgré la réduction de l'écart de prix avec les panneaux chinois, l'Inde peine à concurrencer la Chine dans le secteur solaire. La situation soulève des inquiétudes quant aux perspectives d'exportation de l'industrie indienne.",
+        "analyse": "L'expansion rapide de la production solaire en Inde, combinée aux mesures protectionnistes des États-Unis, plonge l'Inde dans une situation difficile. La concurrence féroce avec la Chine et les difficultés à exporter constituent un défi majeur pour l'industrie.",
+        "resume": "L'Inde continue de faire face aux défis de l'exportation de panneaux solaires, malgré les efforts pour réduire le prix compétitif. Les inquiétudes persistantes concernant la capacité d'exporter sont accentuées par la concurrence de la Chine."
+      }
+    },
+    {
+      "id": 500,
+      "titre": "India looks to fertilizer exporters in Indonesia and Malaysia amid Iran war",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/india-looks-to-fertilizer-exporters-in-indonesia-and-malaysia-amid-iran-war2",
+      "analyse_detaillee": {
+        "thematique": "Iran war: impact sur les exportations de fertilisants",
+        "enjeux": "L'Inde, deuxième consommatrice mondiale de fertilisants, dépend fortement des importations pour répondre à la demande nationale. Le conflit iranien a provoqué des problèmes de navigation dans le chenal de l'Hormuz, entraînant une crise alimentaire potentielle en raison d'une pénurie potentielle de fertilisants lors de la saison de semis d'hiver.",
+        "analyse": "La crise iranienne pourrait avoir des conséquences importantes sur les économies régionales, notamment l'Inde, qui dépend fortement du commerce maritime. La chaine d'approvisionnement mondiale est également affectée, entraînant une instabilité potentielle dans les marchés de la fertilisation.",
+        "resume": "L'impact de la guerre iranienne sur le commerce des fertilisants pourrait provoquer une crise alimentaire si la situation ne s'améliore pas rapidement."
+      }
+    },
+    {
+      "id": 502,
+      "titre": "After EVs, Vietnam pushes solar power to tackle 'fraught' oil crisis",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/business/energy/after-evs-vietnam-pushes-solar-power-to-tackle-fraught-oil-crisis",
+      "analyse_detaillee": {
+        "thematique": "Développement des énergies renouvelables",
+        "enjeux": "Le gouvernement vietnamien promeut l'installation de panneaux solaires sur les toits des maisons et bureaux pour réduire sa dépendance à l'égard du pétrole dans le contexte de la crise pétrolière mondiale. Le coût budgétaire est déjà affecté par les coupes fiscales pétrolières.",
+        "analyse": "Cette mesure vise à améliorer la sécurité énergétique et à réduire la vulnérabilité du Vietnam aux chocs pétroliers internationaux. Elle répond également aux préoccupations environnementales concernant le changement climatique.",
+        "resume": "Le gouvernement vietnamien promeut l'installation de panneaux solaires pour améliorer la sécurité énergétique dans le contexte de la crise pétrolière mondiale."
+      }
+    },
+    {
+      "id": 504,
+      "titre": "Japan chemical, material makers' profit outlook darkens on oil crisis",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/japan-chemical-material-makers-profit-outlook-darkens-on-oil-crisis",
+      "analyse_detaillee": {
+        "thematique": "Crise pétrolière dans le Moyen-Orient",
+        "enjeux": "La crise pétrolière due au conflit au Moyen-Orient a entraîné une hausse des prix du pétrole, affectant les profits de sociétés japonaises du secteur chimique et matériaux. Environ 40% des entreprises de ce secteur ont vu leurs prévisions de bénéfices révisées à la baisse pour l'année qui se termine en mars. La plupart de ces sociétés dépendent fortement de l'importation de naphtha du Moyen-Orient.",
+        "analyse": "Cette crise pétrolière menace non seulement les profits des entreprises japonaises, mais elle pourrait également avoir un impact sur la croissance économique de l'ensemble du pays. Les autorités japonaises pourraient être contraintes d'intervenir pour atténuer l'impact sur les industries touchées.",
+        "resume": "La crise pétrolière due au conflit dans le Moyen-Orient entraîne une révision à la baisse des prévisions de profits de 40% des sociétés japonaises du secteur chimique et matériaux."
+      }
+    },
+    {
+      "id": 506,
+      "titre": "Japanese head overseas ahead of summer's fuel surcharge spike",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/business/travel-leisure/japanese-head-overseas-ahead-of-summer-s-fuel-surcharge-spike",
+      "analyse_detaillee": {
+        "thematique": "Les japonais se tournent vers l'étranger en raison d'une augmentation des surcharges de carburant",
+        "enjeux": "Pendant Golden Week, plus d'un demi-million de Japonais sont prévus pour voyager à l'étranger afin d'éviter les augmentations attendues des surcharges de carburant en été.",
+        "analyse": "Cette tendance reflète la pression croissante des coûts énergétiques, entraînant une restructuration des plans vacances japonais, et ce dans un contexte où le coût du transport aérien augmente en raison de la guerre d'Iran. ",
+        "resume": "Les Japonais cherchent refuge à l'étranger pour éviter les surcharges de carburant."
+      }
+    },
+    {
+      "id": 508,
+      "titre": "Osaka Gas eyes deeper US investment with up to 5 power plant projects",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://asia.nikkei.com/business/energy/osaka-gas-eyes-deeper-us-investment-with-up-to-5-power-plant-projects",
+      "analyse_detaillee": {
+        "thematique": "Investissements de Osaka Gas aux États-Unis",
+        "enjeux": "Osaka Gas explore l'implantation de cinq nouveaux centrales électriques naturellement gazifiées aux États-Unis, dans le but d'alimenter les besoins croissants en électricité des centres de données.",
+        "analyse": "Ces investissements sont motivés par la forte demande en énergie résultant de l'essor du secteur des centres de données. Osaka Gas cherche à se positionner sur ce marché en développement rapide, tandis que les besoins en gaz naturel restent importants dans le contexte de la transition énergétique.",
+        "resume": "Le groupe japonais Osaka Gas poursuit sa stratégie d'expansion aux États-Unis avec l'intention d'implanter cinq nouvelles centrales électriques à gaz, répondant ainsi à la demande croissante en électricité pour les centres de données."
+      }
+    },
+    {
+      "id": 510,
+      "titre": "Another 20-year LNG offtake lands in Mexican project’s bag",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://www.offshore-energy.biz/another-20-year-lng-offtake-lands-in-mexican-projects-bag/",
+      "analyse_detaillee": {
+        "thematique": "LNG",
+        "enjeux": "International Resources Holding (IRH) a conclu un accord de vente et d'achat de 20 ans avec Amigo LNG pour la fourniture de 1 million de tonnes par an de gaz naturel liquéfié (GNL). Cet accord renforce la stratégie de l'entreprise pour sécuriser des approvisionnements GNL fiables à partir de sources géographiquement diversifiées.",
+        "analyse": "Cet accord est perçu comme un pas important dans le renforcement de la stratégie d'approvisionnement en GNL de l'entreprise, qui vise à élargir sa portée internationale et à se positionner sur les marchés émergents du GNL.",
+        "resume": "Le deal de 20 ans pour un approvisionnement fiable de GNL s'inscrit dans la stratégie d'approvisionnement en GNL diversifiée de l'entreprise."
+      }
+    },
+    {
+      "id": 512,
+      "titre": "Hafnia orders eight ‘fuel-efficient’ tankers from South Korean shipyard",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://www.offshore-energy.biz/hafnia-orders-eight-fuel-efficient-tankers-from-south-korean-shipyard/",
+      "analyse_detaillee": {
+        "thematique": "L'ordre de huit nouveaux navires de Hafnia",
+        "enjeux": "Hafnia a placé un ordre pour la construction de huit navires à carburant efficaces aux côtés de l'usine coréenne Hyundai Heavy Industries. Ces navires sont prévus pour être livrés entre le troisième trimestre 2028 et le deuxième trimestre 2029.",
+        "analyse": "Cet ordre montre que Hafnia est prêt à investir dans l'efficacité carburante, ce qui suggère qu'elle cherche à réduire ses coûts opérationnels. De plus, la livraison de ces navires devrait renforcer sa position dans le marché des navires de carburant.",
+        "resume": "Hafnia a placé un ordre pour huit nouveaux navires efficaces en carburant aux côtés d'Hyundai Heavy Industries."
+      }
+    },
+    {
+      "id": 514,
+      "titre": "Green light for more US LNG to non-free trade agreement countries",
+      "auteur": "N/A",
+      "date": "2026/04/03",
+      "lien": "https://www.offshore-energy.biz/green-light-for-more-us-lng-to-non-free-trade-agreement-countries/",
+      "analyse_detaillee": {
+        "thematique": "Exportation de gaz naturel liquéfié (LNG) des États-Unis",
+        "enjeux": "La décision de l'administration américaine autorise une augmentation des exportations de LNG vers les pays non membres d'accord de libre-échange. Cela a pour objectif de renforcer la sécurité énergétique mondiale, notamment en réponse aux tensions dans le Moyen-Orient. La mise en œuvre immédiate de 22 % de plus en gaz naturel liquéfié par l'usine Elba Island, une usine en Géorgie, est un pas important dans cette direction.",
+        "analyse": "Cette décision permettra aux États-Unis de continuer à être un fournisseur de gaz naturel liquéfié fiable et stable sur le marché mondial, en réponse à la perturbation des routes d'énergie dues aux tensions géopolitiques. Cela renforce également la position des États-Unis en tant que premier producteur et exportateur de gaz naturel liquéfié.",
+        "resume": "La décision de l'administration américaine a pour but de sécuriser les approvisionnements énergétiques mondiaux tout en consolidant la position des États-Unis sur le marché mondial du gaz naturel liquéfié."
+      }
+    },
+    {
+      "id": 516,
+      "titre": "China's GDP growth likely accelerated in Q1 despite Iran shock: survey",
+      "auteur": "N/A",
+      "date": "2026/04/02",
+      "lien": "https://asia.nikkei.com/economy/china-s-gdp-growth-likely-accelerated-in-q1-despite-iran-shock-survey",
+      "analyse_detaillee": {
+        "thematique": "Évolution économique de la Chine",
+        "enjeux": "Malgré les conséquences de la guerre en Iran, l'économie chinoise semble s'accélérer au premier trimestre. Les experts estiment que le pays pourrait poursuivre une croissance ralentie cette année malgré la pression sur le secteur immobilier et d'autres facteurs.",
+        "analyse": "Ces prédictions suggèrent que la Chine résistera aux hausses de prix des combustibles résultant de la guerre en Iran, mais les experts soulignent que l'impact global de cette crise sera probablement nuancé et pourrait entraîner une réduction de la croissance chinoise.",
+        "resume": "L'économie chinoise semble s'accélérer au premier trimestre, mais les pressions sur le secteur immobilier et d'autres facteurs menacent de ralentir la croissance pour l'ensemble de l'année."
+      }
+    },
+    {
+      "id": 518,
+      "titre": "Energy crisis plunges Myanmar into deeper economic turmoil",
+      "auteur": "N/A",
+      "date": "2026/04/02",
+      "lien": "https://asia.nikkei.com/business/energy/energy-crisis-plunges-myanmar-into-deeper-economic-turmoil",
+      "analyse_detaillee": {
+        "thematique": "Crisse énergétique au Myanmar",
+        "enjeux": "La crisse énergétique au Myanmar plonge le pays encore plus profondément dans la tourmente économique, aggravant ainsi les difficultés déjà existantes en raison de la guerre civile et des sanctions.",
+        "analyse": "Cette situation met en évidence les conséquences importantes des crises énergétiques sur l'économie d'un pays, particulièrement lorsqu'elles se superposent à d'autres problèmes tels que la guerre civile et les sanctions.",
+        "resume": "La crisse énergétique au Myanmar poursuit de graves répercussions économiques."
+      }
+    },
+    {
+      "id": 520,
+      "titre": "Trump tells oil importers to take lead in opening Strait of Hormuz",
+      "auteur": "N/A",
+      "date": "2026/04/02",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/trump-tells-oil-importers-to-take-lead-in-opening-strait-of-hormuz",
+      "analyse_detaillee": {
+        "thematique": "La guerre avec l'Iran",
+        "enjeux": "L'implication des importateurs d'huile pour assurer la sécurité de la route du détroit d'Ormuz, le rejet par l'Iran d'une trêve, les conséquences potentielles sur l'économie et la situation géopolitique",
+        "analyse": "Les implications de cette guerre sont considérables, avec des risques pour les économies mondiales, notamment en Asie. La réduction du prix des combustibles fossiles à la suite de l'accord entre les États-Unis et le Iran n'est pas garantie. Les pays dépendant fortement du pétrole devront donc se renseigner sur les stratégies possibles de Trump.",
+        "resume": "La guerre avec l'Iran semble s'approcher d'une fin en deux à trois semaines, selon Donald Trump. L'Iran rejette tout cessez-le-feu et menace de continuer ses opérations militaires."
+      }
+    },
+    {
+      "id": 522,
+      "titre": "JAL and ANA to double surcharges as Iran war drives up fuel prices",
+      "auteur": "N/A",
+      "date": "2026/04/02",
+      "lien": "https://asia.nikkei.com/business/transportation/jal-and-ana-to-double-surcharges-as-iran-war-drives-up-fuel-prices",
+      "analyse_detaillee": {
+        "thematique": "Impact de la guerre en Iran sur les prix des carburants et les compagnies aériennes japonaises",
+        "enjeux": "Les compagnies aériennes japonaises, notamment JAL et ANA, augmentent leurs frais de carburant jusqu'à deux fois plus élevés en raison de l'augmentation des coûts du pétrole causée par la guerre en Iran. Cette mesure est prise pour compenser les hausses de prix du pétrole qui affectent le transport aérien japonais.",
+        "analyse": "La situation géopolitique actuelle a un impact significatif sur l'industrie aéroportuaire japonaise, et l'on peut s'attendre à ce que ces coûts supplémentaires soient pris en charge par les compagnies aériennes. Les clients pourront devoir payer davantage pour leurs billets d'avion.",
+        "resume": "Les compagnies aériennes japonaises augmentent les frais de carburant, alors que la guerre en Iran pousse les prix du pétrole à la hausse."
+      }
+    },
+    {
+      "id": 524,
+      "titre": "Adani to test green growth with world's largest renewable energy plant",
+      "auteur": "N/A",
+      "date": "2026/04/02",
+      "lien": "https://asia.nikkei.com/business/energy/adani-to-test-green-growth-with-world-s-largest-renewable-energy-plant",
+      "analyse_detaillee": {
+        "thematique": "Adani Group construit le plus grand parc éolien et solaire au monde",
+        "enjeux": "L'entreprise indienne Adani Group est en train de développer un immense parc éolien et solaire dans l'état du Gujarat, qui devrait atteindre une capacité de 30 GW d'énergie renouvelable. Ce projet vise à contribuer au développement durable et à la décroissance carbone.",
+        "analyse": "Cette initiative témoigne de la volonté des entreprises indiennes de se tourner vers les énergies renouvelables pour lutter contre le changement climatique. Le développement de cette infrastructure pourrait également créer des emplois et stimuler l'économie locale.",
+        "resume": "L'entreprise Adani Group construit un parc éolien et solaire de 30 GW dans le Gujarat, en Inde."
+      }
+    },
+    {
+      "id": 526,
+      "titre": "Japan's Saudi Arabian crude import prices jump 80% in a month",
+      "auteur": "N/A",
+      "date": "2026/04/02",
+      "lien": "https://asia.nikkei.com/business/energy/japan-s-saudi-arabian-crude-import-prices-jump-80-in-a-month",
+      "analyse_detaillee": {
+        "thematique": "Prix des importations japonaises de pétrole saoudien",
+        "enjeux": "Le prix des importations de pétrole saoudien a augmenté de plus de 80% en un mois, due à la guerre d'Iran et à la coupure du détroit d'Ormuz.",
+        "analyse": "Cette augmentation des prix menace la sécurité énergétique japonaise, déjà fragilisée par les tensions géopolitiques régionales. Les importateurs de pétrole nippons devront adapter leurs stratégies pour faire face à cette nouvelle donne.",
+        "resume": "La guerre d'Iran a entraîné une augmentation des prix du pétrole saoudien, compromettant la sécurité énergétique japonaise."
+      }
+    },
+    {
+      "id": 528,
+      "titre": "South Korea and Indonesia sign agreements on minerals and tech",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://asia.nikkei.com/politics/international-relations/south-korea-and-indonesia-sign-agreements-on-minerals-and-tech",
+      "analyse_detaillee": {
+        "thematique": "Accords sur les minéraux et la technologie entre la Corée du Sud et l'Indonésie",
+        "enjeux": "L'accord s'est concentré sur le gaz naturel liquéfié, le charbon, l'intelligence artificielle et le renforcement du commerce bilatéral. La Corée du Sud attend une commande de 16 avions de combat KF-21 d'Indonésie.",
+        "analyse": "Les deux pays cherchent à accroître leur coopération en matière de sécurité énergétique, notamment dans le domaine des ressources critiques et de la technologie. Cela s'inscrit dans l'objectif stratégique de renforcer les liens économiques entre Corée du Sud et Indonésie.",
+        "resume": "Les accords conclus entre la Corée du Sud et l'Indonésie ont pour objectif principal d'établir une coopération accrue en matière de sécurité énergétique, ce qui constitue un facteur clé dans la stratégie des deux pays."
+      }
+    },
+    {
+      "id": 530,
+      "titre": "UK rejection of Ming Yang's Scotland turbine plan draws industry flak",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://asia.nikkei.com/business/energy/uk-rejection-of-ming-yang-s-scotland-turbine-plan-draws-industry-flak",
+      "analyse_detaillee": {
+        "thematique": "La décision britannique de bloquer une usine à turbines éoliennes chinoises de Ming Yang Smart Energy Group",
+        "enjeux": "La décision a été critiquée par les développeurs d'énergie et les politiciens locaux, mais certains analystes affirment qu'elle offre un 'chance de combattre' pour l'industrie éolienne européenne. La crainte d'un sabotage chinois entrave le développement des énergies renouvelables au Royaume-Uni.",
+        "analyse": "Cette décision soulève des inquiétudes quant à la capacité du Royaume-Uni à atteindre ses objectifs en matière d'énergie renouvelable. Les analystes s'inquiètent également de la dépendance croissante du pays envers les investissements chinois dans l'industrie énergétique.",
+        "resume": "La décision britannique a suscité des critiques et des inquiétudes quant à la capacité du Royaume-Uni à atteindre ses objectifs en matière d'énergie renouvelable, soulignant ainsi les risques de dépendance croissante envers les investissements chinois."
+      }
+    },
+    {
+      "id": 532,
+      "titre": "Hormuz crisis drives up Japan power futures trading to record high",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://asia.nikkei.com/business/energy/hormuz-crisis-drives-up-japan-power-futures-trading-to-record-high",
+      "analyse_detaillee": {
+        "thematique": "Crise de Hormuz : Impact sur le marché de l'énergie japonais",
+        "enjeux": "La crise de la péninsule de Hormuz a entraîné une augmentation des prix de l'électricité futures au Japon, traduisant en hausse les coûts des combustibles. Cette situation conduit à réfléchir sur la nécessité d'un mécanisme de tarification prenant en compte les coûts futurs des centrales électriques pour assurer une approvisionnement stable.",
+        "analyse": "Cette crise met en évidence la vulnérabilité du marché de l'énergie japonais face aux événements géopolitiques. Les conséquences sur le plan économique et stratégique sont importantes, car elles peuvent affecter la compétitivité des entreprises et la sécurité d'approvisionnement du pays.",
+        "resume": "La crise de Hormuz a provoqué une hausse significative des prix de l'électricité futures au Japon. La nécessité d'un mécanisme de tarification prenant en compte les coûts futurs des centrales électriques est urgente pour assurer une approvisionnement stable."
+      }
+    },
+    {
+      "id": 534,
+      "titre": "Indonesia pushes remote work, biodiesel expansion to tackle oil crisis",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://asia.nikkei.com/economy/indonesia-pushes-remote-work-biodiesel-expansion-to-tackle-oil-crisis2",
+      "analyse_detaillee": {
+        "thematique": "Indonésie lance des mesures pour réduire la consommation d'huile",
+        "enjeux": "L'Indonésie a annoncé mardi des mesures pour réduire la consommation d'huile, notamment une politique de travail à distance et une expansion de l'utilisation du biodiesel. Ces mesures sont prises en considération de la guerre au Moyen-Orient qui met en danger les approvisionnements d'énergie et suscite des préoccupations quant aux risques financiers pour le pays.",
+        "analyse": "Ces mesures visent à réduire la consommation d'huile, ce qui entraînera des économies importantes de milliards de dollars. L'expansion du biodiesel permettra également une utilisation plus efficace des ressources énergétiques et contribuera à atténuer les risques financiers pour le pays.",
+        "resume": "L'Indonésie lance des mesures pour réduire la consommation d'huile, face aux défis posés par la guerre au Moyen-Orient."
+      }
+    },
+    {
+      "id": 536,
+      "titre": "Mitsubishi Power strains to meet gas turbine demand amid US labor crunch",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://asia.nikkei.com/business/energy/mitsubishi-power-strains-to-meet-gas-turbine-demand-amid-us-labor-crunch",
+      "analyse_detaillee": {
+        "thematique": "Changement climatique",
+        "enjeux": "Le groupe japonais Mitsubishi Power est confronté à des défis pour répondre à la demande croissante de turbines à gaz aux États-Unis en raison d'une pénurie de main-d'œuvre dans le secteur de la construction. Le groupe espère augmenter sa capacité de production de plus de 30 % au cours des deux prochaines années.",
+        "analyse": "Cette situation souligne les risques et les difficultés liées à l'industrie énergétique, qui doit faire face aux changements climatiques. Les pénuries de main-d'œuvre peuvent avoir des conséquences importantes sur la production d'énergie renouvelable.",
+        "resume": "La demande de turbines à gaz continue à augmenter en raison du développement des centrales de gaz, mais les pénuries de main-d'œuvre entravent la capacité de Mitsubishi Power à répondre à cette demande."
+      }
+    },
+    {
+      "id": 538,
+      "titre": "Inpex diverts Australian LPG, condensate to supply Japan",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://asia.nikkei.com/business/energy/inpex-diverts-australian-lpg-condensate-to-supply-japan",
+      "analyse_detaillee": {
+        "thematique": "La crise pétrolière au Moyen-Orient",
+        "enjeux": "L'entreprise japonaise Inpex dirigera son approvisionnement d'énergie australienne vers le Japon en raison de l'embargo sur les exportations pétrolières des États du Golfe. Cette mesure est une tentative pour réduire la dépendance japonaise aux hydrocarbures importés",
+        "analyse": "Cette décision souligne l'importance stratégique des relations commerciales entre le Japon et l'Australie, ainsi que la pression sur les pays industrialisés d'améliorer leur sécurité énergétique. Les perturbations dans le secteur pétrolier mondial peuvent entraîner un effet de chaîne sur les marchés financiers et politiques régionaux",
+        "resume": "L'embargo sur les exportations pétrolières du Golfe force l'entreprise japonaise Inpex à orienter son approvisionnement vers la Chine"
+      }
+    },
+    {
+      "id": 540,
+      "titre": "South Korean shipyard holds naming ceremony for US player’s new FSRU",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://www.offshore-energy.biz/south-korean-shipyard-holds-naming-ceremony-for-us-players-new-fsru/",
+      "analyse_detaillee": {
+        "thematique": "Nom de navire à gaz naturel liquéfié",
+        "enjeux": "Excelerate Energy a baptisé son nouveau FSRU (unité de regazéification flottante) en cours de construction au chantier naval Hyundai Heavy Industries en Corée du Sud. Le navire, nommé Excelerate Acadia, était conçu pour soutenir des opérations à long terme d'importation et de régazéification de gaz naturel liquéfié.",
+        "analyse": "Cette nouvelle suggère que les entreprises continuent de développer les infrastructures nécessaires pour répondre aux besoins croissants en énergie, notamment dans le secteur du gaz naturel liquéfié. Cependant, il faudrait plus d'informations sur la capacité totale du navire et son impact sur l'environnement.",
+        "resume": "Excelerate Energy a baptisé son nouveau FSRU, le Excelerate Acadia, au chantier naval Hyundai Heavy Industries en Corée du Sud. Le navire sera utilisé pour soutenir des opérations d'importation et de régazéification de gaz naturel liquéfié."
+      }
+    },
+    {
+      "id": 542,
+      "titre": "$10 billion US LNG project comes online in Texas: One train down, two more left on McDermott and Chiyoda’s list",
+      "auteur": "N/A",
+      "date": "2026/04/01",
+      "lien": "https://www.offshore-energy.biz/10-billion-us-lng-project-comes-online-in-texas-one-train-down-two-more-left-on-mcdermott-and-chiyodas-list/",
+      "analyse_detaillee": {
+        "thematique": "Lancement du projet LNG Golden Pass à Sabine Pass au Texas",
+        "enjeux": "Le premier train est en ligne et le projet atteint un important jalon. Cela marquera une étape cruciale dans la livraison de l'énergie aux marchés mondiaux.",
+        "analyse": "Le lancement du projet Golden Pass LNG constitue un événement important pour l'industrie énergétique mondiale, en particulier pour les États-Unis. Il marque une étape clé dans la mise en œuvre de la stratégie d'exportation de gaz naturel liquéfié (GNL) américaine et s'inscrit dans le cadre des efforts du pays pour renforcer sa position sur le marché mondial de l'énergie.",
+        "resume": "Le projet Golden Pass LNG est désormais en phase opérationnelle, marquant une étape décisive dans la fourniture d'énergie aux marchés mondiaux."
+      }
+    },
+    {
+      "id": 544,
+      "titre": "Iran war crisis presents 'opportunity' for Australia's LNG exporters",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/business/markets/commodities/iran-war-crisis-presents-opportunity-for-australia-s-lng-exporters",
+      "analyse_detaillee": {
+        "thematique": "Crisse diplomatique entre les États-Unis, Israël et l'Iran",
+        "enjeux": "L'industrie australienne des gaz naturels liquéfiés (GNL) peut profiter de la crise actuelle pour renforcer sa position sur le marché mondial. L'Australie doit alors augmenter sa production de GNL et consolider ses liens avec ses partenaires asiatiques.",
+        "analyse": "La crise diplomatique entre les États-Unis, Israël et l'Iran pourrait créer des opportunités pour l'industrie australienne des GNL. Cependant, cette situation nécessite une attention particulière à la part géopolitique du marché.",
+        "resume": "Crisse diplomatique entre les États-Unis, Israël et l'Iran pourrait profiter à l'industrie australienne des GNL."
+      }
+    },
+    {
+      "id": 546,
+      "titre": "Indonesia to ration subsidized fuel to mitigate energy crisis impact",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/business/energy/indonesia-to-ration-subsidized-fuel-to-mitigate-energy-crisis-impact",
+      "analyse_detaillee": {
+        "thematique": "Énergie",
+        "enjeux": "L'Indonésie introduit des quotas quotidiens pour le carburant subventionné afin de contenir l'impact de la crise énergétique sur les finances de l'état. Des mesures supplémentaires sont également envisagées.",
+        "analyse": "Cette décision est une réponse aux défis financiers posés par la crise énergétique, qui affecte l'économie mondiale et pèse particulièrement sur l'Indonésie en raison de ses importations d'énergie. Les mesures prises pourraient avoir un impact significatif sur les consommateurs et les industries, mais leur efficacité dans la gestion de la crise reste à déterminer.",
+        "resume": "L'Indonésie met en place des quotas quotidiens pour le carburant subventionné afin d'éviter une aggravation de la situation financière due à la crise énergétique."
+      }
+    },
+    {
+      "id": 548,
+      "titre": "India boosts regional ties with energy aid for Sri Lanka, Bangladesh",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/india-boosts-regional-ties-with-energy-aid-for-sri-lanka-bangladesh",
+      "analyse_detaillee": {
+        "thematique": "Inde et guerre en Iran",
+        "enjeux": "L'Inde maintient sa politique de « voisinage prioritaire » malgré des défis à l'intérieur, tandis que la guerre entre les États-Unis et Israël sur l'Iran a un impact mondial.",
+        "analyse": "La région indienne se trouve au centre d'un énorme changement politique en raison de la guerre iranienne. L'Inde maintient sa priorité pour ses voisins avec son « voisinage prioritaire ». Cela montre l'engagement de l'Inde dans la région.",
+        "resume": "L'Inde continue d'étendre sa coopération énergétique avec le Sri Lanka et le Bangladesh malgré la guerre en Iran."
+      }
+    },
+    {
+      "id": 550,
+      "titre": "Loaded Kuwaiti oil tanker ablaze in Dubai port after Iran attack",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/loaded-kuwaiti-oil-tanker-ablaze-in-dubai-port-after-iran-attack",
+      "analyse_detaillee": {
+        "thematique": "Attentat contre un tanker kuwétien à Dubaï : impact sur le marché des hydrocarbures et risques de tension géopolitiques",
+        "enjeux": "Le tanker kuwétien Al Salmi a été attaqué par l'Iran dans les eaux territoriales du port de Dubaï, mettant en jeu la sécurité énergétique mondiale. L'attaque a provoqué un incendie qui risque de dégâts importants et une possible marée noire.",
+        "analyse": "Cette attaque souligne les tensions géopolitiques accrues dans la région, notamment après les frappes américano-israéliennes contre l'Iran. La réaction de la communauté internationale sera cruciale pour éviter une escalade des violences.",
+        "resume": "L'attentat du tanker kuwétien à Dubaï menace le marché énergétique mondial et reflète les tensions géopolitiques accrues dans la région."
+      }
+    },
+    {
+      "id": 552,
+      "titre": "BYD hails windfall as Iran oil crisis supercharges Chinese EV outlook",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/business/automobiles/electric-vehicles/byd-hails-windfall-as-iran-oil-crisis-supercharges-chinese-ev-outlook",
+      "analyse_detaillee": {
+        "thematique": "Les véhicules électriques en Chine",
+        "enjeux": "La guerre au Moyen-Orient conduit à une augmentation des prix du pétrole, ce qui rend les véhicules électriques plus attractifs. La société BYD a bénéficié de cette situation, prédit un « niveau supérieur » de ventes à l'étranger et souhaite augmenter son objectif de vente de 15%.",
+        "analyse": "Cette situation a des implications importantes pour les entreprises du secteur automobile en Chine. La demande de véhicules électriques pourrait continuer à croître, ce qui entraînerait une augmentation des ventes de la société BYD et d'autres fabricants chinois. Cependant, cela soulève également des préoccupations concernant la sécurité de l'approvisionnement en composants critiques tels que les batteries.",
+        "resume": "La guerre au Moyen-Orient stimule les ventes de véhicules électriques chinois et augmente les objectifs de la société BYD."
+      }
+    },
+    {
+      "id": 554,
+      "titre": "Southeast Asia companies shed over $200bn in market value on Iran war",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/business/markets/equities/southeast-asia-companies-shed-over-200bn-in-market-value-on-iran-war",
+      "analyse_detaillee": {
+        "thematique": "L'impact économique de la guerre en Iran sur les entreprises d'Asie du Sud-Est",
+        "enjeux": "Le conflit en Iran a entraîné une baisse significative de la valeur des actions dans l'ensemble de l'Asie du Sud-Est, avec un total de 216 milliards de dollars américains perdues depuis le début du conflit. Les secteurs les plus touchés sont les pétrochimiques et le tourisme.",
+        "analyse": "L'effondrement du prix des actions reflète l'inquiétude croissante des investisseurs quant aux conséquences à long terme de la guerre en Iran, notamment sur les approvisionnements en pétrole. La situation pourrait se poursuivre avec d'autres dommages économiques, alors que les tensions entre les pays impliqués s'intensifient.",
+        "resume": "La guerre en Iran a provoqué une grave crise financière dans l'Asie du Sud-Est, entraînant des pertes estimées à 216 milliards de dollars américains et touchant particulièrement les secteurs pétrochimiques et touristiques."
+      }
+    },
+    {
+      "id": 556,
+      "titre": "China looks to restart US energy imports as Iran tensions rattle markets",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/china-looks-to-restart-us-energy-imports-as-iran-tensions-rattle-markets",
+      "analyse_detaillee": {
+        "thematique": "Ressources énergétiques",
+        "enjeux": "La Chine apparaît prête à reprendre l'achat de pétrole américain et de gaz naturel liquéfié. Cela fait suite aux troubles dans les approvisionnements liés à la fermeture de dé facto du détroit d'Ormuz par l'Iran.",
+        "analyse": "Cette décision s'inscrit dans le contexte de diversification des chaînes d'approvisionnement énergétiques par la Chine, en raison de troubles dans les approvisionnements.",
+        "resume": "La Chine envisage une reprise de l'achat de pétrole américain et de gaz naturel liquéfié en raison de la fermeture du détroit d'Ormuz."
+      }
+    },
+    {
+      "id": 558,
+      "titre": "G7 ready to take all measures for energy market stability: finance ministers",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://asia.nikkei.com/business/energy/g7-ready-to-take-all-measures-for-energy-market-stability-finance-ministers",
+      "analyse_detaillee": {
+        "thematique": "Stabilité du marché énergétique",
+        "enjeux": "Les dirigeants économiques de l'UE ont exprimé leur soutien à la stabilité du marché énergétique, dans un contexte où le conflit en Iran perturbe les approvisionnements. Ils se sont mis d'accord pour prendre des mesures coordonnées si nécessaire. L'Agence internationale de l'énergie a récemment décidé une libération historique de réserves stratégiques pour atténuer la pression sur le marché.",
+        "analyse": "Cette situation renforce les inquiétudes quant à l'inflation et aux risques de perturbation économique. Les décideurs doivent maintenir un contrôle prudent sur la stabilité financière, tout en garantissant la sécurité énergétique mondiale. La coopération internationale s'avère essentielle pour atténuer les conséquences du conflit en Iran.",
+        "resume": "Les dirigeants économiques de l'UE se mobilisent pour préserver la stabilité du marché énergétique, en pleine crise."
+      }
+    },
+    {
+      "id": 560,
+      "titre": "Lithuanian port home to first joint bio-LNG bunkering in Europe",
+      "auteur": "N/A",
+      "date": "2026/03/31",
+      "lien": "https://www.offshore-energy.biz/lithuanian-port-home-to-first-joint-bio-lng-bunkering-in-europe/",
+      "analyse_detaillee": {
+        "thematique": "Première fourniture de bio-LNG conjointe en Europe",
+        "enjeux": "Anew Climate et Avenir ont effectué la première opération de fourniture de biométhane liquide (bio-LNG) commune en Europe. L'opération a consisté à livrer du bio-LNG certifié issu de déchets provenant d'Anew au navire Avenir Ascension, appartenant à Avenir, qui l'a transporté en Suède pour être utilisé par les bateaux exploités par le ferry opérateur Destination Gotland.",
+        "analyse": "Cette opération marque un tournant dans la transition vers des solutions de carburant à faible émission, répondant aux réglementations telles que l'UE Fuel et RED III. La compatibilité du bio-LNG avec les infrastructures existantes facilite la mise en œuvre de cette transition.",
+        "resume": "Anew Climate et Avenir ont démontré leur capacité à fournir des solutions de carburant à faible émission en Europe, ouvrant la voie à une réduction significative des émissions dans le secteur maritime."
+      }
+    },
+    {
+      "id": 562,
+      "titre": "Indonesia's Prabowo vows quicker energy transition amid global oil crisis",
+      "auteur": "N/A",
+      "date": "2026/03/30",
+      "lien": "https://asia.nikkei.com/business/energy/indonesia-s-prabowo-vows-quicker-energy-transition-amid-global-oil-crisis",
+      "analyse_detaillee": {
+        "thematique": "Transition énergétique en Indonésie",
+        "enjeux": "Le président Prabowo Subianto a promis d'accélérer la transition énergétique de l'Indonésie afin de se protéger contre les perturbations du marché mondial des hydrocarbures. L'expansion des solaire, géothermique et biodiesel font partie des priorités du gouvernement. Le pays fait face à une crise d'érosion côtière qui met en péril la stabilité économique.",
+        "analyse": "L'implication de l'Indonésie dans cette transition énergétique pourrait avoir un impact significatif sur les marchés mondiaux des hydrocarbures et des sources d'énergie renouvelables. Les perspectives d'accroissement de la production d'énergie verte pourraient également influencer les relations économiques régionales.",
+        "resume": "Le président Prabowo Subianto s'est engagé à accélérer la transition énergétique en Indonésie afin de protéger le pays contre les perturbations du marché mondial des hydrocarbures. L'expansion des sources d'énergie renouvelables est une priorité pour le gouvernement."
+      }
+    },
+    {
+      "id": 564,
+      "titre": "Australian coal shares surge as Iran war deepens energy crisis",
+      "auteur": "N/A",
+      "date": "2026/03/30",
+      "lien": "https://asia.nikkei.com/business/energy/australian-coal-shares-surge-as-iran-war-deepens-energy-crisis",
+      "analyse_detaillee": {
+        "thematique": "Crise énergétique",
+        "enjeux": "La crise énergétique mondiale se poursuit avec la fermeture de l'Espace économique perse, ce qui fait monter le prix des produits pétroliers. Les pays asiatiques cherchent à diversifier leurs sources d'énergie pour réduire leur dépendance aux combustibles fossiles.",
+        "analyse": "Les pays membres du Groupe des Sept (G7) ont appelé à une coopération internationale pour résoudre la crise énergétique mondiale. Les pays du Moyen-Orient, tels que l'Iran et le Qatar, joueront un rôle crucial dans les négociations. Cependant, les risques de conflits armés et d'instabilité politique persistent.",
+        "resume": "La crise énergétique mondiale se poursuit avec une fermeture de l'Espace économique perse, ce qui monte le prix des produits pétroliers. Les pays asiatiques cherchent à diversifier leurs sources d'énergie."
+      }
+    },
+    {
+      "id": 566,
+      "titre": "Nuclear restart moves forward in Taiwan amid energy supply concerns",
+      "auteur": "N/A",
+      "date": "2026/03/28",
+      "lien": "https://asia.nikkei.com/business/energy/nuclear-restart-moves-forward-in-taiwan-amid-energy-supply-concerns",
+      "analyse_detaillee": {
+        "thematique": "Nuclear restart moves forward in Taiwan amid energy supply concerns",
+        "enjeux": "La Chine, le conflit au Moyen-Orient et les risques pour l'approvisionnement énergétique de Taiwan",
+        "analyse": "Le réacteur nucléaire taiwanais pourrait faire face à des difficultés en raison du conflit au Moyen-Orient et de la pression exercée par la Chine. Le gouvernement taiwanais a présenté un plan pour relancer les activités de production d'électricité nucléaire, ce qui soulève des inquiétudes quant à la sécurité énergétique de l'île.",
+        "resume": "La décision du gouvernement taiwanais de relancer le réacteur nucléaire suscite des inquiétudes quant à la sécurité énergétique de l'île, confrontée aux risques liés au conflit au Moyen-Orient et à la pression exercée par la Chine."
+      }
+    },
+    {
+      "id": 568,
+      "titre": "Inpex to give Japan preferential access to oil from Azerbaijan",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://asia.nikkei.com/business/energy/inpex-to-give-japan-preferential-access-to-oil-from-azerbaijan",
+      "analyse_detaillee": {
+        "thematique": "Accès préférentiel de l'Inpex à l'huile d'Azerbaïdjan",
+        "enjeux": "L'entreprise japonaise Inpex prévoit donner la priorité aux acheteurs du marché local pour l'huile produite au large d'Azerbaïdjan, en raison des risques de pénurie dues à la guerre dans le golfe Persique.",
+        "analyse": "Cette décision tient compte de l'imprévisibilité des approvisionnements en raison du conflit dans le golfe et des mesures prises par l'Iran pour bloquer le détroit d'Ormuz. L'accès privilégié à cette huile est crucial pour les besoins énergétiques de la Japan.",
+        "resume": "L'Inpex redirigera ses ventes d'huciel vers des acheteurs du marché local japonais en raison des risques liés au blocus du détroit d'Ormuz par l'Iran."
+      }
+    },
+    {
+      "id": 570,
+      "titre": "Vietnam gasoline price falls 19% after taxes removed amid energy crisis",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://asia.nikkei.com/business/energy/vietnam-gasoline-price-falls-19-after-taxes-removed-amid-energy-crisis",
+      "analyse_detaillee": {
+        "thematique": "Prix des carburants en Asie",
+        "enjeux": "Le gouvernement vietnamien a retiré plusieurs taxes du prix des carburants, entraînant une baisse de 19% du coût d'un litre. Cela vise à atténuer l'impact de la crise énergétique en cours.",
+        "analyse": "Ces mesures visent à protéger les consommateurs et à atténuer l'impact de la crise énergétique, mais il est prévisible que le prix du carburant continuera d'être affecté par les tensions internationales. Les pays asiatiques continuent de chercher des moyens pour se protéger contre les fluctuations des prix du pétrole.",
+        "resume": "Le gouvernement vietnamien a baissé le coût du carburant après avoir supprimé plusieurs taxes, mais la crise énergétique persiste."
+      }
+    },
+    {
+      "id": 572,
+      "titre": "Half-baked lessons from 2022 yet to help Sri Lanka amid Iran oil crisis",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/half-baked-lessons-from-2022-yet-to-help-sri-lanka-amid-iran-oil-crisis",
+      "analyse_detaillee": {
+        "thematique": "Crise pétrolière mondiale",
+        "enjeux": "L'article décrit l'impact de la crise pétrolière mondiale sur Sri Lanka, en raison des tensions entre les États-Unis et l'Iran. Le pays a introduit des mesures de rationnement du carburant afin d'éviter une nouvelle crise économique similaire à celle de 2022.",
+        "analyse": "L'impact de la guerre nucléaire mondiale serait catastrophique pour les économies sud-asiatiques, en particulier Sri Lanka. La hausse des prix du pétrole pourrait provoquer une crise financière, ce qui entraînerait un manque de devises étrangères et aggraverait les difficultés budgétaires déjà existantes.",
+        "resume": "La crise pétrolière mondiale menace l'économie sud-asiatique, en particulier Sri Lanka, qui a déjà connu une grave crise économique en 2022."
+      }
+    },
+    {
+      "id": 574,
+      "titre": "Japan's strategic oil reserve faces biggest stress test in years",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/japan-s-strategic-oil-reserve-faces-biggest-stress-test-in-years",
+      "analyse_detaillee": {
+        "thematique": "Situation géopolitique au Moyen-Orient et impact sur le stockage de réserves stratégiques d'hydrocarbures",
+        "enjeux": "Le conflit dans la région du Moyen-Orient met à l'épreuve la capacité de stockage des réserves stratégiques d'hydrocarbures japonaises, alors que la gouvernements stimule la demande grâce à une aide subventionnelle au prix de la carburant. Une crise potentielle de l'approvisionnement en énergie suscite inquiétude.",
+        "analyse": "La résilience des réserves stratégiques japonaises est soumise aux tensions géopolitiques du Moyen-Orient, alors que le gouvernement stimule la demande à travers une aide au prix de la carburant. L'implémentation d'une politique subventionnante sur les carburants suscite inquiétude quant à sa capacité de répondre aux crises énergétiques potentielles.",
+        "resume": "La situation géopolitique au Moyen-Orient met à l'épreuve la résilience des réserves stratégiques d'hydrocarbures japonaises, alors que le gouvernement stimule la demande grâce à une aide subventionnelle au prix de la carburant. La capacité du Japon à gérer sa crise potentielle énergétique reste incertaine."
+      }
+    },
+    {
+      "id": 576,
+      "titre": "Vietnam, Philippines seek oil aid from Japan amid Mideast war",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/vietnam-philippines-seek-oil-aid-from-japan-amid-mideast-war",
+      "analyse_detaillee": {
+        "thematique": "Situation géopolitique au Moyen-Orient",
+        "enjeux": "L'article rapporte que des pays d'Asie du Sud-Est, comme le Vietnam et les Philippines, demandent de l'aide à la Japon pour faire face aux pénuries d'huile dues à la guerre en Iran. Le Japon considère la possibilité de partager ses réserves d'huile mais donne la priorité à ses besoins intérieurs.",
+        "analyse": "Cette situation soulève des inquiétudes sur la sécurité énergétique au Moyen-Orient et les conséquences potentielles pour les pays qui dépendent fortement des importations de pétrole. L'implication du Japon dans cette affaire pourrait avoir des implications géopolitiques importantes, notamment en termes de relations avec d'autres puissances régionales.",
+        "resume": "Le conflit iranien entraîne une crise énergétique en Asie du Sud-Est et le Japon est sollicité pour contribuer à atténuer les pénuries."
+      }
+    },
+    {
+      "id": 578,
+      "titre": "Venture Global and Edison put LNG arbitration battle behind them",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://www.offshore-energy.biz/venture-global-and-edison-put-lng-arbitration-battle-behind-them/",
+      "analyse_detaillee": {
+        "thematique": "Venture Global et Edison résolvent leur différend sur le gaz naturel liquéfié (LNG)",
+        "enjeux": "Le projet de Venture Global à Calcasieu Pass en Louisiane, aux États-Unis, a résolu son différend avec Edison concernant la livraison de cargaisons supplémentaires au marché italien. Cette décision vient renforcer la coopération commerciale entre les deux sociétés.",
+        "analyse": "Cette résolution met fin à l'arbitrage entre Venture Global et Edison, qui pourrait avoir des implications importantes pour le marché du gaz naturel liquéfié. La livraison de cargaisons supplémentaires en Italie devrait renforcer la stabilité énergétique de ce pays.",
+        "resume": "Venture Global et Edison mettent fin à leur différend sur le LNG, permettant ainsi la livraison de cargaisons supplémentaires à l'Italie."
+      }
+    },
+    {
+      "id": 580,
+      "titre": "WATCH: FLNG mooring system slides in place offshore Congo",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://www.offshore-energy.biz/watch-flng-mooring-system-slides-in-place-offshore-congo/",
+      "analyse_detaillee": {
+        "thematique": "Lancement de la production de GNL par le projet Congo LNG en Afrique",
+        "enjeux": "Le lancement de la production de gaz naturel liquéfié (GNL) par le projet Congo LNG, développé conjointement par Eni et sa filiale, est un événement important pour les marchés énergétiques africains. Le projet a atteint une capacité totale de 3 millions de tonnes par an, soit 4,5 milliards de mètres cubes de gaz par an. L'opération présente également des risques et des points de tension, notamment liés aux difficultés d'accès à la mer.",
+        "analyse": "La production de GNL par le projet Congo LNG est un pas important vers l'autonomisation énergétique du continent africain. Cependant, les opérations présentent également des risques et des points de tension liés au transport des gaz liquifiés dans la mer. La réussite de ce projet peut avoir des implications importantes pour les marchés de l'énergie en Afrique, mais il est essentiel d'analyser attentivement les risques associés à ces opérations.",
+        "resume": "Le lancement du Congo LNG a atteint une capacité totale de 3 millions de tonnes par an, ce qui constitue un pas important vers la production locale de GNL en Afrique. Cependant, des défis et des risques se posent lors de la gestion de ces opérations."
+      }
+    },
+    {
+      "id": 582,
+      "titre": "Third train on the cards for LNG project, unleashing more Australian gas",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://www.offshore-energy.biz/third-train-on-the-cards-for-lng-project-unleashing-more-australian-gas/",
+      "analyse_detaillee": {
+        "thematique": "Partenariat stratégique entre Inpex et Formentera pour développer une nouvelle source de gaz naturel en Australie",
+        "enjeux": "Le partenariat vise à accélérer le développement des ressources de gaz naturel de la Beetaloo Basin, ce qui permettra d'augmenter les exportations de liquéfiés naturels gazeux (LNG) vers l'Asie et de fournir une nouvelle source de gaz domestique pour le Territoire du Nord.",
+        "analyse": "Cette initiative devrait contribuer à renforcer la sécurité énergétique régionale et à atténuer les risques associés aux fluctuations des prix du pétrole en exportant plus de gaz vers l'Asie, où il est particulièrement demandé. Elle répond également à la stratégie nationale de développement de l'énergie verte, car le projet vise à développer des sources d'énergie renouvelables.",
+        "resume": "La décision d'Inpex et Formentera d'accélérer les travaux de développement de la Beetaloo Basin est un développement positif pour l'Australie en termes de production énergétique, mais il présente également des risques liés à l'environnement et au coût."
+      }
+    },
+    {
+      "id": 584,
+      "titre": "WATCH: Rem Offshore’s methanol-ready energy subsea construction vessel in the water",
+      "auteur": "N/A",
+      "date": "2026/03/27",
+      "lien": "https://www.offshore-energy.biz/watch-rem-offshores-methanol-ready-energy-subsea-construction-vessel-in-the-water/",
+      "analyse_detaillee": {
+        "thematique": "Lancement de Rem Ocean, un nouveau navire pour l'inspection et la maintenance sous-marines",
+        "enjeux": "Le lancement de Rem Ocean marque une étape importante dans le développement des capacités d'inspection et de maintenance sous-marines. La remise en service du navire après son chantier est prévue pour 2027 et il entreprendra un contrat de huit ans avec DeepOcean, fournissant des services d'IMR (inspection, maintenance et réparation) à Equinor.",
+        "analyse": "Cette nouvelle démonstration de technologie dans l'industrie sous-marine offre des avantages tels que l'amélioration de la sécurité et de l'éfficacité grâce à la technologie d'inspection autonome, ainsi qu'un plus grand contrôle sur les coûts et le temps nécessaires pour les opérations sous-marines.",
+        "resume": "Le lancement de Rem Ocean constitue un pas important dans la modernisation des opérations sous-marines. L'introduction de technologies innovantes telles que les drones d'inspection autonome promet une amélioration significative en termes de sécurité, efficacité et contrôle budgétaire."
+      }
+    },
+    {
+      "id": 586,
+      "titre": "Japan to temporarily lift coal power plant curbs over Hormuz crisis",
+      "auteur": "N/A",
+      "date": "2026/03/26",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/japan-to-temporarily-lift-coal-power-plant-curbs-over-hormuz-crisis",
+      "analyse_detaillee": {
+        "thematique": "Crise au Moyen-Orient : impact sur la production d'électricité au Japon",
+        "enjeux": "Le gouvernement japonais décide de lever temporairement les restrictions sur l'exploitation des centrales à charbon pour atténuer le risque de pénurie d'énergie en raison de la crise dans le détroit d'Hormuz. Les pays asiatiques cherchent à réduire leur dépendance aux énergies du Moyen-Orient, ce qui entraîne une augmentation des prix sur le marché.",
+        "analyse": "Cette décision japonaise s'inscrit dans le contexte de la montée des tensions entre les puissances mondiales et l'Iran. Les pays asiatiques, dont le Japon, cherchent à se diversifier et à réduire leur dépendance aux énergies du Moyen-Orient en raison de la volatilité de ces marchés.",
+        "resume": "Le gouvernement japonais décide de lever temporairement les restrictions sur l'exploitation des centrales à charbon pour atténuer le risque de pénurie d'énergie en raison de la crise dans le détroit d'Hormuz."
+      }
+    },
+    {
+      "id": 588,
+      "titre": "Philippines central bank warns monetary policy cannot tame inflation",
+      "auteur": "N/A",
+      "date": "2026/03/26",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/philippines-central-bank-warns-monetary-policy-cannot-tame-inflation",
+      "analyse_detaillee": {
+        "thematique": "L'inflation au Philippines",
+        "enjeux": "La banque centrale philippine a prévenu que l'inflation pourrait dépasser 5% cette année, en raison de facteurs qui échappent à son contrôle. Le pays fait face à une augmentation des prix due notamment aux troubles au Moyen-Orient.",
+        "analyse": "Ces projections d'inflation soulèvent des inquiétudes quant à la stabilité économique du pays et potentiellement à l'impact sur les populations vulnérables.",
+        "resume": "L'inflation devrait dépasser 5% au Philippines en raison de facteurs externes, indique la banque centrale, ce qui inquiète pour l'économie nationale."
+      }
+    },
+    {
+      "id": 590,
+      "titre": "Iran war-related gas shortage renews focus on India storage",
+      "auteur": "N/A",
+      "date": "2026/03/26",
+      "lien": "https://asia.nikkei.com/business/energy/iran-war-related-gas-shortage-renews-focus-on-india-storage",
+      "analyse_detaillee": {
+        "thematique": "Pénurie de gaz en Inde",
+        "enjeux": "L'Inde fait face à une pénurie de gaz due aux conflits entre l'Iran et la coalition menée par les États-Unis, mettant en évidence le manque de réserves de gaz naturel dans le pays. La situation est exacerbée par la nécessité d&#39;envisager un développement des réserves de stockage de gaz pour atténuer les risques de rupture du flux de gaz.",
+        "analyse": "L’absence de stockage de gaz en Inde expose le pays à un risque significatif en cas de perturbations dans les approvisionnements. La nécessité de développer des réserves de stockage de gaz naturel est cruciale pour atténuer la vulnérabilité énergétique du pays.",
+        "resume": "L’Inde se retrouve confrontée à une pénurie de gaz due aux conflits en Iran, misant sur le développement des réserves de stockage de gaz pour atténuer les risques."
+      }
+    },
+    {
+      "id": 592,
+      "titre": "Iran war exposes energy divide between Bangladesh, solar-rich Pakistan",
+      "auteur": "N/A",
+      "date": "2026/03/26",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war-exposes-energy-divide-between-bangladesh-solar-rich-pakistan",
+      "analyse_detaillee": {
+        "thematique": "Les tensions entre l'Iran et le reste du monde, notamment en Asie",
+        "enjeux": "L'article décrit comment les tensions entre l'Iran et le reste du monde ont un impact sur la production d'énergie en Asie. En particulier, il est question de la situation énergétique au Pakistan et au Bangladesh, qui importent respectivement du gaz naturel liquéfié (GNL) et de l'huile pour alimenter leur demande en électricité. Le texte souligne également que le Pakistan a vu une croissance importante de son parc solaire, ce qui pourrait lui permettre d'économiser 6,3 milliards de dollars cette année. En revanche, le Bangladesh a doublé ses importations de GNL en seulement quelques années.",
+        "analyse": "L'article met en avant les conséquences potentielles des tensions avec l'Iran sur la production et la consommation d'énergie dans ces deux pays. Le Pakistan se distingue par une croissance notable de son parc solaire, qui pourrait réduire ses importations d'huile et ainsi économiser de l'argent. Mais le Bangladesh, en revanche, a vu augmenter ses importations de GNL, ce qui suggère qu'il peine à se débarrasser de sa dépendance au pétrole.",
+        "resume": "Les tensions entre l'Iran et le reste du monde ont des conséquences importantes sur la production et la consommation d'énergie en Asie. Le Pakistan voit une croissance notable de son parc solaire, tandis que le Bangladesh continue à importer du GNL."
+      }
+    },
+    {
+      "id": 594,
+      "titre": "Iran war shows Japan needs Alaskan oil: ex-vice foreign minister",
+      "auteur": "N/A",
+      "date": "2026/03/26",
+      "lien": "https://asia.nikkei.com/editor-s-picks/interview/iran-war-shows-japan-needs-alaskan-oil-ex-vice-foreign-minister",
+      "analyse_detaillee": {
+        "thematique": "L'importance de la diversification de l'alimentation énergétique japonaise",
+        "enjeux": "Le Japon devrait considérer l'importation d'huile de pétrole du Alaska pour réduire sa dépendance à l'énergie des États-Unis, selon Takeo Mori, ex-vice-ministre des Affaires étrangères. La région du Moyen-Orient reste instable et les tensions avec la Chine dans le détroit de Formose continuent d'intensifier.",
+        "analyse": "Les implications de cette situation sont importantes pour la stabilité géopolitique régionale. L'importation d'huile de pétrole du Alaska pourrait être un moyen pour le Japon de se diversifier et réduire sa dépendance à l'énergie des États-Unis. Cependant, cela soulève également des questions sur les conséquences potentielles sur la relation entre les deux pays.",
+        "resume": "Le Japon considère l'importation d'huile de pétrole du Alaska pour réduire sa dépendance à l'énergie des États-Unis, selon Takeo Mori."
+      }
+    },
+    {
+      "id": 596,
+      "titre": "Wait times for Hitachi Energy transformers hit more than 30 months",
+      "auteur": "N/A",
+      "date": "2026/03/25",
+      "lien": "https://asia.nikkei.com/business/energy/wait-times-for-hitachi-energy-transformers-hit-more-than-30-months",
+      "analyse_detaillee": {
+        "thematique": "Surge de la demande d'énergie aux États-Unis et déficit des transformateurs",
+        "enjeux": "La demande d'énergie augmente fortement dans les centres de données, les usines, les énergies renouvelables et l'alimentation électrique des véhicules électriques. Les retards de livraison pour les transformeurs atteignent plus de 30 mois, provoquant une pénurie de matériels.",
+        "analyse": "Cette situation soulève des inquiétudes quant à la capacité des réseaux électriques américains à s'adapter aux besoins émergents en énergie. Les défis liés à l'alimentation en électricité pourraient se généraliser dans d'autres régions, en fonction de l'évolution des tendances énergétiques mondiales.",
+        "resume": "L'augmentation de la demande d'énergie aux États-Unis provoque un déficit de transformateurs, compromettant ainsi la sécurité et l'efficacité du réseau électrique."
+      }
+    },
+    {
+      "id": 598,
+      "titre": "China oil demand to approach peak this year, CNOOC economist says",
+      "auteur": "N/A",
+      "date": "2026/03/25",
+      "lien": "https://asia.nikkei.com/business/energy/china-oil-demand-to-approach-peak-this-year-cnooc-economist-says",
+      "analyse_detaillee": {
+        "thematique": "La demande en pétrole de la Chine pourrait atteindre son pic d'ici à fin 2023, selon un économiste de CNOOC",
+        "enjeux": "L'augmentation potentielle des prix du pétrole peut affecter les importations de pétrole de la Chine et potentiellement entraîner une instabilité sur le marché. La situation sécuritaire en mer de Chine, déjà tendue, risque d'être exacerbée par l'affrontement entre l'Iran et Israël.",
+        "analyse": "L'augmentation potentielle des prix du pétrole peut avoir un impact significatif sur les économies mondiales. Les importations de pétrole de la Chine sont déjà sous pression à cause d'un conflit en mer de Chine, et l'affrontement entre l'Iran et Israël pourrait aggraver la situation.",
+        "resume": "La demande chinoise en pétrole pourrait atteindre son pic dans les prochains mois. L'augmentation potentielle des prix du pétrole pourrait avoir un impact significatif sur les économies mondiales, notamment en raison de l'instabilité sécuritaire en mer de Chine."
+      }
+    },
+    {
+      "id": 600,
+      "titre": "UK solar sheets startup enters Japan with Tokyo Gas partnership",
+      "auteur": "N/A",
+      "date": "2026/03/25",
+      "lien": "https://asia.nikkei.com/business/energy/uk-solar-sheets-startup-enters-japan-with-tokyo-gas-partnership",
+      "analyse_detaillee": {
+        "thematique": "L'entrée en jeu japonais d'une startup britannique de panneaux solaires",
+        "enjeux": "Une startup britannique d'énergie solaire entre sur le marché japonais, attirée par les incitations gouvernementales pour adopter la nouvelle technologie. Cette entreprise propose des panneaux solaires ultralégers et flexibles qui peuvent être intégrés dans diverses applications.",
+        "analyse": "Cette entrée en jeu japonais peut avoir des implications importantes pour le marché mondial de l'énergie solaire, en particulier si la startup britannique réussit à réduire les coûts de production de ses panneaux solaires. Cela pourrait également stimuler la recherche et le développement de nouvelles technologies dans ce domaine.",
+        "resume": "Une startup britannique d'énergie solaire entre sur le marché japonais, attirée par les incitations gouvernementales pour adopter la nouvelle technologie."
+      }
+    },
+    {
+      "id": 602,
+      "titre": "Diesel supply woes begin to hit Australia's farmers and miners",
+      "auteur": "N/A",
+      "date": "2026/03/25",
+      "lien": "https://asia.nikkei.com/business/energy/diesel-supply-woes-begin-to-hit-australia-s-farmers-and-miners",
+      "analyse_detaillee": {
+        "thematique": "Prix des carburants et crise de distribution affectent les agriculteurs et les mineurs australiens",
+        "enjeux": "La crise de distribution de carburant due à la fermeture du détroit d'Hormuz pousse les prix à la hausse, obligeant les petits mineurs et agriculteurs à prendre des décisions difficiles sur la réduction de leurs opérations.",
+        "analyse": "Cette crise a d'importants implications pour l'économie australienne, car elle pourrait entraîner une diminution de la production et un impact négatif sur les exportations. Les industries qui dépendent fortement des carburants risquent également de subir des coûts supplémentaires.",
+        "resume": "La crise de distribution de carburant due à la fermeture du détroit d'Hormuz oblige les agriculteurs et les mineurs australiens à prendre des décisions difficiles pour surmonter la hausse des prix. Cette crise pourrait avoir des conséquences importantes pour l'économie australienne."
+      }
+    },
+    {
+      "id": 604,
+      "titre": "Bhutan's hydropower offers big draw for Japanese AI investment, says PM",
+      "auteur": "N/A",
+      "date": "2026/03/25",
+      "lien": "https://asia.nikkei.com/economy/bhutan-s-hydropower-offers-big-draw-for-japanese-ai-investment-says-pm",
+      "analyse_detaillee": {
+        "thematique": "Bhutan cherche à attirer davantage d'investissements japonais grâce à sa capacité hydraulique.",
+        "enjeux": "Le gouvernement bhoutanais travaille à développer la région administrative spéciale de Gelephu Mindfulness City. Bhutan souhaite également doubler le nombre de visiteurs du Japon pour diversifier son tourisme. L'investissement japonais en artificiel intelligemce est encouragé grâce aux capacités hydrauliques bhoutanaises.",
+        "analyse": "Cette stratégie pourrait avoir des implications importantes sur l'économie et la politique régionales, car elle implique une coopération accrue entre les deux pays. Bhutan espère également profiter de son tourisme diversifié pour atteindre un développement économique plus équilibré.",
+        "resume": "Bhutan cherche à augmenter ses investissements japonais grâce à son hydraulique et à développer son secteur du tourisme, en s'appuyant sur la région administrative spéciale de Gelephu Mindfulness City."
+      }
+    },
+    {
+      "id": 606,
+      "titre": "Philippines declares energy emergency as Middle East conflict grows",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/economy/philippines-declares-energy-emergency-as-middle-east-conflict-grows2",
+      "analyse_detaillee": {
+        "thematique": "Conflit au Moyen-Orient : Philippines en état d'urgence énergétique",
+        "enjeux": "La Philippine déclare l'état d'urgence énergétique suite aux tensions avec le Moyen-Orient, mettant en péril les approvisionnements en carburant et en électricité. Le président Ferdinand Marcos Jr. a qualifié ces risques de « danger imminent » pour la sécurité énergétique du pays. La décision vise à aider le gouvernement à gérer les conséquences du conflit sur l'économie philippine.",
+        "analyse": "Les tensions entre les Etats-Unis, Israël et l'Iran ont provoqué une hausse des prix du pétrole, ce qui menace la sécurité énergétique de plusieurs pays, notamment la Philippine. La déclaration d'état d'urgence énergétique permettra au gouvernement philippin de s'appuyer sur les mesures appropriées pour gérer les conséquences économiques du conflit. Cependant, cette décision soulève des inquiétudes quant à l'impact potentiel sur la croissance économique et la stabilité sociale dans le pays.",
+        "resume": "La Philippine déclare l'état d'urgence énergétique suite aux tensions avec le Moyen-Orient, visant à atténuer les conséquences économiques du conflit sur son approvisionnement en carburant et en électricité."
+      }
+    },
+    {
+      "id": 608,
+      "titre": "Singapore Airlines, Cathay add Europe flights as Iran war spurs demand",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/business/transportation/singapore-airlines-cathay-add-europe-flights-as-iran-war-spurs-demand2",
+      "analyse_detaillee": {
+        "thematique": "Les compagnies aériennes asiatiques renforcent leurs vols vers l'Europe en raison de la guerre en Iran.",
+        "enjeux": "Les guerres en Iran ont conduit à une diminution des vols entre l'Europe et le Moyen-Orient, ce qui pousse les compagnies aériennes asiatiques à occuper ce vide. Singapour Airlines et Cathay Pacific sont parmi les acteurs de cette course pour occuper les vides laissés par les compagnies moyen-orientales.",
+        "analyse": "Les guerres en Iran ont créé un réel défi pour l'industrie aérienne, avec des impacts sur les coûts de carburant, les tarifs et les disponibilités. Les compagnies aériennes asiatiques se sont retrouvées confrontées à une opportunité de remplacement mais également face aux risques d'une instabilité géopolitique qui pourrait affecter le trafic aérien.",
+        "resume": "Les guerres en Iran ont provoqué un bouleversement dans l'industrie aérienne, avec les compagnies aériennes asiatiques répondant à la demande de vols vers l'Europe. Cependant, cette réaction aux changements géopolitiques soulève également des questions sur la stabilité future du trafic aérien."
+      }
+    },
+    {
+      "id": 612,
+      "titre": "LPG shortage hits Cambodian public transport, households",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/lpg-shortage-hits-cambodian-public-transport-households",
+      "analyse_detaillee": {
+        "thematique": "Manque de GPL : Les prix flambent et la rareté provoquent des demandes d'aide gouvernementale",
+        "enjeux": "Les vendeurs de GPL en Cambodge signalent une augmentation des prix et des pénuries suite à l'annonce d'un fournisseur local selon lequel il cesserait ses ventes à partir du 1er avril, aggravant la panique sur la disponibilité du carburant dans un pays entièrement dépendant de l'importation.",
+        "analyse": "Ces développements soulèvent des inquiétudes quant à la capacité de la Cambodge à répondre aux besoins énergétiques, essentiels à son économie et au bien-être des citoyens. Les conséquences potentielles d'une pénurie prolongée de GPL pourraient être graves, allant du recul de l'activité économique jusqu'à l'impact sur la sécurité alimentaire.",
+        "resume": "Les tensions se montrent encore plus vives dans le monde des hydrocarbures en raison du manque de GPL en Cambodge, exacerbant les inquiétudes quant à la capacité de ce pays à maintenir un fonctionnement économique normal."
+      }
+    },
+    {
+      "id": 614,
+      "titre": "Bangkok motor show underscores EV demand as oil crunch deepens",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/business/automobiles/electric-vehicles/bangkok-motor-show-underscores-ev-demand-as-oil-crunch-deepens",
+      "analyse_detaillee": {
+        "thematique": "Démarche de promotion des véhicules électriques en Thaïlande",
+        "enjeux": "Les fabricants automobiles, notamment ceux venus de Chine et du Japon, se tournent vers la production de véhicules électriques pour répondre à la demande croissante en Thaïlande, qui peine à faire face à une pénurie d'essence due aux hausses des prix de l'huile",
+        "analyse": "Cette tendance pourrait avoir des implications importantes sur les marchés mondiaux du secteur automobile, notamment en ce qui concerne la substitution progressive des véhicules à essence par les véhicules électriques, et sur le plan géopolitique, avec la domination croissante de Chine dans cette industrie.",
+        "resume": "La Thaïlande fait face à une pénurie d'essence due aux hausses des prix de l'huile, les fabricants automobiles se tournent vers la production de véhicules électriques."
+      }
+    },
+    {
+      "id": 616,
+      "titre": "Strait of Hormuz blockage raises Japan fears over South China sea shipping",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/business/energy/strait-of-hormuz-blockage-raises-japan-fears-over-south-china-sea-shipping",
+      "analyse_detaillee": {
+        "thematique": "La fermeture partielle du détroit d'Hormuz suscite des inquiétudes en matière de sécurité énergétique au Japon",
+        "enjeux": "Le Japon craint que la réduction de capacité de transport par le détroit d'Hormuz ne fasse augmenter les risques pour l'approvisionnement de ses importations d'énergie via la mer de Chine méridionale.",
+        "analyse": "Cette préoccupation pourrait potentiellement conduire au développement de nouvelles routes maritimes ou à une diversification des approvisionnements énergétiques du Japon, afin de réduire sa dépendance aux itinéraires par le détroit d'Hormuz.",
+        "resume": "Le blocage partiel du détroit d'Hormuz inquiète les responsables japonais en matière d'approvisionnement énergétique."
+      }
+    },
+    {
+      "id": 618,
+      "titre": "Oil prices plunge after Trump says US, Iran discussing deal to end hostilities",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/oil-prices-plunge-after-trump-says-us-iran-discussing-deal-to-end-hostilities",
+      "analyse_detaillee": {
+        "thematique": "Prix du pétrole plongent après que Trump a indiqué qu'il y avait des discussions entre les États-Unis et l'Iran pour mettre fin aux hostilités.",
+        "enjeux": "Le prix du baril de Brent est tombé à 10,9 % à 99,94 dollars tandis que le West Texas Intermediate s'est effondré de 10,3 % à 88,13 dollars. Des milliers de Philippines transporteurs seront en grève pour protester contre les hausses des prix du carburant.",
+        "analyse": "Cette crise dans le Moyen-Orient est pire que les deux chocs pétroliers de la décennie 1970 combinés. L'implication des banques centrales comme la Réserve fédérale en cas d'inflation due à la guerre avec l'Iran risque d'être un sujet très sensible.",
+        "resume": "Le prix du baril de Brent a chuté et les marchés pétroliers sont en crise, alors que Trump déclare qu'il y a des discussions entre l'Iran et les États-Unis pour mettre fin aux hostilités."
+      }
+    },
+    {
+      "id": 620,
+      "titre": "Hormuz closure squeezes Japan's factories, transport providers",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/hormuz-closure-squeezes-japan-s-factories-transport-providers",
+      "analyse_detaillee": {
+        "thematique": "Impact de la fermeture de l'Ecoulement d'Hormuz sur l'industrie japonaise",
+        "enjeux": "Des entreprises japonaises, notamment des usines et des transporteurs, rencontrent des difficultés à procurer du carburant en raison de la fermeture du détroit d'Hormuz. Le Japon se tourne vers ses réserves pour répondre aux besoins énergétiques.",
+        "analyse": "Cette crise énergétique met en lumière les vulnérabilités de l'économie japonaise et souligne l'importance de diversifier les sources d'énergie. Les entreprises doivent s'adapter rapidement à cette situation pour éviter des dommages importants.",
+        "resume": "La fermeture du détroit d'Hormuz a un impact significatif sur l'industrie japonaise, mettant en lumière la nécessité de diversification énergétique et de préparation aux perturbations."
+      }
+    },
+    {
+      "id": 622,
+      "titre": "Japan needs stable supply of Alaska crude, trade association head says",
+      "auteur": "N/A",
+      "date": "2026/03/24",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/japan-needs-stable-supply-of-alaska-crude-trade-association-head-says",
+      "analyse_detaillee": {
+        "thematique": "Crisse économique et énergétique au Moyen-Orient",
+        "enjeux": "La crise économique et énergétique au Moyen-Orient pèse sur le Japon, qui cherche à se diversifier sa source d'approvisionnement en pétrole. Alors que les tensions avec l'Iran agacent la chaîne d'approvisionnement, Tokyo donne la priorité à une stabilité de l'approvisionnement en provenance de l'Alaska, ce qui offrirait des avantages techniques mais aussi une arrivée anticipée du pétrole",
+        "analyse": "La situation géopolitique au Moyen-Orient agace les plans de diversification énergétique de Tokyo. Alors que la tension avec l'Iran est à son comble, le Japon cherche à sécuriser sa chaîne d'approvisionnement en pétrole et fait confiance au pétrole provenant de l'Alaska.",
+        "resume": "Crisse économique et énergétique: le Japon se tourne vers la diversification."
+      }
+    },
+    {
+      "id": 624,
+      "titre": "Japan stocks plunge as threats escalate between US and Iran",
+      "auteur": "N/A",
+      "date": "2026/03/23",
+      "lien": "https://asia.nikkei.com/business/markets/equities/japan-stocks-plunge-as-threats-escalate-between-us-and-iran",
+      "analyse_detaillee": {
+        "thematique": "Conflit entre Etats-Unis et Iran",
+        "enjeux": "La guerre avec l'Iran se poursuit sans signe de fin, provoquant des perturbations dans la fourniture d'énergie à l'échelle mondiale.",
+        "analyse": "L'escalade des menaces entraîne une peur du marché qui se traduit par une chute des actions nipponnes.",
+        "resume": "Les marchés boursiers asiatiques plongent, tandis que les tensions entre Etats-Unis et Iran persistent."
+      }
+    },
+    {
+      "id": 626,
+      "titre": "Nuclear free' Taiwan eyes step toward restarting reactors",
+      "auteur": "N/A",
+      "date": "2026/03/23",
+      "lien": "https://asia.nikkei.com/business/energy/nuclear-free-taiwan-eyes-step-toward-restarting-reactors",
+      "analyse_detaillee": {
+        "thematique": "Nouvelle évaluation des centrales nucléaires taiwanaises.",
+        "enjeux": "L'administration Lai envisage de relancer les vieilles centrales d'énergie. La revivification de ces anciennes unités pourrait prendre jusqu'à deux ans, selon Taiwan Power. Dans l'intervalle, l'affaire suscite des discussions sur le potentiel de cette décision.",
+        "analyse": "Le réamorçage des centrales nucléaires est une action qui pourrait influencer les échanges et la production d'énergie dans la région. Cette stratégie pourrait contribuer au développement de l'industrie nucléaire, tout en étant examinée attentivement par divers acteurs du secteur.",
+        "resume": "L'évaluation des centrales nucléaires taiwanaises est une décision cruciale qui devrait être suivie avec attention. Le réamorçage de ces anciennes unités pourrait avoir un impact significatif sur le marché de l'énergie et sur la politique énergétique régionale."
+      }
+    },
+    {
+      "id": 628,
+      "titre": "QatarEnergy: Missile attacks spur $20 billion loss with drop in LNG exports",
+      "auteur": "N/A",
+      "date": "2026/03/23",
+      "lien": "https://www.offshore-energy.biz/qatarenergy-missile-attacks-spur-20-billion-loss-with-drop-in-lng-exports/",
+      "analyse_detaillee": {
+        "thematique": "LNG",
+        "enjeux": "Des missiles ont ciblé les installations de QatarEnergy, provoquant une diminution de 17 % des capacités d'exportation du gaz naturel liquéfié (GNL) et entraînant une perte estimée à 20 milliards de dollars.",
+        "analyse": "Les attaques auraient un impact significatif sur l'économie qatarie et la sécurité énergétique mondiale, nécessitant des efforts importants pour les réparations.",
+        "resume": "Des missiles ont ciblé les installations de QatarEnergy, entraînant une perte estimée à 20 milliards de dollars."
+      }
+    },
+    {
+      "id": 630,
+      "titre": "$4 billion LNG lawsuit going ahead as arbitration starts",
+      "auteur": "N/A",
+      "date": "2026/03/23",
+      "lien": "https://www.offshore-energy.biz/4-billion-lng-lawsuit-going-ahead-as-arbitration-starts/",
+      "analyse_detaillee": {
+        "thematique": "L'influence de la Chine en Afrique",
+        "enjeux": "La Chine développe sa présence économique et politique en Afrique, ce qui suscite des inquiétudes quant à ses intentions véritables. Les pays africains ont également accès à des investissements importants, mais les termes des prêts chinois sont souvent critiqués pour leur rigidité et leurs coûts élevés.",
+        "analyse": "L'influence de la Chine en Afrique soulève des inquiétudes quant aux risques potentiels d'endettement, mais également à l'accès à de nouveaux marchés et technologies. Les pays africains doivent donc trouver un équilibre entre leurs besoins économiques et les limites de leur souveraineté.",
+        "resume": "La présence chinoise en Afrique est marquée par des opportunités économiques, mais également par des risques d'endettement et d'influence politique."
+      }
+    },
+    {
+      "id": 634,
+      "titre": "Kiewit on module fabrication duty for Lone Star State’s $5.7 billion LNG project",
+      "auteur": "N/A",
+      "date": "2026/03/23",
+      "lien": "https://www.offshore-energy.biz/kiewit-on-module-fabrication-duty-for-lone-star-states-5-7-billion-lng-project/",
+      "analyse_detaillee": {
+        "thematique": "La situation géopolitique en Europe",
+        "enjeux": "Le rapprochement entre la Russie et la Chine suscite des inquiétudes en Europe, où les pays sont divisés sur la manière de répondre à ce changement. Les tensions avec l'Ukraine et la crise de l'énergie ajoutent à l'inquiétude. Les implications de ce rapprochement pour le maintien de la stabilité internationale sont encore mal comprises.",
+        "analyse": "La montée en puissance de la Russie et de la Chine remet en question les équilibres de pouvoir traditionnels en Europe. Le risque d'un conflit armé avec l'Ukraine est réel, ce qui pourrait déstabiliser l'économie mondiale. Les implications pour le commerce et les relations internationales sont considérables.",
+        "resume": "Le rapprochement entre la Russie et la Chine pose des défis majeurs aux pays européens, qui doivent trouver une réponse commune face à ces nouvelles tensions géopolitiques."
+      }
+    },
+    {
+      "id": 638,
+      "titre": "Asia hit with fastest rise in crude prices as Middle East supply shrinks",
+      "auteur": "N/A",
+      "date": "2026/03/22",
+      "lien": "https://asia.nikkei.com/spotlight/iran-tensions/asia-hit-with-fastest-rise-in-crude-prices-as-middle-east-supply-shrinks",
+      "analyse_detaillee": {
+        "thematique": "Prix du pétrole en Asie",
+        "enjeux": "La guerre entre l'Iran et les États-Unis a provoqué une augmentation des prix du pétrole en Asie, notamment au Moyen-Orient. Le Japon est particulièrement touché car il dépend de la région pour 90% de ses importations. Les pays se disputent les réserves de pétrole qui diminuent.",
+        "analyse": "Cette situation pourrait avoir des conséquences importantes sur l'économie mondiale et les relations internationales, notamment entre le Japon et les États-Unis. La dépendance du Japon au Moyen-Orient rend son économie sensible à toute modification de la situation géopolitique.",
+        "resume": "La guerre en Iran a entraîné une augmentation des prix du pétrole en Asie, mettant en lumière les risques d'une dépendance croissante."
+      }
+    },
+    {
+      "id": 640,
+      "titre": "CATL, BYD join over 100 China firms in perovskite solar cell race",
+      "auteur": "N/A",
+      "date": "2026/03/22",
+      "lien": "https://asia.nikkei.com/business/business-trends/catl-byd-join-over-100-china-firms-in-perovskite-solar-cell-race",
+      "analyse_detaillee": {
+        "thematique": "Technologie solaire perovskite : concurrence en Chine",
+        "enjeux": "Plus d'une centaine d'entreprises chinoises, y compris CATL et BYD, s'affrontent pour mass-produire des panneaux solaires à base de perovskites. Ce nouveau marché promet une grande efficacité énergétique mais suscite également des inquiétudes sur la concurrence intense.",
+        "analyse": "Cette course aux armements pourrait conduire à une augmentation des investissements dans la recherche et le développement, entraînant ainsi de nouveaux progrès technologiques. Cependant, elle pourrait également entraîner une baisse des prix, mettant ainsi certaines entreprises en difficulté.",
+        "resume": "La Chine voit s'intensifier la concurrence autour de la production de panneaux solaires perovskites, avec CATL et BYD parmi les principaux acteurs."
+      }
+    },
+    {
+      "id": 642,
+      "titre": "Britain needs China to help build clean tech, says UK renewables CEO",
+      "auteur": "N/A",
+      "date": "2026/03/22",
+      "lien": "https://asia.nikkei.com/business/energy/britain-needs-china-to-help-build-clean-tech-says-uk-renewables-ceo",
+      "analyse_detaillee": {
+        "thematique": "Énergie et coopération entre le Royaume-Uni et la Chine",
+        "enjeux": "Le CEO d&#39;Octopus Energy, Greg Jackson, soutient que la technologie chinoise dans l&#39;énergie propre est la meilleure au monde et que le Royaume-Uni risque de tomber en arrière s&#39;il ne travaille pas avec la Chine. Il cite également les tensions avec l&#39;Iran comme preuve de la nécessité d&#39;élargir ses relations avec d&#39;autres pays pour diversifier sa production et réduire son dépendance à des sources d&#39;énergie contrôlées.",
+        "analyse": "Cette coopération a des implications importantes, notamment en termes de sécurité énergétique. Si le Royaume-Uni peut bénéficier des avancées technologiques chinoises dans l'énergie propre, cela pourrait également lui donner accès à des sources d'énergie plus fiables et moins sujettes aux fluctuations du marché. Cela nécessite une gestion prudente de la part du gouvernement britannique afin de garantir que les avantages de cette coopération sont partagés équitablement entre le Royaume-Uni et la Chine.",
+        "resume": "Le CEO d&#39;Octopus Energy soutient que la technologie chinoise dans l&#39;énergie propre est la meilleure au monde et que le Royaume-Uni doit travailler avec la Chine pour ne pas tomber en arrière. Cette coopération a des implications importantes pour la sécurité énergétique du Royaume-Uni."
+      }
+    }
+  ]
+}

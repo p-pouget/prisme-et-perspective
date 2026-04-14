@@ -1,0 +1,234 @@
+---
+export async function getStaticPaths() {
+  const modules = import.meta.glob("../../data/prisme-energie/*.json", {
+    eager: true,
+  });
+  const allData: any[] = Object.values(modules);
+
+  return allData.map((item) => ({
+    params: {
+      id: item.metadata.generation_date.replace(/[^\w]/g, ""),
+    },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+const articles = item.base_de_donnees_articles;
+---
+
+<!doctype html>
+<html lang="fr" class="bg-zinc-950">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archive : {item.editorial.header_blog.titre_editorial}</title>
+    <style>
+      @import "tailwindcss";
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #09090b;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #27272a;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #f97316;
+      }
+    </style>
+  </head>
+
+  <body class="text-zinc-300 antialiased selection:bg-orange-500/30">
+    <nav
+      class="fixed top-0 left-0 w-full z-50 bg-zinc-950/80 backdrop-blur-lg border-b border-white/5 px-6 py-4"
+    >
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <div class="h-2 w-2 rounded-full bg-orange-500 animate-pulse"></div>
+          <span
+            class="text-[10px] font-black uppercase tracking-[0.3em] text-white"
+            >Articles indexés et analysés</span
+          >
+        </div>
+
+        <button
+          onclick="window.close()"
+          class="group flex items-center gap-3 px-4 py-2 bg-white/5 border border-white/10 rounded-full hover:bg-orange-500 hover:border-orange-500 transition-all duration-300"
+        >
+          <span
+            class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 group-hover:text-white"
+            >Fermer le rapport</span
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2.5"
+              d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto pt-32 pb-24 px-6 space-y-24">
+      <header class="space-y-8 border-b border-white/10 pb-16">
+        <div class="space-y-4">
+          <h4 class="text-white text-3xl md:text-5xl tracking-tighter mb-4">
+            {item.editorial.header_blog.titre_editorial}
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed font-light italic">
+            <span class="text-orange-500/50 text-2xl font-serif mr-1"> “ </span>
+            {item.editorial.header_blog.accroche}
+            <span class="text-orange-500/50 text-2xl font-serif ml-1"> ” </span>
+          </p>
+        </div>
+
+        <div class="flex flex-wrap gap-8 pt-6">
+          <div class="space-y-1">
+            <p
+              class="text-[9px] font-black uppercase tracking-widest text-orange-500"
+            >
+              Date d'émission
+            </p>
+            <p class="text-white font-mono text-sm">
+              {
+                new Date(item.metadata.generation_date).toLocaleDateString(
+                  "fr-FR",
+                )
+              }
+            </p>
+          </div>
+          <div class="space-y-1 border-l border-white/10 pl-8">
+            <p
+              class="text-[9px] font-black uppercase tracking-widest text-orange-500"
+            >
+              Volume Data
+            </p>
+            <p class="text-white font-mono text-sm">
+              {item.metadata.nombre_articles_uniques} Entrées analysées
+            </p>
+          </div>
+          <div class="space-y-1 border-l border-white/10 pl-8">
+            <p
+              class="text-[9px] font-black uppercase tracking-widest text-orange-500"
+            >
+              Niveau de Tension
+            </p>
+            <p class="text-white font-mono text-sm uppercase">
+              {item.editorial.indice_de_tension}
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <div class="space-y-12">
+        {
+          articles.map((article: any) => (
+            <article class="relative group bg-zinc-900/30 border border-white/5 rounded-3xl overflow-hidden hover:border-orange-500/30 transition-all duration-500 shadow-2xl">
+              <div class="absolute right-4 -bottom-10 text-white/[0.02] font-black text-[120px] md:text-[180px] pointer-events-none select-none leading-none group-hover:text-orange-500/[0.04] transition-colors duration-700">
+                {article.id}
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+                <div class="md:col-span-4 p-8 bg-black/20 border-b md:border-b-0 md:border-r border-white/5 space-y-8 relative z-10">
+                  <div class="space-y-2">
+                    <div class="flex items-center gap-2 text-orange-500 font-black text-xs uppercase tracking-tighter">
+                      <span>Article n°-{article.id}</span>
+                      <div class="h-px w-8 bg-orange-500/30" />
+                    </div>
+                    <p class="text-zinc-500 text-xs font-bold uppercase tracking-widest">
+                      {article.date}
+                    </p>
+                  </div>
+
+                  <div class="space-y-6">
+                    <div class="space-y-2">
+                      <h4 class="text-white text-sm font-black uppercase tracking-widest border-b border-white/10 pb-2">
+                        Thématique
+                      </h4>
+                      <p class="text-zinc-400 text-sm leading-relaxed">
+                        {article.analyse_detaillee.thematique}
+                      </p>
+                    </div>
+
+                    <div class="space-y-2">
+                      <h4 class="text-white text-sm font-black uppercase tracking-widest border-b border-white/10 pb-2">
+                        Enjeux Stratégiques
+                      </h4>
+                      <p class="text-zinc-400 text-sm leading-relaxed font-medium italic">
+                        {article.analyse_detaillee.enjeux}
+                      </p>
+                    </div>
+
+                    <a
+                      href={article.lien}
+                      target="_blank"
+                      class="inline-flex w-full justify-center items-center gap-2 py-3 px-4 rounded-xl bg-white/5 border border-white/10 text-white text-xs font-black uppercase hover:bg-orange-500 hover:border-orange-500 transition-all duration-300"
+                    >
+                      Accéder au flux d'origine
+                    </a>
+                  </div>
+                </div>
+
+                <div class="md:col-span-8 p-8 md:p-10 space-y-8 relative z-10">
+                  <h2 class="text-white text-2xl md:text-4xl font-black tracking-tight leading-tight group-hover:text-orange-500 transition-colors duration-500">
+                    {article.titre}
+                  </h2>
+
+                  <div class="space-y-8">
+                    <div class="p-6 rounded-2xl bg-orange-500/[0.03] border border-orange-500/10 border-l-4 border-l-orange-500 relative overflow-hidden group-hover:bg-orange-500/[0.05] transition-colors">
+                      <p class="text-zinc-200 italic text-sm md:text-base leading-relaxed relative z-10">
+                        "{article.analyse_detaillee.resume}"
+                      </p>
+                      <div class="mt-4 flex items-center gap-2">
+                        <span class="h-px w-4 bg-orange-500/50" />
+                        <p class="text-orange-500/70 text-sm font-black uppercase tracking-[0.2em]">
+                          Synthèse IA
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <h4 class="text-white text-sm font-black uppercase tracking-widest border-b border-white/10 pb-2">
+                    L'analyse
+                  </h4>
+                  <div class="text-zinc-300 text-sm md:text-base leading-relaxed font-light">
+                    <p>{article.analyse_detaillee.analyse}</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+
+      <footer
+        class="pt-32 pb-12 flex flex-col items-center gap-8 border-t border-white/5 text-center"
+      >
+        <div
+          class="h-1 w-24 bg-gradient-to-r from-transparent via-orange-500 to-transparent"
+        >
+        </div>
+        <div class="space-y-2">
+          <p class="text-white font-black text-xs uppercase tracking-[0.5em]">
+            Prisme Énergie - Rapport Finalisé
+          </p>
+          <p class="text-zinc-600 text-[10px] uppercase tracking-widest italic">
+            Confidentiel - Usage Interne
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
