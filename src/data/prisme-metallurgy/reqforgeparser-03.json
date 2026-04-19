@@ -1,0 +1,125 @@
+{
+  "title": {
+    "file": "reqforgeparser-03.json",
+    "metadata": {
+      "date_edition" : "2026-04-19",
+      "nom_source": "NIST (National Institute of Standards and Technology)",
+      "lien_source": "https://www.nist.gov/publications/search?ta%5B0%5D=248946",
+      "description": "Le NIST est une agence américaine dont la mission est de promouvoir l'innovation en faisant progresser la métrologie et les normes. Ses publications couvrent des recherches fondamentales sur la physique du solide et les essais mécaniques. C'est une source critique pour les données fiables sur les standards de matériaux industriels.",
+      "objectif_extraction": "Extraire et structurer les métadonnées techniques des publications scientifiques pour identifier les innovations majeures en science des matériaux. Le système doit synthétiser le contenu de chaque article et évaluer de manière binaire sa pertinence pour la métallurgie (propriétés des métaux et alliages) et son potentiel d'application ou d'innovation pour l'industrie aéronautique (matériaux légers, résistance thermique, maintenance). L'extraction vise une transformation rigoureuse du contenu textuel en données exploitables pour une plateforme de veille automatisée."
+    }
+  },
+
+"articles": [
+{
+"nom_article": "Product Differentiation and Consumer Preferences for Non-market Product Attributes: A Literature Review",
+"lien_article": "https://www.nist.gov/publications/product-differentiation-and-consumer-preferences-non-market-product-attributes",
+"resume": "Une revue de la littérature examinant comment les consommateurs perçoivent les attributs de produits difficiles à évaluer sans information explicite. L'étude aide les producteurs à prendre des décisions de production plus éclairées basées sur ces préférences non-marchandes.",
+"domaine_traite": "Économie de la consommation",
+"date_article": "2026-03-25",
+"pertinence_metallurgie": false,
+"application_aeronautique": false,
+"interet_industrie_aero": false
+},
+{
+"nom_article": "Dynamic Embedding Representation for Graph Neural Networks to Enhance Materials Property Prediction with Limited Datasets",
+"lien_article": "https://www.nist.gov/publications/dynamic-embedding-representation-graph-neural-networks-enhance-materials-property",
+"resume": "Présentation d'une méthode d'intégration graphique dynamique pour les réseaux de neurones (GNN) visant à améliorer la prédiction des propriétés des matériaux. Cette approche est particulièrement efficace lorsqu'on travaille avec des jeux de données restreints.",
+"domaine_traite": "Intelligence Artificielle / Science des Matériaux",
+"date_article": "2026-03-24",
+"pertinence_metallurgie": true,
+"application_aeronautique": true,
+"interet_industrie_aero": true
+},
+{
+"nom_article": "Studies Of Water Films and Carbonation Via Neutron Scattering and Infrared Adsorption: In Situ Studies of Mg(OH)2 and Ca(OH)2",
+"lien_article": "https://www.nist.gov/publications/studies-water-films-and-carbonation-neutron-scattering-and-infrared-adsorption-situ",
+"resume": "Utilisation de la diffusion de neutrons aux petits angles pour étudier l'évolution structurelle lors de la carbonatation de l'hydroxyde de calcium et de magnésium. L'étude analyse l'impact de l'humidité sur les structures à l'échelle nano et méso.",
+"domaine_traite": "Chimie minérale / Cristallographie",
+"date_article": "2026-03-24",
+"pertinence_metallurgie": false,
+"application_aeronautique": false,
+"interet_industrie_aero": false
+},
+{
+"nom_article": "Spin excitation continuum from degenerate states in the mixed ferro-antiferromagnetic exchange system CeMgAl11O19",
+"lien_article": "https://www.nist.gov/publications/spin-excitation-continuum-degenerate-states-mixed-ferro-antiferromagnetic-exchange",
+"resume": "Recherche sur les ondes de spin et les quasi-particules élémentaires dans les isolants magnétiquement ordonnés via la diffusion inélastique de neutrons. L'étude se concentre sur le système d'échange mixte CeMgAl11O19.",
+"domaine_traite": "Physique du solide / Magnétisme",
+"date_article": "2026-03-06",
+"pertinence_metallurgie": true,
+"application_aeronautique": false,
+"interet_industrie_aero": false
+},
+{
+"nom_article": "Computational dielectric spectroscopy shows that water/methanol mixtures form hybrid hydrogen bonding networks",
+"lien_article": "https://www.nist.gov/publications/computational-dielectric-spectroscopy-shows-watermethanol-mixtures-form-hybrid-hydrogen",
+"resume": "Analyse par spectroscopie diélectrique computationnelle des réseaux de liaisons hydrogène hybrides formés par les mélanges eau/méthanol.",
+"domaine_traite": "Chimie physique / Spectroscopie",
+"date_article": "2026-03-02",
+"pertinence_metallurgie": false,
+"application_aeronautique": false,
+"interet_industrie_aero": false
+},
+{
+"nom_article": "Influence of Ligament Size and Corresponding Tolerances on the Results of Charpy Impact Tests",
+"lien_article": "https://www.nist.gov/publications/influence-ligament-size-and-corresponding-tolerances-results-charpy-impact-tests",
+"resume": "Étude comparative des normes internationales (ASTM vs ISO) concernant les tolérances de longueur du ligament des éprouvettes Charpy. L'article analyse comment ces variations influencent les mesures de résilience des matériaux.",
+"domaine_traite": "Essais mécaniques / Métallurgie",
+"date_article": "2026-03-01",
+"pertinence_metallurgie": true,
+"application_aeronautique": true,
+"interet_industrie_aero": true
+},
+{
+"nom_article": "The Dynamic Polymer Annotated Library: An automated approach to curating materials science literature",
+"lien_article": "https://www.nist.gov/publications/dynamic-polymer-annotated-library-automated-approach-curating-materials-science",
+"resume": "Présentation d'un outil automatisé pour l'extraction et la conservation de données issues de la littérature scientifique sur les polymères. Le but est de faciliter l'identification de tendances et l'entraînement de modèles d'IA.",
+"domaine_traite": "Informatique des matériaux / Polymères",
+"date_article": "2026-02-25",
+"pertinence_metallurgie": false,
+"application_aeronautique": true,
+"interet_industrie_aero": true
+},
+{
+"nom_article": "Surface-State-Driven Anomalous Hall Effect in Altermagnetic MnTe Films",
+"lien_article": "https://www.nist.gov/publications/surface-state-driven-anomalous-hall-effect-altermagnetic-mnte-films",
+"resume": "Travaux sur les films minces de MnTe (MnTe) produits par épitaxie par jets moléculaires pour explorer les propriétés des altermagnétiques. L'étude met en évidence l'effet Hall anomal piloté par les états de surface.",
+"domaine_traite": "Physique des couches minces / Magnétisme",
+"date_article": "2026-02-10",
+"pertinence_metallurgie": true,
+"application_aeronautique": false,
+"interet_industrie_aero": false
+},
+{
+"nom_article": "CHIPS-TB: Evaluating Tight-Binding Models for Metals, Semiconductors, and Insulators",
+"lien_article": "https://www.nist.gov/publications/chips-tb-evaluating-tight-binding-models-metals-semiconductors-and-insulators",
+"resume": "Évaluation des modèles de liaisons fortes pour prédire les propriétés des métaux et semi-conducteurs. Cette approche semi-empirique est cruciale pour le développement des technologies à l'échelle nanométrique.",
+"domaine_traite": "Physique du solide / Modélisation",
+"date_article": "2026-02-04",
+"pertinence_metallurgie": true,
+"application_aeronautique": true,
+"interet_industrie_aero": true
+},
+{
+"nom_article": "Phase-Change Polymer-Metal Composites with Tunable Thermal Conductivity and Their Additive Manufacturing",
+"lien_article": "https://www.nist.gov/publications/phase-change-polymer-metal-composites-tunable-thermal-conductivity-and-their-additive",
+"resume": "Recherche sur des composites polymère-métal intégrant des particules à bas point de fusion pour la fabrication additive. Ces matériaux offrent une conductivité thermique ajustable grâce à la fusion réversible des particules métalliques.",
+"domaine_traite": "Fabrication additive / Matériaux composites",
+"date_article": "2026-02-03",
+"pertinence_metallurgie": true,
+"application_aeronautique": true,
+"interet_industrie_aero": true
+},
+{
+"nom_article": "Twin-related grain boundary engineering of additively manufactured 316L stainless steel",
+"lien_article": "https://www.nist.gov/publications/twin-related-grain-boundary-engineering-additively-manufactured-316l-stainless-steel",
+"resume": "Étude sur l'ingénierie des joints de grains dans l'acier inoxydable 316L produit par fabrication additive. L'incorporation de joints de macle vise à réduire la dégradation intergranulaire et la corrosion.",
+"domaine_traite": "Métallurgie physique / Fabrication additive",
+"date_article": "2025-12-01",
+"pertinence_metallurgie": true,
+"application_aeronautique": true,
+"interet_industrie_aero": true
+}
+]
+}

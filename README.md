@@ -1,5 +1,9 @@
 # Prisme et perspective
 
+**Déploiement :**
+
+[Prisme & Perspective sur Vercel](https://prisme-et-perspective.vercel.app/)
+
 ## Lab de Restitution - Architecture & Flux
 
 Interface d’exposition technique pour l’archivage de flux de données et la documentation d’architectures logicielles. Cette plateforme centralise les preuves techniques d'extractions, de manipulations de flux et de déploiements.

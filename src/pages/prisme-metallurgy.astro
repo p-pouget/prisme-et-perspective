@@ -1,0 +1,540 @@
+---
+import MainLayout from "../layouts/navprojectlayout.astro";
+// 1. Importe l'image
+import monWorkflow from "../assets/screen-prisme-metallurgy.jpg";
+import { Image } from "astro:assets";
+
+const modules = import.meta.glob("../data/prisme-metallurgy/*.json", {
+  eager: true,
+});
+const allData = Object.values(modules);
+---
+
+<MainLayout title="Projet-metallurgy">
+  <div slot="resultats-content" class="grid grid-cols-1 gap-6">
+    {
+      allData.map((item: any) => (
+        <div class="group border border-white/10 bg-zinc-900/50 rounded-xl overflow-hidden transition-all hover:border-orange-500/30">
+          <button class="w-full p-6 md:p-10 flex justify-between items-center text-left accordion-trigger group relative overflow-hidden transition-all duration-500 hover:bg-white/[0.02]">
+            <div class="absolute inset-0 bg-gradient-to-r from-orange-500/0 via-orange-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+
+            <div class="flex-1 relative z-10">
+              <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
+                <div class="flex flex-col md:items-start border-l border-white/10 pl-4">
+                  <span class="text-white text-sm font-bold uppercase tracking-[0.2em]">
+                    Source : {item.title.metadata.nom_source}
+                  </span>
+
+                  <a
+                    href={item.title.metadata.lien_source}
+                    target="_blank"
+                    class="text-orange-500 hover:text-orange-400 text-sm font-mono tracking-tighter transition-colors mt-1 underline decoration-orange-500/30 underline-offset-4"
+                  >
+                    {item.title.metadata.lien_source}
+                  </a>
+                </div>
+
+                <div class="flex flex-col md:items-end border-l md:border-l-0 md:border-r border-white/10 md:pr-6 pl-4 md:pl-0">
+                  <span class="text-zinc-500 text-[10px] uppercase tracking-[0.3em] mb-1">
+                    Édition du
+                  </span>
+                  <span class="text-white text-sm font-black uppercase tracking-[0.2em]">
+                    {item.title.metadata.date_edition}
+                  </span>
+                </div>
+              </div>
+
+              <h4 class="text-white text-3xl md:text-5xl tracking-tighter mb-4 uppercase">
+                Materials & Metallurgy
+              </h4>
+
+              <div class="max-w-4xl relative">
+                <p class="text-zinc-400 text-lg leading-relaxed font-light italic">
+                  <span class="text-orange-500/50 text-2xl font-serif mr-1">
+                    “
+                  </span>
+                  {item.title.metadata.description}
+                  <span class="text-orange-500/50 text-2xl font-serif ml-1">
+                    ”
+                  </span>
+                </p>
+                <p class="text-zinc-400 text-sm uppercase tracking-widest font-medium mt-6">
+                  <span class="text-orange-500 text-lg">&rarr;</span>
+                  {item.articles.length} Articles indexés et analysés par l'IA
+                </p>
+              </div>
+            </div>
+
+            <div class="ml-8 flex-shrink-0 relative">
+              <div class="p-3 rounded-full border border-white/10 group-hover:border-orange-500/50 transition-all duration-500 bg-zinc-900 shadow-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-zinc-500 group-hover:text-orange-500 arrow transition-transform duration-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </div>
+          </button>
+
+          <div class="max-h-0 overflow-hidden transition-all duration-700 ease-in-out accordion-content bg-gradient-to-b from-black/40 to-transparent">
+            <div class="p-6 md:p-8 pt-0 border-t border-white/5 space-y-12">
+              <section class="relative space-y-6">
+                <div class="flex items-center gap-4">
+                  <h5 class="text-orange-500 text-[10px] font-black uppercase tracking-[0.3em] whitespace-nowrap">
+                    Objectif Stratégique
+                  </h5>
+                  <div class="h-px w-full bg-gradient-to-r from-orange-500/50 to-transparent" />
+                </div>
+
+                <div class="relative p-8 rounded-2xl bg-white/[0.02] border border-white/10 shadow-2xl">
+                  <p class="text-zinc-200 text-xl md:text-2xl leading-relaxed font-light tracking-tight">
+                    {item.title.metadata.objectif_extraction}
+                  </p>
+                </div>
+              </section>
+
+              {/* LISTE DYNAMIQUE DES ARTICLES DU FICHIER */}
+              <section class="space-y-4">
+                <div class="flex items-center gap-4 mb-6">
+                  <h5 class="text-orange-500 text-[10px] font-black uppercase tracking-[0.3em] whitespace-nowrap">
+                    Index des Publications Scientifiques
+                  </h5>
+                  <div class="h-px w-full bg-gradient-to-r from-orange-500/50 to-transparent" />
+                </div>
+
+                <div class="flex flex-col gap-4">
+                  {item.articles.map((article: any, idx: number) => (
+                    <div class="flex flex-col md:flex-row items-stretch gap-6 p-6 rounded-xl bg-zinc-950 border border-white/5 hover:border-orange-500/30 transition-all shadow-lg group/card">
+                      <div class="flex-shrink-0 flex md:flex-col items-center justify-center border-r border-white/10 md:pr-6 pr-4">
+                        <span class="text-4xl md:text-5xl font-black text-white/5 tabular-nums leading-none block">
+                          {String(idx + 1).padStart(2, "0")}
+                        </span>
+                      </div>
+
+                      <div class="flex-1 space-y-4">
+                        <div class="space-y-2">
+                          <h6 class="text-white text-xl font-bold tracking-tight leading-tight group-hover/card:text-orange-500 transition-colors">
+                            {article.nom_article}
+                          </h6>
+                          <a
+                            href={article.lien_article}
+                            target="_blank"
+                            class="block text-zinc-500 hover:text-orange-400 text-xs font-mono truncate max-w-md transition-colors underline underline-offset-4 decoration-white/10"
+                          >
+                            {article.lien_article}
+                          </a>
+                        </div>
+
+                        <p class="text-zinc-400 text-lg leading-relaxed italic border-l border-orange-500/20 pl-4 py-1">
+                          "{article.resume}"
+                        </p>
+
+                        {/* ANALYSE DE PERTINENCE */}
+                        <div class="flex flex-wrap md:flex-nowrap gap-2 pt-2">
+                          <div
+                            class={`flex-1 flex items-center justify-between gap-4 p-2.5 rounded-lg border transition-colors ${article.pertinence_metallurgie ? "bg-orange-500/5 border-orange-500/20" : "bg-white/[0.02] border-white/5"}`}
+                          >
+                            <span class="text-xs uppercase font-black text-zinc-400 tracking-[0.1em] whitespace-nowrap">
+                              pertinence_metallurgie
+                            </span>
+                            <div class="flex items-center gap-2">
+                              <div
+                                class={`h-1.5 w-1.5 rounded-full ${article.pertinence_metallurgie ? "bg-orange-500 animate-pulse" : "bg-zinc-800"}`}
+                              />
+                              <span
+                                class={`text-xs font-mono font-bold ${article.pertinence_metallurgie ? "text-orange-500" : "text-zinc-700"}`}
+                              >
+                                {article.pertinence_metallurgie
+                                  ? "TRUE"
+                                  : "FALSE"}
+                              </span>
+                            </div>
+                          </div>
+
+                          <div
+                            class={`flex-1 flex items-center justify-between gap-4 p-2.5 rounded-lg border transition-colors ${article.application_aeronautique ? "bg-blue-500/5 border-blue-500/20" : "bg-white/[0.02] border-white/5"}`}
+                          >
+                            <span class="text-xs uppercase font-black text-zinc-400 tracking-[0.1em] whitespace-nowrap">
+                              application_aeronautique
+                            </span>
+                            <div class="flex items-center gap-2">
+                              <div
+                                class={`h-1.5 w-1.5 rounded-full ${article.application_aeronautique ? "bg-blue-400 animate-pulse" : "bg-zinc-800"}`}
+                              />
+                              <span
+                                class={`text-xs font-mono font-bold ${article.application_aeronautique ? "text-blue-400" : "text-zinc-700"}`}
+                              >
+                                {article.application_aeronautique
+                                  ? "TRUE"
+                                  : "FALSE"}
+                              </span>
+                            </div>
+                          </div>
+
+                          <div
+                            class={`flex-1 flex items-center justify-between gap-4 p-2.5 rounded-lg border transition-colors ${article.interet_industrie_aero ? "bg-emerald-500/5 border-emerald-500/20" : "bg-white/[0.02] border-white/5"}`}
+                          >
+                            <span class="text-xs uppercase font-black text-zinc-400 tracking-[0.1em] whitespace-nowrap">
+                              interet_industrie_aero
+                            </span>
+                            <div class="flex items-center gap-2">
+                              <div
+                                class={`h-1.5 w-1.5 rounded-full ${article.interet_industrie_aero ? "bg-emerald-500 animate-pulse" : "bg-zinc-800"}`}
+                              />
+                              <span
+                                class={`text-xs font-mono font-bold ${article.interet_industrie_aero ? "text-emerald-500" : "text-zinc-700"}`}
+                              >
+                                {article.interet_industrie_aero
+                                  ? "TRUE"
+                                  : "FALSE"}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Meta data footer */}
+                        <div class="pt-2 flex items-center gap-4 opacity-60">
+                          <span class="text-zinc-400 text-xs uppercase font-bold tracking-widest italic">
+                            {article.domaine_traite}
+                          </span>
+                          <span class="text-zinc-400 text-xs uppercase font-black tabular-nums">
+                            {article.date_article || "2026-XX-XX"}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              <div class="flex flex-col md:flex-row justify-between items-center gap-8 pt-8 border-t border-white/5">
+                <div class="flex items-center gap-4">
+                  <div class="h-1 w-12 bg-orange-500" />
+                  <p class="text-zinc-500 text-[11px] uppercase tracking-wider font-bold">
+                    Data Stream : {item.title.file}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+
+  <div slot="architecture-content" class="space-y-12">
+    <div class="max-w-3xl">
+      <h3
+        class="text-white font-semibold text-xl md:text-3xl uppercase tracking-tighter mb-4"
+      >
+        Logique de Flux
+      </h3>
+      <p class="text-zinc-400 text-lg leading-relaxed">
+        L’objectif de cet outil est d’offrir une boîte à outils micro-services
+        ultra-légère et souveraine pour le test d’API et l’extraction de données
+        structurées par IA. Le système privilégie une approche Privacy-First, où
+        chaque flux de données reste confiné à l'infrastructure locale de
+        l'utilisateur.
+      </p>
+    </div>
+
+    <div
+      class="relative space-y-8 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-orange-500 before:via-zinc-800 before:to-transparent"
+    >
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold shadow-[0_0_15px_rgba(249,115,22,0.3)] z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          01
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Le Noyau d'Orchestration (node-red & docker)
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Le projet repose sur un moteur Node-RED qui assure l’exécution de la
+            logique métier. Cette architecture conteneurisable ou non permet
+            isolation, portabilité et persistance des données via des volumes
+            mappés (/config), permettant de sauvegarder vos flux et clés d'API
+            sans base de données externe.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          02
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Capture des données (Web Scraping)
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Le système récupère le code source des sites cibles de manière
+            asynchrone. Avant tout traitement, le flux effectue un nettoyage
+            technique en limitant le contenu à 60 000 caractères, assurant ainsi
+            la compatibilité avec les limites de contexte des API de LLM.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          03
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-orange-500/[0.03] border border-orange-500/20 transition-all"
+        >
+          <h4
+            class="text-orange-500 font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Structuration par IA (Gemini Api)
+          </h4>
+          <div class="space-y-3">
+            <p class="text-zinc-400 text-lg leading-relaxed">
+              Le contenu est transmis à l'API Google Gemini. Un prompt
+              spécifique ordonne à l'IA d'extraire uniquement les informations
+              utiles pour les convertir en objets JSON. Ce format normalisé rend
+              les données immédiatement utilisables par d'autres scripts Python
+              ou des outils d'automatisation comme n8n.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          04
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Stockage local
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Les configurations (clés API, tokens, URLs de base) peuvent être
+            gérées localement via une interface dédiée et stockées directement
+            dans le fichier de configuration du moteur de flux.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mb-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl"
+    >
+      <Image
+        src={monWorkflow}
+        alt="Mon workflow Node-RED"
+        class="w-full h-auto rounded-xl"
+      />
+      <div
+        class="bg-zinc-900/80 p-3 text-sm text-zinc-500 italic text-center border-t border-white/5"
+      >
+        À gauche, l’orchestrateur de flux Node-RED gérant le pipeline ETL
+        (extraction, nettoyage et appel API). À droite, l’interface
+        ReqForgeParser.
+      </div>
+    </div>
+
+    <ul class="space-y-8 relative z-10"></ul>
+
+    <div class="pt-12">
+      <div class="flex items-center gap-3 mb-6">
+        <h4 class="text-white font-black uppercase text-lg tracking-[0.3em]">
+          🛠️ Stack Technique
+        </h4>
+        <div class="h-px flex-1 bg-white/5"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {
+          [
+            {
+              label: "Orchestration",
+              tech: "Node-RED",
+              role: "Moteur de flux et logique API",
+            },
+            {
+              label: "Infrastructure",
+              tech: "Docker",
+              role: "Conteneurisation et déploiement",
+            },
+
+            {
+              label: "IA Cloud",
+              tech: "Gemini Flash",
+              role: "Generation haute fidélité",
+            },
+          ].map((item) => (
+            <div class="p-4 rounded-xl bg-zinc-900/50 border border-white/5 flex flex-col gap-1">
+              <span class="text-orange-500 text-lg font-black uppercase tracking-widest">
+                {item.label}
+              </span>
+              <span class="text-white font-bold text-lg">{item.tech}</span>
+              <span class="text-zinc-500 text-lg leading-tight mt-1">
+                {item.role}
+              </span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="pt-12 border-t border-white/5">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </div>
+    <li class="mt-12 pt-8 border-t border-white/5">
+      <div class="flex items-center gap-3 mb-8">
+        <span
+          class="text-white font-semibold text-xl md:text-3xl uppercase tracking-tighter mb-4"
+          >Axes d'amélioration & Scalabilité</span
+        >
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-4">
+          <h5 class="text-white text-lg font-bold uppercase tracking-wider">
+            Sécurisation et Gestion des Secrets
+          </h5>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Implémentation d'un Vault local :</strong> Utiliser des variables
+                d'environnement Docker ou un fichier .env chiffré pour ne jamais manipuler
+                les clés en clair dans l'interface UI.</span
+              >
+            </li>
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Masquage des données sensibles :</strong> Ajouter une fonction
+                de masquage (obfuscation) dans la barre latérale pour que les clés
+                enregistrées ne soient pas visibles intégralement à l'écran, renforçant
+                la confidentialité lors de démonstrations.</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-4">
+          <h5 class="text-white text-lg font-bold uppercase tracking-wider">
+            Optimisation du Pipeline et Robustesse
+          </h5>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Gestion d'erreurs avancée :</strong> Ajouter des nœuds de
+                détection d'erreurs pour gérer automatiquement les échecs de l'API
+                Gemini (ex: dépassement de quota ou erreur 500) en réessayant la requête
+                après un court délai.</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+
+    <div class="mt-16 pt-8 border-t border-white/5">
+      <div class="p-6 rounded-2xl bg-zinc-900/30 border border-white/5">
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start gap-6"
+        >
+          <div
+            class="flex-shrink-0 w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 text-orange-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-white font-bold text-sm uppercase tracking-[0.2em]">
+              Note de conception & Collaboration
+            </h4>
+            <p class="text-zinc-400 text-sm leading-relaxed italic">
+              Si l'architecture globale, la logique et la stratégie de veille
+              sont de ma conception, j'ai utilisé l'assistance de modèles de
+              langage (IA) pour optimiser le développement, raffiner le code et
+              accélérer la mise en production. Une approche "Human-in-the-loop"
+              garantissant que l'outil reste au service d'une vision métier
+              précise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<script>
+  function initAccordion() {
+    const triggers = document.querySelectorAll(".accordion-trigger");
+
+    triggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        const content = trigger.nextElementSibling as HTMLElement | null;
+        const arrow = trigger.querySelector(".arrow") as HTMLElement | null;
+
+        if (!content || !arrow) return;
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = "";
+          arrow.style.transform = "rotate(0deg)";
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  }
+
+  initAccordion();
+  document.addEventListener("astro:after-swap", initAccordion);
+</script>

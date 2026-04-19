@@ -1,0 +1,74 @@
+{
+  "title": {
+    "file": "reqforgeparser-01.json",
+    "metadata": {
+      "date_edition" : "2026-04-19",
+      "nom_source": "ArXiv (Condensed Matter / Materials Science)",
+      "lien_source": "https://arxiv.org/list/cond-mat.mtrl-sci/recent",
+      "description": "ArXiv est une archive de prépublications électroniques d'articles scientifiques spécialisée dans la physique, les mathématiques et l'informatique. Elle permet aux chercheurs de partager leurs travaux avant une publication formelle. Cette section se concentre sur les propriétés physiques et structurelles des matériaux.",
+      "objectif_extraction": "Extraire et structurer les métadonnées techniques des publications scientifiques pour identifier les innovations majeures en science des matériaux. Le système doit synthétiser le contenu de chaque article et évaluer de manière binaire sa pertinence pour la métallurgie (propriétés des métaux et alliages) et son potentiel d'application ou d'innovation pour l'industrie aéronautique (matériaux légers, résistance thermique, maintenance). L'extraction vise une transformation rigoureuse du contenu textuel en données exploitables pour une plateforme de veille automatisée."    }
+  },
+  
+  "articles": [
+    {
+      "nom_article": "Optimal spin-qubit hallmarks of sulfur-vacancy defects in 4H-SiC: Design from first principles",
+      "lien_article": "https://arxiv.org/abs/2604.15175",
+      "resume": "Cette étude utilise des calculs de premiers principes pour concevoir et identifier les caractéristiques optimales des qubits de spin basés sur des défauts de lacunes de soufre dans le carbure de silicium (4H-SiC). L'analyse se concentre sur les propriétés électroniques et de spin pour des applications en informatique quantique.",
+      "domaine_traite": "Semi-conducteurs / Physique Quantique",
+      "date_article": "2026-04-17",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Pattern formation during melting of lamellar eutectics",
+      "lien_article": "https://arxiv.org/abs/2604.14821",
+      "resume": "L'article explore la formation de motifs morphologiques lors de la fusion d'eutectiques lamellaires. Les chercheurs analysent les instabilités d'interface et la dynamique de transition de phase solide-liquide dans ces structures métalliques complexes.",
+      "domaine_traite": "Métallurgie physique / Transitions de phase",
+      "date_article": "2026-04-17",
+      "pertinence_metallurgie": true,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "3D Finite Element-Based Multiphysics Simulation of a Shape Memory Alloy Hybrid Composite Module",
+      "lien_article": "https://arxiv.org/abs/2604.15211",
+      "resume": "Présentation d'une simulation multiphysique par éléments finis 3D d'un module composite hybride intégrant des alliages à mémoire de forme (SMA). L'étude modélise le comportement thermo-mécanique pour des structures adaptatives.",
+      "domaine_traite": "Matériaux intelligents / Alliages à mémoire de forme",
+      "date_article": "2026-04-17",
+      "pertinence_metallurgie": true,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "Controllable highly oriented skyrmion track array in Fe3GaTe2",
+      "lien_article": "https://arxiv.org/abs/2604.15019",
+      "resume": "Recherche sur le contrôle des réseaux de skyrmions dans le composé ferromagnétique Fe3GaTe2. Cette découverte ouvre des perspectives pour le stockage de données haute densité via des dispositifs spintroniques.",
+      "domaine_traite": "Magnétisme / Matériaux de van der Waals",
+      "date_article": "2026-04-17",
+      "pertinence_metallurgie": true,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Correlative Microstructural Analysis of a Weathered Nantan Meteorite Fragment",
+      "lien_article": "https://arxiv.org/abs/2604.14187",
+      "resume": "Analyse microstructurale corrélative d'un fragment de la météorite de fer Nantan. L'étude examine la composition des alliages fer-nickel naturels et les effets de l'altération sur leurs propriétés structurelles.",
+      "domaine_traite": "Métallurgie / Science des météorites",
+      "date_article": "2026-04-17",
+      "pertinence_metallurgie": true,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Propagation of laser-generated GHz surface acoustic wavepackets in FeRh/MgO(001) below and above the antiferromagnetic-ferromagnetic phase transition",
+      "lien_article": "https://arxiv.org/abs/2604.14845",
+      "resume": "Étude de la propagation d'ondes acoustiques de surface dans des films minces d'alliage Fer-Rhodium (FeRh). L'analyse porte sur l'influence de la transition de phase magnétique sur les propriétés élastiques du matériau.",
+      "domaine_traite": "Magnétisme / Alliages métalliques",
+      "date_article": "2026-04-17",
+      "pertinence_metallurgie": true,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    }
+  ]
+}

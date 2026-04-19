@@ -1,0 +1,144 @@
+{
+  "title": {
+    "file": "reqforgeparser-02.json",
+    "metadata": {
+      "date_edition" : "2026-04-19",
+      "nom_source": "AZoM (The A to Z of Materials)",
+      "lien_source": "https://www.azom.com/features.aspx",
+      "description": "AZoM est une plateforme d'information leader pour la communauté des sciences des matériaux. Elle publie des analyses sur les innovations technologiques concernant les polymères, les métaux et les nouvelles méthodes de fabrication. Le site sert de référence pour les ingénieurs cherchant des solutions techniques spécifiques.",
+      "objectif_extraction": "Extraire et structurer les métadonnées techniques des publications scientifiques pour identifier les innovations majeures en science des matériaux. Le système doit synthétiser le contenu de chaque article et évaluer de manière binaire sa pertinence pour la métallurgie (propriétés des métaux et alliages) et son potentiel d'application ou d'innovation pour l'industrie aéronautique (matériaux légers, résistance thermique, maintenance). L'extraction vise une transformation rigoureuse du contenu textuel en données exploitables pour une plateforme de veille automatisée."    }
+  },
+
+  "articles": [
+    {
+      "nom_article": "Functional Coatings for Polymers in Engineering Applications",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25235",
+      "resume": "Cet article explore comment les revêtements fonctionnels protègent les polymères contre l'humidité, les produits chimiques et l'usure. Ces solutions sont cruciales pour les applications d'ingénierie exigeantes où les propriétés de surface sont limitantes.",
+      "domaine_traite": "Revêtements et Polymères",
+      "date_article": "15 Apr 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "What Makes Gallium Nitride Important for Power Electronics?",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25225",
+      "resume": "Le nitrure de gallium (GaN) transforme l'électronique de puissance grâce à sa large bande interdite et sa grande mobilité électronique. Il permet des avancées majeures dans les véhicules électriques et les infrastructures de données.",
+      "domaine_traite": "Semi-conducteurs",
+      "date_article": "13 Apr 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "Why Active Food Packaging Materials are Essential for Changing Food Safety Requirements",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25218",
+      "resume": "Les chercheurs développent des emballages actifs pour améliorer la conservation et la sécurité alimentaire. Ces matériaux innovants permettent de maintenir la fraîcheur des produits face aux nouvelles exigences réglementaires.",
+      "domaine_traite": "Science des matériaux / Emballage",
+      "date_article": "13 Apr 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "What Is HSLA Steel? Composition, Properties, Processing, and Applications",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25210",
+      "resume": "L'acier HSLA est devenu un matériau incontournable dans la construction grâce à sa haute résistance et sa faible densité. L'article détaille sa composition chimique, ses procédés de transformation et ses applications industrielles.",
+      "domaine_traite": "Métallurgie",
+      "date_article": "8 Apr 2026",
+      "pertinence_metallurgie": true,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "How Can Microgravity be Used in Materials Research?",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25174",
+      "resume": "L'article analyse les bénéfices de la microgravité pour la science des matériaux, notamment dans le cadre de la mission Artemis II. L'espace permet d'étudier des phénomènes physiques sans les interférences de la gravité terrestre.",
+      "domaine_traite": "Science des matériaux / Espace",
+      "date_article": "1 Apr 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "How does Dopant Selection Affect Semiconductor Behavior?",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25173",
+      "resume": "Le choix des dopants joue un rôle central dans l'ingénierie des semi-conducteurs en influençant la mobilité des porteurs et la fiabilité des composants. Cette sélection est déterminante pour les performances des dispositifs électroniques modernes.",
+      "domaine_traite": "Semi-conducteurs",
+      "date_article": "30 Mar 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Sodium vs Lithium: Which Chemistry Has the Battery Advantage?",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25147",
+      "resume": "Une comparaison détaillée entre les batteries sodium-ion et lithium-ion sur les plans du coût, de la densité énergétique et de la sécurité. L'article évalue leurs potentiels respectifs pour les véhicules électriques et le stockage stationnaire.",
+      "domaine_traite": "Énergie / Batteries",
+      "date_article": "25 Mar 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Swedish Algae Factory: Can Algae Transform Cosmetics?",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25141",
+      "resume": "L'entreprise Swedish Algae Factory exploite la silice issue des diatomées pour créer l'Algica, un matériau utilisé en cosmétique. Ce matériau biosourcé trouve également des applications dans le secteur de l'énergie solaire.",
+      "domaine_traite": "Biomatériaux",
+      "date_article": "24 Mar 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Why Solid-State Batteries Haven't Replaced Lithium-Ion Yet",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25069",
+      "resume": "Bien que prometteuses, les batteries à l'état solide font face à des défis majeurs de fabrication à grande échelle. L'article explique pourquoi cette technologie reste pour l'instant confinée aux laboratoires de R&D.",
+      "domaine_traite": "Énergie / Batteries",
+      "date_article": "18 Mar 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Semiconductors and the Power of Silicon",
+      "lien_article": "https://www.azom.com/article.aspx?ArticleID=25081",
+      "resume": "Une rétrospective sur les découvertes fondamentales qui ont permis l'essor du silicium dans la science des matériaux. L'article souligne comment ces innovations ont façonné l'industrie électronique actuelle.",
+      "domaine_traite": "Semi-conducteurs",
+      "date_article": "16 Mar 2026",
+      "pertinence_metallurgie": false,
+      "application_aeronautique": false,
+      "interet_industrie_aero": false
+    },
+    {
+      "nom_article": "Redox Route Creates New Control Over Steel-Spinel Composites",
+      "lien_article": "https://www.azom.com/news.aspx?newsID=65331",
+      "resume": "Une nouvelle méthode de synthèse par voie redox permet un contrôle inédit sur la structure des composites acier-spinelle. Cette avancée offre des perspectives pour la création de matériaux hybrides ultra-résistants.",
+      "domaine_traite": "Métallurgie / Composites",
+      "date_article": null,
+      "pertinence_metallurgie": true,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "Researchers Discover Metallic Material With the Highest Thermal Conductivity",
+      "lien_article": "https://www.azom.com/news.aspx?newsID=65338",
+      "resume": "Découverte d'un matériau métallique présentant une conductivité thermique record. Cette propriété est essentielle pour optimiser la dissipation de chaleur dans les systèmes de haute puissance.",
+      "domaine_traite": "Métallurgie / Thermophysique",
+      "date_article": null,
+      "pertinence_metallurgie": true,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    },
+    {
+      "nom_article": "COAT-IPS is Developing an Energy-Efficient Heated Coating to Improve Aviation Safety Against Icing",
+      "lien_article": "https://www.azom.com/news.aspx?newsID=65344",
+      "resume": "Le projet COAT-IPS développe un revêtement chauffant innovant pour prévenir le givrage des aéronefs. Cette solution vise à améliorer la sécurité aérienne tout en réduisant l'empreinte énergétique des systèmes de dégivrage.",
+      "domaine_traite": "Aéronautique / Revêtements",
+      "date_article": null,
+      "pertinence_metallurgie": false,
+      "application_aeronautique": true,
+      "interet_industrie_aero": true
+    }
+  ]
+}
