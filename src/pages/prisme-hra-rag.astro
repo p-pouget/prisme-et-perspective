@@ -1,0 +1,680 @@
+---
+import MainLayout from "../layouts/navprojectlayout.astro";
+
+import routageWorkflow from "../assets/screen-workflowRoute-VectorData.jpg";
+import { Image } from "astro:assets";
+
+const resultTest = import.meta.glob("../data/prisme-hra-rag/rag-test-hra.md", {
+  eager: true,
+});
+const firstData = Object.values(resultTest);
+
+const resultData = import.meta.glob(
+  "../data/prisme-hra-rag/Heat-Resistant-Alloys-MILHDBK5J.md",
+  {
+    eager: true,
+  },
+);
+const secondData = Object.values(resultData);
+---
+
+<MainLayout title="prisme-hra-rag">
+  <div slot="resultats-content" class="grid grid-cols-1 gap-6">
+    <section class="space-y-4">
+      <div class="flex flex-col gap-4">
+        {
+          firstData.map((item: any, idx: number) => (
+            <div class="group border border-white/10 bg-zinc-900/50 rounded-xl overflow-hidden transition-all hover:border-orange-500/30">
+              <button class="w-full p-6 md:p-10 flex justify-between items-center text-left accordion-trigger group relative overflow-hidden transition-all duration-500 hover:bg-white/[0.02]">
+                <div class="absolute inset-0 bg-gradient-to-r from-orange-500/0 via-orange-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+
+                <div class="flex-1 relative z-10">
+                  <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
+                    <div class="flex items-center gap-3">
+                      <span class="h-px w-8 bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]" />
+                      <span class="text-orange-500 text-sm font-black uppercase tracking-[0.3em]">
+                        LOG 01 | VALIDATION SÉMANTIQUE & QA
+                      </span>
+                    </div>
+
+                    <div class="flex flex-col md:items-end border-l md:border-l-0 md:border-r border-white/10 md:pr-6 pl-4 md:pl-0">
+                      <span class="text-white text-sm font-bold uppercase tracking-[0.2em]">
+                        Édition du 05/05/2026
+                      </span>
+                      <span class="text-zinc-500 text-sm uppercase tracking-widest font-medium">
+                        Contexte : Heat-Resistant Alloys
+                      </span>
+                    </div>
+                  </div>
+
+                  <h4 class="text-white text-3xl md:text-5xl tracking-tighter mb-4">
+                    Évaluation RAG : Ingénierie Aérospatiale
+                  </h4>
+
+                  <div class="max-w-4xl relative">
+                    <p class="text-zinc-400 text-lg leading-relaxed font-light italic">
+                      <span class="text-orange-500/50 text-2xl font-serif mr-1">
+                        “
+                      </span>
+                      Validation de l'architecture multi-agents sur 20 cas
+                      d'usage en ingénierie aérospatiale. Analyse réalisée à
+                      partir des données thermomécaniques et graphiques
+                      extraites du manuel de référence MIL-HDBK-5J.
+                      <span class="text-orange-500/50 text-2xl font-serif ml-1">
+                        ”
+                      </span>
+                    </p>
+                    <p class="text-zinc-400 text-sm uppercase tracking-widest font-medium mt-6">
+                      <span class="text-orange-500 text-lg">&rarr;</span>
+                      CONSULTER LES RÉSULTATS DÉTAILLÉS DES 20 TESTS
+                    </p>
+                  </div>
+                </div>
+
+                <div class="ml-8 flex-shrink-0 relative">
+                  <div class="p-3 rounded-full border border-white/10 group-hover:border-orange-500/50 transition-all duration-500 bg-zinc-900 shadow-xl">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-zinc-500 group-hover:text-orange-500 arrow transition-transform duration-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </button>
+
+              <div class="max-h-0 overflow-hidden transition-all duration-700 ease-in-out accordion-content bg-gradient-to-b from-black/40 to-transparent">
+                <div class="p-6 md:p-8 pt-0 border-t border-white/5">
+                  <div class="mt-8 space-y-4">
+                    <p class="text-zinc-400 text-lg leading-relaxed">
+                      Synthèse des performances du pipeline d'extraction :
+                    </p>
+
+                    <ul class="list-none space-y-3 text-zinc-400 text-lg leading-relaxed pl-4 border-l-2 border-zinc-800">
+                      <li>
+                        <strong class="text-white font-medium">
+                          Fiabilité critique :
+                        </strong>{" "}
+                        Zéro hallucination constatée sur les limites
+                        opérationnelles et de sécurité des alliages.
+                      </li>
+                      <li>
+                        <strong class="text-white font-medium">
+                          Extraction complexe :
+                        </strong>{" "}
+                        Interprétation réussie de données vectorisées non
+                        linéaires (nomogrammes de fluage, courbes de fatigue,
+                        tables croisées).
+                      </li>
+                      <li>
+                        <strong class="text-white font-medium">
+                          Compréhension métier :
+                        </strong>{" "}
+                        Synthèse précise des procédures de fabrication et
+                        traitements thermiques.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div
+                    class="
+    
+                    mt-8 text-white text-sm md:text-base leading-relaxed
+    
+                    [&>h3]:mt-10 [&>h3]:mb-4 [&>h3]:pb-2 
+                    [&>h3]:border-b [&>h3]:border-white/10 
+                  [&>h3]:text-orange-500 [&>h3]:text-lg [&>h3]:font-bold 
+    
+                    [&>p]:mb-4
+    
+                    [&>ul]:mb-6 [&>ul]:pl-5 [&>ul]:list-disc 
+                    [&>ul>li]:mb-2
+    
+                    [&>blockquote]:mb-6 [&>blockquote]:py-2 [&>blockquote]:px-4 
+                    [&>blockquote]:border-l-4 [&>blockquote]:border-blue-500 [&>blockquote]:bg-blue-500/5 
+                    [&>blockquote]:rounded-r-lg [&>blockquote]:text-zinc-300 [&>blockquote]:not-italic 
+    
+                  [&>strong]:text-white
+                    "
+                    set:html={item.compiledContent()}
+                  />
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+    <section class="space-y-4">
+      <div class="flex flex-col gap-4">
+        {
+          secondData.map((item: any, idx: number) => (
+            <div class="group border border-white/10 bg-zinc-900/50 rounded-xl overflow-hidden transition-all hover:border-orange-500/30">
+              <button class="w-full p-6 md:p-10 flex justify-between items-center text-left accordion-trigger group relative overflow-hidden transition-all duration-500 hover:bg-white/[0.02]">
+                <div class="absolute inset-0 bg-gradient-to-r from-orange-500/0 via-orange-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+
+                <div class="flex-1 relative z-10">
+                  <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
+                    <div class="flex items-center gap-3">
+                      <span class="h-px w-8 bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]" />
+                      <span class="text-orange-500 text-sm font-black uppercase tracking-[0.3em]">
+                        LOG 02 | DONNÉES : CORPUS MATÉRIOLOGIQUE
+                      </span>
+                    </div>
+
+                    <div class="flex flex-col md:items-end border-l md:border-l-0 md:border-r border-white/10 md:pr-6 pl-4 md:pl-0">
+                      <span class="text-white text-sm font-bold uppercase tracking-[0.2em]">
+                        Édition du 05/05/2026
+                      </span>
+                      <span class="text-zinc-500 text-sm uppercase tracking-widest font-medium">
+                        Contexte : Heat-Resistant Alloys
+                      </span>
+                    </div>
+                  </div>
+
+                  <h4 class="text-white text-3xl md:text-5xl tracking-tighter mb-4">
+                    Espace Vectoriel : Superalliages & Thermomécanique
+                  </h4>
+
+                  <div class="max-w-4xl relative">
+                    <p class="text-zinc-400 text-lg leading-relaxed font-light italic">
+                      <span class="text-orange-500/50 text-2xl font-serif mr-1">
+                        “
+                      </span>
+                      Indexation exhaustive du Chapitre 6 (140 pages sur manuel
+                      MILHDBK5J) pour alimenter le moteur RAG : classification,
+                      extraction tabulaire et vectorisation des comportements
+                      non linéaires.
+                      <span class="text-orange-500/50 text-2xl font-serif ml-1">
+                        ”
+                      </span>
+                    </p>
+                    <p class="text-zinc-400 text-sm uppercase tracking-widest font-medium mt-6">
+                      <span class="text-orange-500 text-lg">&rarr;</span>
+                      EXPLORER LA MATRICE DE DONNÉES
+                    </p>
+                  </div>
+                </div>
+
+                <div class="ml-8 flex-shrink-0 relative">
+                  <div class="p-3 rounded-full border border-white/10 group-hover:border-orange-500/50 transition-all duration-500 bg-zinc-900 shadow-xl">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-zinc-500 group-hover:text-orange-500 arrow transition-transform duration-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </button>
+
+              <div class="max-h-0 overflow-hidden transition-all duration-700 ease-in-out accordion-content bg-gradient-to-b from-black/40 to-transparent">
+                <div class="p-6 md:p-8 pt-0 border-t border-white/5">
+                  <div class="space-y-4">
+                    <p class="text-zinc-400 text-lg leading-relaxed">
+                      Cartographie complète des données intégrées au pipeline
+                      RAG :
+                    </p>
+
+                    <ul class="list-none space-y-3 text-zinc-400 text-lg leading-relaxed pl-4 border-l-2 border-zinc-800">
+                      <li>
+                        <strong class="text-white font-medium">
+                          Spectre Métallurgique (14 Alliages) :
+                        </strong>{" "}
+                        Bases Fer-Chrome-Nickel (ex: A-286, N-155), Bases Nickel
+                        (Inconel 600 à 718, Hastelloy X, René 41, Waspaloy,
+                        Haynes) et Bases Cobalt (L-605, HS 188) sous toutes
+                        leurs formes et états thermiques.
+                      </li>
+                      <li>
+                        <strong class="text-white font-medium">
+                          Design Allowables (Data Statique) :
+                        </strong>{" "}
+                        Extraction des tables de conception statistiques (Basis
+                        A, B, S) pour les limites de rupture/élasticité en
+                        traction, compression, cisaillement et matage, croisées
+                        avec les constantes physiques.
+                      </li>
+                      <li>
+                        <strong class="text-white font-medium">
+                          Modélisation Thermomécanique (Data Dynamique) :
+                        </strong>{" "}
+                        Vectorisation des courbes de dégradation de -400°F à
+                        2400°F, équations de Ramberg-Osgood, abaques de fluage
+                        (Creep), courbes de fatigue S/N et propagation de
+                        fissures ($da/dN$).
+                      </li>
+                    </ul>
+                    <p class="text-zinc-400 text-lg leading-relaxed">
+                      Aperçu des données extraites du
+                      <a
+                        href="/Heat-Resistant-Alloys-MILHDBK5J.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-orange-500 hover:text-orange-400 transition-colors underline underline-offset-4 decoration-orange-500/30 hover:decoration-orange-400"
+                      >
+                        document PDF original
+                      </a>
+                      , préalablement converti et optimisé pour alimenter ce
+                      pipeline RAG.
+                    </p>
+                  </div>
+
+                  <div
+                    class="
+    
+                    mt-8 text-zinc-300 text-sm md:text-base leading-relaxed
+
+    /* Hiérarchie des titres (Adaptée aux H1, H2, H3, H4 du doc) */
+    [&_h1]:mt-12 [&_h1]:mb-6 [&_h1]:text-3xl [&_h1]:font-bold [&_h1]:text-white
+    
+    [&_h2]:mt-10 [&_h2]:mb-5 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-white [&_h2]:border-b [&_h2]:border-white/10 [&_h2]:pb-2
+    
+    [&_h3]:mt-8 [&_h3]:mb-4 [&_h3]:pb-2 [&_h3]:border-b [&_h3]:border-white/10 [&_h3]:text-orange-500 [&_h3]:text-lg [&_h3]:font-bold 
+    
+    [&_h4]:mt-6 [&_h4]:mb-3 [&_h4]:text-base [&_h4]:font-bold [&_h4]:text-white
+
+    /* Texte et Listes */
+    [&_p]:mb-4
+    
+    [&_ul]:mb-6 [&_ul]:pl-5 [&_ul]:list-disc [&_ul_li]:mb-2
+    [&_ol]:mb-6 [&_ol]:pl-5 [&_ol]:list-decimal [&_ol_li]:mb-2
+
+    /* Citations */
+    [&_blockquote]:mb-6 [&_blockquote]:py-2 [&_blockquote]:px-4 
+    [&_blockquote]:border-l-4 [&_blockquote]:border-blue-500 [&_blockquote]:bg-blue-500/5 
+    [&_blockquote]:rounded-r-lg [&_blockquote]:text-zinc-300 [&_blockquote]:not-italic 
+    
+    /* Typographie et séparateurs */
+    [&_strong]:text-white
+    [&_hr]:border-white/10 [&_hr]:my-8
+
+    /* Tableaux (Critique pour afficher les vastes matrices de données MIL-HDBK) */
+    [&_table]:block [&_table]:overflow-x-auto [&_table]:whitespace-nowrap [&_table]:w-full [&_table]:mb-8 [&_table]:border-collapse [&_table]:text-sm
+    [&_thead]:bg-white/5
+    [&_th]:border [&_th]:border-white/10 [&_th]:px-4 [&_th]:py-3 [&_th]:text-left [&_th]:font-bold [&_th]:text-white
+    [&_td]:border [&_td]:border-white/10 [&_td]:px-4 [&_td]:py-3
+    [&_tr:hover_td]:bg-white/5
+                    "
+                    set:html={item.compiledContent()}
+                  />
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+
+  <div slot="architecture-content" class="space-y-12">
+    <div class="max-w-3xl">
+      <h3
+        class="text-white font-semibold text-xl md:text-3xl uppercase tracking-tighter mb-4"
+      >
+        Architecture du Pipeline RAG
+      </h3>
+      <p class="text-zinc-400 text-lg leading-relaxed">
+        L’objectif de cette architecture est d'extraire, structurer et
+        interroger les données complexes du manuel aérospatial MIL-HDBK-5J. Le
+        système repose sur un pipeline de traitement de la donnée (ETL)
+        ultra-précis, couplé à un agent LLM contraint par des règles métiers
+        strictes pour éliminer tout risque d'hallucination sur les propriétés
+        thermomécaniques des alliages.
+      </p>
+    </div>
+
+    <div
+      class="relative space-y-8 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-orange-500 before:via-zinc-800 before:to-transparent"
+    >
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold shadow-[0_0_15px_rgba(249,115,22,0.3)] z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          01
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Ingénierie de Données (Extraction PDF vers Markdown)
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Conversion des pages du manuel en Markdown enrichi. Chaque bloc
+            intègre un frontmatter YAML strict (alloy_id, condition_temper,
+            thickness). Les tableaux de "Design Allowables" sont déliassés ligne
+            par ligne (flattening) pour garantir qu'aucune donnée ne soit perdue
+            ou fusionnée. Cette standardisation garantit une granularité absolue
+            lors du découpage (chunking), empêchant toute perte ou fusion
+            d'informations critiques avant la vectorisation.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          02
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Orchestration & Routage Dynamique (n8n)
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            Un système de routage intelligent sous n8n analyse l'intention de
+            l'utilisateur. Il repère les mots-clés (Fer, Chrome, Nickel, Cobalt)
+            et détermine vers quel espace vectoriel spécifique (bases de données
+            par famille d'alliages) la requête doit être dirigée via un format
+            de sortie JSON strict. Cela réduit le bruit documentaire et optimise
+            l'efficacité de la recherche vectorielle.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          03
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-orange-500/[0.03] border border-orange-500/20 transition-all"
+        >
+          <h4
+            class="text-orange-500 font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Agent IA & Priorité au Contexte (AnythingLLM & Ollama)
+          </h4>
+          <div class="space-y-3">
+            <p class="text-zinc-400 text-lg leading-relaxed">
+              L'agent interactif (local :famille Gemma via Ollama sur
+              AnythingLLM) fonctionne sous une consigne de sécurité. Il
+              recherche la réponse en priorité dans le RAG et a l'obligation de
+              sourcer sa réponse exclusivement dans le corpus documentaire
+              fourni. Si la donnée est absente, il a l'obligation de générer un
+              avertissement explicite (⚠️) avant d'utiliser ses connaissances
+              générales, garantissant une fiabilité technique totale.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+      >
+        <div
+          class="flex items-center justify-center w-10 h-10 rounded-full border border-orange-500 bg-zinc-950 text-orange-500 font-bold z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+        >
+          04
+        </div>
+        <div
+          class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-orange-500/30 transition-all"
+        >
+          <h4
+            class="text-white font-bold uppercase tracking-widest text-lg mb-2"
+          >
+            Vectorisation (bge-m3) & Traduction Multimodale
+          </h4>
+          <p class="text-zinc-400 text-lg leading-relaxed">
+            L'indexation sémantique s'appuie sur le modèle d'embedding bge-m3.
+            Les graphiques (nomogrammes de fluage, courbes de fatigue) ont été
+            préalablement décrits narrativement (tendance, palier, chute
+            brutale) et indexés sémantiquement. Cela permet une recherche
+            textuelle vectorielle performante sur le comportement non linéaire
+            des matériaux.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mb-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl"
+    >
+      <Image
+        src={routageWorkflow}
+        alt="Workflow de routage N8N et Indexation RAG"
+        class="w-full h-auto rounded-xl object-cover"
+      />
+      <div
+        class="bg-zinc-900/80 p-3 text-sm text-zinc-500 italic text-center border-t border-white/5"
+      >
+        Aperçu du workflow de routage des requêtes (n8n) orientant dynamiquement
+        vers les workspaces dédiés aux alliages (Cobalt, Nickel, etc.) selon la
+        taxonomie MIL-HDBK-5J.
+      </div>
+    </div>
+
+    <ul class="space-y-8 relative z-10"></ul>
+
+    <div class="pt-12">
+      <div class="flex items-center gap-3 mb-6">
+        <h4 class="text-white font-black uppercase text-lg tracking-[0.3em]">
+          🛠️ Stack Technique
+        </h4>
+        <div class="h-px flex-1 bg-white/5"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {
+          [
+            {
+              label: "Orchestration",
+              tech: "n8n",
+              role: "Moteur de routage, parseur JSON, requêtes API et interface de chat",
+            },
+            {
+              label: "Vectorisation & RAG",
+              tech: "AnythingLLM (+ LanceDB/Chroma)",
+              role: "Bases de données vectorielles cloisonnées par espace de travail",
+            },
+
+            {
+              label: "Data Engineering",
+              tech: "Pipeline PDF vers Markdown",
+              role: "Déliassage des tables (flattening), injection YAML et enrichissement sémantique",
+            },
+
+            {
+              label: "Infrastructure",
+              tech: "Docker",
+              role: "Conteneurisation, isolation et déploiement local des micro-services",
+            },
+            {
+              label: "Inférence IA Locale",
+              tech: "Ollama",
+              role: "Génération via gemma4:e4b et vectorisation (embedding) via bge-m3",
+            },
+            {
+              label: "Frontend & UI",
+              tech: "Astro & Tailwind CSS",
+              role: "Interface utilisateur performante, rendu statique et design system",
+            },
+          ].map((item) => (
+            <div class="p-4 rounded-xl bg-zinc-900/50 border border-white/5 flex flex-col gap-1">
+              <span class="text-orange-500 text-lg font-black uppercase tracking-widest">
+                {item.label}
+              </span>
+              <span class="text-white font-bold text-lg">{item.tech}</span>
+              <span class="text-zinc-500 text-lg leading-tight mt-1">
+                {item.role}
+              </span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="pt-12 border-t border-white/5">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </div>
+    <li class="mt-12 pt-8 border-t border-white/5 list-none">
+      <div class="flex items-center gap-3 mb-8">
+        <span
+          class="text-white font-semibold text-xl md:text-3xl uppercase tracking-tighter mb-4"
+          >Axes d'amélioration & Scalabilité</span
+        >
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-4">
+          <h5 class="text-white text-lg font-bold uppercase tracking-wider">
+            Fiabilité des Matrices de Données
+          </h5>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Validation Automatisée :</strong> Intégrer un script de contrôle
+                de qualité (QA) post-extraction pour s'assurer que chaque valeur statique
+                de contrainte (Basis A ou B) du PDF est mathématiquement identique
+                dans le bloc Markdown généré.</span
+              >
+            </li>
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Traitement Multi-modal Avancé :</strong> Passer d'une retranscription
+                narrative des graphiques à une analyse vectorielle multimodale directe
+                permettant d'interroger les courbes de fatigue visuellement.</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-4">
+          <h5 class="text-white text-lg font-bold uppercase tracking-wider">
+            Optimisation de l'Agent IA
+          </h5>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-zinc-400 text-lg">
+              <span class="text-orange-500 mt-0.5">→</span>
+              <span
+                ><strong>Feedback Loop (Hit-Rate RAG) :</strong> Implémenter une boucle
+                de rétroaction sur l'Agent AnythingLLM afin de mesurer la pertinence
+                des sources (chunks) remontées lors des requêtes d'ingénierie complexes.</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+
+    <div class="mt-16 pt-8 border-t border-white/5">
+      <div class="p-6 rounded-2xl bg-zinc-900/30 border border-white/5">
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start gap-6"
+        >
+          <div
+            class="flex-shrink-0 w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 text-orange-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-white font-bold text-sm uppercase tracking-[0.2em]">
+              Note de conception & Ingénierie
+            </h4>
+            <p class="text-zinc-400 text-sm leading-relaxed italic">
+              Si l'architecture globale, la logique et la stratégie de veille
+              sont de ma conception, j'ai utilisé l'assistance de modèles de
+              langage (IA) pour optimiser le développement, raffiner le code et
+              accélérer la mise en production. Une approche "Human-in-the-loop"
+              garantissant que l'outil reste au service d'une vision métier
+              précise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<script>
+  // ==============================
+  // SPECIAL LONG DOC MD != DES AUTRES
+  // ==============================
+  function initAccordion() {
+    const triggers = document.querySelectorAll(".accordion-trigger");
+
+    triggers.forEach((trigger) => {
+      trigger.replaceWith(trigger.cloneNode(true));
+    });
+
+    const newTriggers = document.querySelectorAll(".accordion-trigger");
+
+    newTriggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        const content = trigger.nextElementSibling as HTMLElement | null;
+        const arrow = trigger.querySelector(".arrow") as HTMLElement | null;
+
+        if (!content || !arrow) return;
+
+        const isOpen = content.classList.contains("is-open");
+
+        if (isOpen) {
+          content.style.maxHeight = content.scrollHeight + "px";
+
+          void content.offsetHeight;
+
+          content.style.maxHeight = ""; // "" est préféré à null en TypeScript
+          content.classList.remove("is-open");
+          arrow.style.transform = "rotate(0deg)";
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          content.classList.add("is-open");
+          arrow.style.transform = "rotate(180deg)";
+
+          setTimeout(() => {
+            if (content.classList.contains("is-open")) {
+              content.style.maxHeight = "none";
+            }
+          }, 700);
+        }
+      });
+    });
+  }
+
+  initAccordion();
+  document.addEventListener("astro:after-swap", initAccordion);
+</script>
